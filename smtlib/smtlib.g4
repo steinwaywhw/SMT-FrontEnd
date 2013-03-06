@@ -10,7 +10,7 @@ fragment DIGIT      : [0-9];
 fragment HEXDIGIT   : DIGIT | [a-fA-F];
 fragment ALPHA      : [a-zA-Z];
 fragment ESCAPE     : '\\' ('\\' | '"');
-fragment SYM_CHAR   : '+' | '-' | '/' | '*' | '.' | [=%?!$_~&^<>@];
+fragment SYM_CHAR   : [+-/*=%?!.$_~&^<>@];
 
 NUMERAL     : '0' | [1-9]+ DIGIT*;
 DECIMAL     : NUMERAL '.' [0]* NUMERAL;
@@ -18,12 +18,11 @@ HEXADECIMAL : '#x' HEXDIGIT+;
 BINARY      : '#b' [01]+;
 STRING      : '"' (ESCAPE | ~('\\' | '"')*) '"';
 KEYWORD     : ':' (ALPHA | DIGIT | SYM_CHAR)+;
-WS          : ([\t\n\f\r] | ' ')+ {skip();};
-fragment SIMPLE_SYM  : (ALPHA | SYM_CHAR) (DIGIT | ALPHA | SYM_CHAR)+;
+WS          : [\t\r\n\f ]+ {skip();};
+fragment SIMPLE_SYM  : (ALPHA | SYM_CHAR) (DIGIT | ALPHA | SYM_CHAR)*;
 fragment QUOTED_SYM  : '|' ~('|' | '\\')* '|';
 SYMBOL      : SIMPLE_SYM | QUOTED_SYM;
 COMMENT     : ';' ~('\n' | '\r')* {skip();};
-
 
 
 spec_constant   : NUMERAL | DECIMAL | HEXADECIMAL | BINARY | STRING;
@@ -117,7 +116,8 @@ command
     | '(' 'set-info' attribute ')'
     | '(' 'declare-sort' SYMBOL NUMERAL ')'
     | '(' 'define-sort' SYMBOL '(' SYMBOL* ')' sort ')'
-    | '(' 'define-fun' SYMBOL '(' sort* ')' sort ')'
+    | '(' 'declare-fun' SYMBOL '(' sort* ')' sort ')'
+    | '(' 'define-fun' SYMBOL '(' sorted_var* ')' sort term ')'
     | '(' 'push' NUMERAL ')'
     | '(' 'pop' NUMERAL ')'
     | '(' 'assert' term ')'
