@@ -4,7 +4,9 @@
  */
 
 grammar smtlib;
-
+options {
+    k=10;
+}
 
 fragment DIGIT      : [0-9];
 fragment HEXDIGIT   : DIGIT | [a-fA-F];
@@ -30,7 +32,7 @@ s_expr          : spec_constant | SYMBOL | KEYWORD | '(' s_expr* ')';
                                                   
 identifier      : SYMBOL | '(' '_' SYMBOL NUMERAL+ ')';
 sort            : identifier | '(' identifier sort+ ')';
-attribute_value : spec_constant | SYMBOL | '(' s_expr* ')';
+attribute_value : SYMBOL | spec_constant | '(' s_expr* ')';
 attribute       : KEYWORD | KEYWORD attribute_value;
 
 qual_identifier : identifier | '(' 'as' identifier sort ')';
@@ -99,12 +101,13 @@ option
     | attribute
     ;
 
+INFO_FLAG_STATUS : ':status';
 info_flag 
     : ':error-behavior'
     | ':name'
     | ':authors'
     | ':version'
-    | ':status'
+    | INFO_FLAG_STATUS
     | ':reason-unknown'
     | KEYWORD
     | ':all-statistics'
