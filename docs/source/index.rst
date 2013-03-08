@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SMT Front End for CS512 Formal Methods
+Welcome to SMTFrontEnd
 =======================================
 
 This is a course project for Formal Methods. It aims at designing and implementing a lightweight front end for various SMT solvers. Currently, we are going to support Alt-Ergo and CVC4.
@@ -62,16 +62,4 @@ This is a tracking table for the whole lifecycle. It is subject to change accord
     +--------+---------------------------------------------------------------+--------------+--------------+
     |6       |  Implementing lightweight front end                           | Open         | Hanwen/Wenxin|
     +--------+---------------------------------------------------------------+--------------+--------------+
-
-
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
