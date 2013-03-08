@@ -5,16 +5,18 @@ The SMT-LIB Language uses *S-expression*, which is actually legal Common Lisp sy
 
 They contain only ASCII characters, not Unicode.
 
-Lexicon
+The followings are a preview of the ANTLR v4 grammar of SMTLIB v2.0 by Hanwen Wu, according to [BaST10]_. (And, subject to change.)
+
+Lexer Rules
 ------------
 
  .. code-block:: antlr
 
-	DIGIT      : [0-9];
-	HEXDIGIT   : DIGIT | [a-fA-F];
-	ALPHA      : [a-zA-Z];
-	ESCAPE     : '\\' ('\\' | '"');
-	SYM_CHAR   : [+-/*=%?!.$_~&^<>@];
+	fragment DIGIT      : [0-9];
+	fragment HEXDIGIT   : DIGIT | [a-fA-F];
+	fragment ALPHA      : [a-zA-Z];
+	fragment ESCAPE     : '\\' ('\\' | '"');
+	fragment SYM_CHAR   : [+-/*=%?!.$_~&^<>@];
 
 	NUMERAL     : '0' | [1-9]+ DIGIT*;
 	DECIMAL     : NUMERAL '.' [0]* NUMERAL;
@@ -23,10 +25,16 @@ Lexicon
 	STRING      : '"' (ESCAPE | ~('\\' | '"')*) '"';
 	KEYWORD     : ':' (ALPHA | DIGIT | SYM_CHAR)+;
 	WS          : [\t\r\n\f ]+ {skip();};
-	SIMPLE_SYM  : (ALPHA | SYM_CHAR) (DIGIT | ALPHA | SYM_CHAR)*;
-	QUOTED_SYM  : '|' ~('|' | '\\')* '|';
+	fragment SIMPLE_SYM  : (ALPHA | SYM_CHAR) (DIGIT | ALPHA | SYM_CHAR)*;
+	fragment QUOTED_SYM  : '|' ~('|' | '\\')* '|';
 	SYMBOL      : SIMPLE_SYM | QUOTED_SYM;
 	COMMENT     : ';' ~('\n' | '\r')* {skip();};
+
+
+Parser Rules
+---------------
+
+ .. code-block:: antlr
 
 
 	spec_constant   : NUMERAL | DECIMAL | HEXADECIMAL | BINARY | STRING;
