@@ -26,7 +26,7 @@ Members
 
     :Wenxin Feng: |WF| 
     :Homepage: http://cs-people.bu.edu/wenxinf/
-    :Email: suefrevol AT gmail
+    :Email: wenxinf AT bu DOT edu
 
 
     .. |HW| image:: images/hanwen_wu.jpg 
