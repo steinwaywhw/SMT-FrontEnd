@@ -20,21 +20,20 @@ Contents
 Members
 ================
 
-    :Hanwen Wu: |HW|    
-    :Homepage: http://steinwaywu.info/
-    :Email: steinwaywhw AT gmail 
-
-    :Wenxin Feng: |WF| 
-    :Homepage: http://cs-people.bu.edu/wenxinf/
-    :Email: suefrevol AT gmail
-
-
+    :Hanwen Wu: |HW|                   
+    :Homepage: http://steinwaywu.info/ 
+    :Email: steinwaywhw AT gmail       
+   
+    :Wenxin Feng: |WX|                                 
+    :Homepage: http://cs-people.bu.edu/wenxinf/        
+    :Email: suefrevol AT gmail                         
+    
     .. |HW| image:: images/hanwen_wu.jpg 
             :height: 100px
             :width: 100px
             :align: middle
 
-    .. |WF| image:: images/wenxin_feng.jpg
+    .. |WX| image:: images/wenxin_feng.jpg
             :height: 100px                
             :width: 100px                 
             :align: middle
