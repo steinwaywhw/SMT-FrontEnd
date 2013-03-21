@@ -17,6 +17,15 @@ Since ANTLR has been largely changed, the building process listed `here <http://
 #. Following the rest steps in the building instruction. If the ``configure`` reports missing something, just install them all.
 #. Make
 
+Using
+-----------
+ 
+To invoke command line interface, just type ::
+	
+	./cvc4 scriptfile.smt2
+
+It will use the correct parser based on file extensions.
+
 
 AltErgo
 ==========================
