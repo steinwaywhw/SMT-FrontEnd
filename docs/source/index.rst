@@ -14,26 +14,28 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   builduse
    smtv2
    ref
 
 Members
 ================
 
-    :Hanwen Wu: |HW|                   
-    :Homepage: http://steinwaywu.info/ 
-    :Email: steinwaywhw AT gmail       
-   
-    :Wenxin Feng: |WX|                                 
-    :Homepage: http://cs-people.bu.edu/wenxinf/        
-    :Email: suefrevol AT gmail                         
-    
+    :Hanwen Wu: |HW|    
+    :Homepage: http://steinwaywu.info/
+    :Email: steinwaywhw AT gmail DOT com
+
+    :Wenxin Feng: |WF| 
+    :Homepage: http://cs-people.bu.edu/wenxinf/
+    :Email: wenxinf AT bu DOT edu
+
+
     .. |HW| image:: images/hanwen_wu.jpg 
             :height: 100px
             :width: 100px
             :align: middle
 
-    .. |WX| image:: images/wenxin_feng.jpg
+    .. |WF| image:: images/wenxin_feng.jpg
             :height: 100px                
             :width: 100px                 
             :align: middle
