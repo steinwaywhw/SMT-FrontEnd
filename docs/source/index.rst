@@ -14,6 +14,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   builduse
    smtv2
    ref
 
@@ -22,7 +23,7 @@ Members
 
     :Hanwen Wu: |HW|    
     :Homepage: http://steinwaywu.info/
-    :Email: steinwaywhw AT gmail 
+    :Email: steinwaywhw AT gmail DOT com
 
     :Wenxin Feng: |WF| 
     :Homepage: http://cs-people.bu.edu/wenxinf/
