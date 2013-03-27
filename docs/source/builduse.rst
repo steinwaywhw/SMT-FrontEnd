@@ -24,7 +24,11 @@ To invoke command line interface, just type ::
 	
 	./cvc4 scriptfile.smt2
 
-It will use the correct parser based on file extensions.
+It will use the correct parser based on file extensions. If you want to test all the scripts in a folder, try this ::
+	
+	ls | xargs -n 1 cvc4
+
+
 
 
 AltErgo
