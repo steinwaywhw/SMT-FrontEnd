@@ -6,7 +6,7 @@
 Welcome to SMTFrontEnd
 =======================================
 
-This is a course project for Formal Methods. It aims at designing and implementing a lightweight front end for various SMT solvers. Currently, we are going to support Alt-Ergo and CVC4.
+This is a course project for Formal Methods. It aims at designing and implementing a lightweight front end for various SMT solvers. Currently, we are going to support Alt-Ergo and CVC4. All the original contents on this site are protected by the `MIT License <http://opensource.org/licenses/MIT>`_.
 
 Contents
 ======================

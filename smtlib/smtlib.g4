@@ -5,9 +5,6 @@
 
 grammar smtlib;
 
-
-
-
 /*
  * Terminals, and keywords
  */
@@ -28,7 +25,6 @@ SYM_TRUE                : 'true';
 SYM_UNKNOWN             : 'unknown';
 SYM_UNSAT               : 'unsat';
 SYM_UNSUPPORTED         : 'unsupported';
-
 
 // Predefined Keywords
 KEYWORD_ALL_STATISTICS              : ':all-statistics';
@@ -65,7 +61,6 @@ KEYWORD_VALUES                      : ':values';
 KEYWORD_VERBOSITY                   : ':verbosity';
 KEYWORD_VERSION                     : ':version';
 
-
 // Predifined General Token
 TOKEN_BANG       : '!';
 TOKEN_UNDERSCORE : '_';
@@ -77,7 +72,6 @@ TOKEN_LET        : 'let';
 TOKEN_NUMERAL    : 'NUMERAL';
 TOKEN_PAR        : 'par';
 TOKEN_STRING     : 'STRING';
-
 
 // Predefined Command Token
 TOKEN_CMD_ASSERT          : 'assert';
@@ -99,8 +93,6 @@ TOKEN_CMD_PUSH            : 'push';
 TOKEN_CMD_SET_LOGIC       : 'set-logic';
 TOKEN_CMD_SET_INFO        : 'set-info';
 TOKEN_CMD_SET_OPTION      : 'set-option';
-
-
 
 fragment DIGIT      : [0-9];
 fragment HEXDIGIT   : DIGIT | [a-fA-F];
@@ -138,7 +130,6 @@ symbol      : SIMPLE_SYM
             | SYM_UNSUPPORTED
             ;
 
-
 keyword     : KEYWORD_TOKEN
             | KEYWORD_ALL_STATISTICS
             | KEYWORD_AUTHORS
@@ -174,7 +165,6 @@ keyword     : KEYWORD_TOKEN
             | KEYWORD_VERBOSITY
             | KEYWORD_VERSION
             ;
-
 
 spec_constant   : NUMERAL | DECIMAL | HEXADECIMAL | BINARY | STRING;
 s_expr          : spec_constant | symbol | keyword | '(' s_expr* ')';
@@ -221,7 +211,6 @@ theory_attribute
     | KEYWORD_NOTES STRING
     | attribute
     ;
-            
 
 logic_attribute 
     : KEYWORD_THEORIES '(' symbol+ ')'
@@ -231,7 +220,6 @@ logic_attribute
     | KEYWORD_NOTES STRING
     | attribute
     ;
-            
 logic   : '(' SYM_LOGIC symbol logic_attribute+ ')';
 
 b_value : SYM_TRUE | SYM_FALSE;
@@ -249,11 +237,6 @@ option
     | KEYWORD_VERBOSITY NUMERAL
     | attribute
     ;
-
-
-
-
-
 
 info_flag 
     : KEYWORD_ERROR_BEHAVIOR

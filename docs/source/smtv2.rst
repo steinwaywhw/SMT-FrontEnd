@@ -29,7 +29,6 @@ Lexer Rules
     SYM_UNSAT               : 'unsat';
     SYM_UNSUPPORTED         : 'unsupported';
 
-
     // Predefined Keywords
     KEYWORD_ALL_STATISTICS              : ':all-statistics';
     KEYWORD_AUTHORS                     : ':authors';
@@ -65,7 +64,6 @@ Lexer Rules
     KEYWORD_VERBOSITY                   : ':verbosity';
     KEYWORD_VERSION                     : ':version';
 
-
     // Predifined General Token
     TOKEN_BANG       : '!';
     TOKEN_UNDERSCORE : '_';
@@ -77,7 +75,6 @@ Lexer Rules
     TOKEN_NUMERAL    : 'NUMERAL';
     TOKEN_PAR        : 'par';
     TOKEN_STRING     : 'STRING';
-
 
     // Predefined Command Token
     TOKEN_CMD_ASSERT          : 'assert';
@@ -99,8 +96,6 @@ Lexer Rules
     TOKEN_CMD_SET_LOGIC       : 'set-logic';
     TOKEN_CMD_SET_INFO        : 'set-info';
     TOKEN_CMD_SET_OPTION      : 'set-option';
-
-
 
     fragment DIGIT      : [0-9];
     fragment HEXDIGIT   : DIGIT | [a-fA-F];
