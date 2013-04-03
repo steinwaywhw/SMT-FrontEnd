@@ -178,13 +178,13 @@ qual_identifier : identifier | '(' TOKEN_AS identifier sort ')';
 var_binding     : '(' symbol term ')';
 sorted_var      : '(' symbol sort ')';
 term           
-    : spec_constant
-    | qual_identifier
-    | '(' qual_identifier term+ ')'
-    | '(' TOKEN_LET '(' var_binding+ ')' term ')'
-    | '(' TOKEN_FORALL '(' sorted_var+ ')' term ')'
-    | '(' TOKEN_EXISTS '(' sorted_var+ ')' term ')'
-    | '(' TOKEN_BANG term attribute+ ')'
+    : spec_constant                                     # TermConstant
+    | qual_identifier                                   # TermVariable
+    | '(' qual_identifier term+ ')'                     # TermFunction
+    | '(' TOKEN_LET '(' var_binding+ ')' term ')'       # TermBinderLet
+    | '(' TOKEN_FORALL '(' sorted_var+ ')' term ')'     # TermBinderForAll
+    | '(' TOKEN_EXISTS '(' sorted_var+ ')' term ')'     # TermBinderExists
+    | '(' TOKEN_BANG term attribute+ ')'                # TermAnnotation
     ;
                
 sort_symbol_decl    : '(' identifier NUMERAL attribute* ')';

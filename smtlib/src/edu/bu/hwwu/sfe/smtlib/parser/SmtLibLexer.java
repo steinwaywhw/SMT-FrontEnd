@@ -1,4 +1,5 @@
-package edu.bu.hwwu.sfe.smtlib.parser;// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/SmtLib.g4 by ANTLR 4.0
+// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4 by ANTLR 4.0
+package edu.bu.hwwu.sfe.smtlib.parser;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -94,7 +95,7 @@ public class SmtLibLexer extends Lexer {
 	}
 
 	@Override
-	public String getGrammarFileName() { return "edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4"; }
+	public String getGrammarFileName() { return "SmtLib.g4"; }
 
 	@Override
 	public String[] getTokenNames() { return tokenNames; }
@@ -116,14 +117,14 @@ public class SmtLibLexer extends Lexer {
 		case 92: COMMENT_action((RuleContext)_localctx, actionIndex); break;
 		}
 	}
-	private void WS_action(RuleContext _localctx, int actionIndex) {
-		switch (actionIndex) {
-		case 0: skip(); break;
-		}
-	}
 	private void COMMENT_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 1: skip(); break;
+		}
+	}
+	private void WS_action(RuleContext _localctx, int actionIndex) {
+		switch (actionIndex) {
+		case 0: skip(); break;
 		}
 	}
 

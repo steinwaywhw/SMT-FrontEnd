@@ -1,10 +1,13 @@
-package edu.bu.hwwu.sfe.smtlib.parser;// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/SmtLib.g4 by ANTLR 4.0
+// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4 by ANTLR 4.0
+package edu.bu.hwwu.sfe.smtlib.parser;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.misc.*;
 import org.antlr.v4.runtime.tree.*;
 import java.util.List;
+import java.util.Iterator;
+import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class SmtLibParser extends Parser {
@@ -81,7 +84,7 @@ public class SmtLibParser extends Parser {
 	};
 
 	@Override
-	public String getGrammarFileName() { return "edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4"; }
+	public String getGrammarFileName() { return "SmtLib.g4"; }
 
 	@Override
 	public String[] getTokenNames() { return tokenNames; }
@@ -97,23 +100,23 @@ public class SmtLibParser extends Parser {
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 	public static class SymbolContext extends ParserRuleContext {
-		public TerminalNode SYM_ERROR() { return getToken(SmtLibParser.SYM_ERROR, 0); }
-		public TerminalNode SYM_UNSUPPORTED() { return getToken(SmtLibParser.SYM_UNSUPPORTED, 0); }
-		public TerminalNode SYM_SUCCESS() { return getToken(SmtLibParser.SYM_SUCCESS, 0); }
-		public TerminalNode QUOTED_SYM() { return getToken(SmtLibParser.QUOTED_SYM, 0); }
-		public TerminalNode SYM_CONTINUED_EXECUTION() { return getToken(SmtLibParser.SYM_CONTINUED_EXECUTION, 0); }
-		public TerminalNode SYM_UNSAT() { return getToken(SmtLibParser.SYM_UNSAT, 0); }
-		public TerminalNode SYM_TRUE() { return getToken(SmtLibParser.SYM_TRUE, 0); }
-		public TerminalNode SYM_FALSE() { return getToken(SmtLibParser.SYM_FALSE, 0); }
 		public TerminalNode SYM_THEORY() { return getToken(SmtLibParser.SYM_THEORY, 0); }
-		public TerminalNode SYM_BOOL() { return getToken(SmtLibParser.SYM_BOOL, 0); }
+		public TerminalNode SYM_FALSE() { return getToken(SmtLibParser.SYM_FALSE, 0); }
 		public TerminalNode SYM_INCOMPLETE() { return getToken(SmtLibParser.SYM_INCOMPLETE, 0); }
-		public TerminalNode SIMPLE_SYM() { return getToken(SmtLibParser.SIMPLE_SYM, 0); }
-		public TerminalNode SYM_MEMOUT() { return getToken(SmtLibParser.SYM_MEMOUT, 0); }
+		public TerminalNode SYM_BOOL() { return getToken(SmtLibParser.SYM_BOOL, 0); }
+		public TerminalNode SYM_IMMEDIATE_EXIT() { return getToken(SmtLibParser.SYM_IMMEDIATE_EXIT, 0); }
 		public TerminalNode SYM_UNKNOWN() { return getToken(SmtLibParser.SYM_UNKNOWN, 0); }
 		public TerminalNode SYM_LOGIC() { return getToken(SmtLibParser.SYM_LOGIC, 0); }
-		public TerminalNode SYM_IMMEDIATE_EXIT() { return getToken(SmtLibParser.SYM_IMMEDIATE_EXIT, 0); }
+		public TerminalNode SIMPLE_SYM() { return getToken(SmtLibParser.SIMPLE_SYM, 0); }
+		public TerminalNode SYM_MEMOUT() { return getToken(SmtLibParser.SYM_MEMOUT, 0); }
 		public TerminalNode SYM_SAT() { return getToken(SmtLibParser.SYM_SAT, 0); }
+		public TerminalNode SYM_UNSUPPORTED() { return getToken(SmtLibParser.SYM_UNSUPPORTED, 0); }
+		public TerminalNode SYM_ERROR() { return getToken(SmtLibParser.SYM_ERROR, 0); }
+		public TerminalNode QUOTED_SYM() { return getToken(SmtLibParser.QUOTED_SYM, 0); }
+		public TerminalNode SYM_CONTINUED_EXECUTION() { return getToken(SmtLibParser.SYM_CONTINUED_EXECUTION, 0); }
+		public TerminalNode SYM_SUCCESS() { return getToken(SmtLibParser.SYM_SUCCESS, 0); }
+		public TerminalNode SYM_UNSAT() { return getToken(SmtLibParser.SYM_UNSAT, 0); }
+		public TerminalNode SYM_TRUE() { return getToken(SmtLibParser.SYM_TRUE, 0); }
 		public SymbolContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -160,27 +163,6 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class KeywordContext extends ParserRuleContext {
-		public TerminalNode KEYWORD_THEORIES() { return getToken(SmtLibParser.KEYWORD_THEORIES, 0); }
-		public TerminalNode KEYWORD_VERBOSITY() { return getToken(SmtLibParser.KEYWORD_VERBOSITY, 0); }
-		public TerminalNode KEYWORD_ERROR_BEHAVIOR() { return getToken(SmtLibParser.KEYWORD_ERROR_BEHAVIOR, 0); }
-		public TerminalNode KEYWORD_ALL_STATISTICS() { return getToken(SmtLibParser.KEYWORD_ALL_STATISTICS, 0); }
-		public TerminalNode KEYWORD_PRODUCE_MODELS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_MODELS, 0); }
-		public TerminalNode KEYWORD_CHAINABLE() { return getToken(SmtLibParser.KEYWORD_CHAINABLE, 0); }
-		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
-		public TerminalNode KEYWORD_LANGUAGE() { return getToken(SmtLibParser.KEYWORD_LANGUAGE, 0); }
-		public TerminalNode KEYWORD_PRODUCE_ASSIGNMENTS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_ASSIGNMENTS, 0); }
-		public TerminalNode KEYWORD_SORTS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_SORTS_DESCRIPTION, 0); }
-		public TerminalNode KEYWORD_EXTENSIONS() { return getToken(SmtLibParser.KEYWORD_EXTENSIONS, 0); }
-		public TerminalNode KEYWORD_PRINT_SUCCESS() { return getToken(SmtLibParser.KEYWORD_PRINT_SUCCESS, 0); }
-		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
-		public TerminalNode KEYWORD_AXIOMS() { return getToken(SmtLibParser.KEYWORD_AXIOMS, 0); }
-		public TerminalNode KEYWORD_PRODUCE_UNSAT_CORES() { return getToken(SmtLibParser.KEYWORD_PRODUCE_UNSAT_CORES, 0); }
-		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
-		public TerminalNode KEYWORD_EXPAND_DEFINITIONS() { return getToken(SmtLibParser.KEYWORD_EXPAND_DEFINITIONS, 0); }
-		public TerminalNode KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL, 0); }
-		public TerminalNode KEYWORD_AUTHORS() { return getToken(SmtLibParser.KEYWORD_AUTHORS, 0); }
-		public TerminalNode KEYWORD_NAMED() { return getToken(SmtLibParser.KEYWORD_NAMED, 0); }
-		public TerminalNode KEYWORD_DEFINITION() { return getToken(SmtLibParser.KEYWORD_DEFINITION, 0); }
 		public TerminalNode KEYWORD_SORTS() { return getToken(SmtLibParser.KEYWORD_SORTS, 0); }
 		public TerminalNode KEYWORD_REGULAR_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_REGULAR_OUTPUT_CHANNEL, 0); }
 		public TerminalNode KEYWORD_RANDOM_SEED() { return getToken(SmtLibParser.KEYWORD_RANDOM_SEED, 0); }
@@ -194,6 +176,27 @@ public class SmtLibParser extends Parser {
 		public TerminalNode KEYWORD_NOTES() { return getToken(SmtLibParser.KEYWORD_NOTES, 0); }
 		public TerminalNode KEYWORD_FUNS() { return getToken(SmtLibParser.KEYWORD_FUNS, 0); }
 		public TerminalNode KEYWORD_PRODUCE_PROOFS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_PROOFS, 0); }
+		public TerminalNode KEYWORD_PRODUCE_UNSAT_CORES() { return getToken(SmtLibParser.KEYWORD_PRODUCE_UNSAT_CORES, 0); }
+		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
+		public TerminalNode KEYWORD_EXPAND_DEFINITIONS() { return getToken(SmtLibParser.KEYWORD_EXPAND_DEFINITIONS, 0); }
+		public TerminalNode KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL, 0); }
+		public TerminalNode KEYWORD_AUTHORS() { return getToken(SmtLibParser.KEYWORD_AUTHORS, 0); }
+		public TerminalNode KEYWORD_NAMED() { return getToken(SmtLibParser.KEYWORD_NAMED, 0); }
+		public TerminalNode KEYWORD_DEFINITION() { return getToken(SmtLibParser.KEYWORD_DEFINITION, 0); }
+		public TerminalNode KEYWORD_AXIOMS() { return getToken(SmtLibParser.KEYWORD_AXIOMS, 0); }
+		public TerminalNode KEYWORD_THEORIES() { return getToken(SmtLibParser.KEYWORD_THEORIES, 0); }
+		public TerminalNode KEYWORD_VERBOSITY() { return getToken(SmtLibParser.KEYWORD_VERBOSITY, 0); }
+		public TerminalNode KEYWORD_ERROR_BEHAVIOR() { return getToken(SmtLibParser.KEYWORD_ERROR_BEHAVIOR, 0); }
+		public TerminalNode KEYWORD_ALL_STATISTICS() { return getToken(SmtLibParser.KEYWORD_ALL_STATISTICS, 0); }
+		public TerminalNode KEYWORD_PRODUCE_MODELS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_MODELS, 0); }
+		public TerminalNode KEYWORD_CHAINABLE() { return getToken(SmtLibParser.KEYWORD_CHAINABLE, 0); }
+		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
+		public TerminalNode KEYWORD_LANGUAGE() { return getToken(SmtLibParser.KEYWORD_LANGUAGE, 0); }
+		public TerminalNode KEYWORD_PRODUCE_ASSIGNMENTS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_ASSIGNMENTS, 0); }
+		public TerminalNode KEYWORD_SORTS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_SORTS_DESCRIPTION, 0); }
+		public TerminalNode KEYWORD_EXTENSIONS() { return getToken(SmtLibParser.KEYWORD_EXTENSIONS, 0); }
+		public TerminalNode KEYWORD_PRINT_SUCCESS() { return getToken(SmtLibParser.KEYWORD_PRINT_SUCCESS, 0); }
+		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
 		public KeywordContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -291,6 +294,9 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class S_exprContext extends ParserRuleContext {
+		public Spec_constantContext spec_constant() {
+			return getRuleContext(Spec_constantContext.class,0);
+		}
 		public S_exprContext s_expr(int i) {
 			return getRuleContext(S_exprContext.class,i);
 		}
@@ -302,9 +308,6 @@ public class SmtLibParser extends Parser {
 		}
 		public KeywordContext keyword() {
 			return getRuleContext(KeywordContext.class,0);
-		}
-		public Spec_constantContext spec_constant() {
-			return getRuleContext(Spec_constantContext.class,0);
 		}
 		public S_exprContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -445,8 +448,8 @@ public class SmtLibParser extends Parser {
 		public SymbolContext symbol() {
 			return getRuleContext(SymbolContext.class,0);
 		}
-		public List<TerminalNode> NUMERAL() { return getTokens(SmtLibParser.NUMERAL); }
 		public TerminalNode TOKEN_UNDERSCORE() { return getToken(SmtLibParser.TOKEN_UNDERSCORE, 0); }
+		public List<TerminalNode> NUMERAL() { return getTokens(SmtLibParser.NUMERAL); }
 		public IdentifierContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -610,9 +613,6 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Attribute_valueContext extends ParserRuleContext {
-		public Spec_constantContext spec_constant() {
-			return getRuleContext(Spec_constantContext.class,0);
-		}
 		public S_exprContext s_expr(int i) {
 			return getRuleContext(S_exprContext.class,i);
 		}
@@ -621,6 +621,9 @@ public class SmtLibParser extends Parser {
 		}
 		public SymbolContext symbol() {
 			return getRuleContext(SymbolContext.class,0);
+		}
+		public Spec_constantContext spec_constant() {
+			return getRuleContext(Spec_constantContext.class,0);
 		}
 		public Attribute_valueContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -716,11 +719,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class AttributeContext extends ParserRuleContext {
-		public KeywordContext keyword() {
-			return getRuleContext(KeywordContext.class,0);
-		}
 		public Attribute_valueContext attribute_value() {
 			return getRuleContext(Attribute_valueContext.class,0);
+		}
+		public KeywordContext keyword() {
+			return getRuleContext(KeywordContext.class,0);
 		}
 		public AttributeContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -775,12 +778,12 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Qual_identifierContext extends ParserRuleContext {
-		public IdentifierContext identifier() {
-			return getRuleContext(IdentifierContext.class,0);
-		}
-		public TerminalNode TOKEN_AS() { return getToken(SmtLibParser.TOKEN_AS, 0); }
 		public SortContext sort() {
 			return getRuleContext(SortContext.class,0);
+		}
+		public TerminalNode TOKEN_AS() { return getToken(SmtLibParser.TOKEN_AS, 0); }
+		public IdentifierContext identifier() {
+			return getRuleContext(IdentifierContext.class,0);
 		}
 		public Qual_identifierContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -838,11 +841,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Var_bindingContext extends ParserRuleContext {
-		public TermContext term() {
-			return getRuleContext(TermContext.class,0);
-		}
 		public SymbolContext symbol() {
 			return getRuleContext(SymbolContext.class,0);
+		}
+		public TermContext term() {
+			return getRuleContext(TermContext.class,0);
 		}
 		public Var_bindingContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -936,55 +939,180 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class TermContext extends ParserRuleContext {
-		public Spec_constantContext spec_constant() {
-			return getRuleContext(Spec_constantContext.class,0);
-		}
-		public List<TermContext> term() {
-			return getRuleContexts(TermContext.class);
-		}
-		public List<Sorted_varContext> sorted_var() {
-			return getRuleContexts(Sorted_varContext.class);
-		}
-		public Var_bindingContext var_binding(int i) {
-			return getRuleContext(Var_bindingContext.class,i);
-		}
-		public Sorted_varContext sorted_var(int i) {
-			return getRuleContext(Sorted_varContext.class,i);
-		}
-		public AttributeContext attribute(int i) {
-			return getRuleContext(AttributeContext.class,i);
-		}
-		public Qual_identifierContext qual_identifier() {
-			return getRuleContext(Qual_identifierContext.class,0);
-		}
-		public List<Var_bindingContext> var_binding() {
-			return getRuleContexts(Var_bindingContext.class);
-		}
-		public TerminalNode TOKEN_EXISTS() { return getToken(SmtLibParser.TOKEN_EXISTS, 0); }
-		public List<AttributeContext> attribute() {
-			return getRuleContexts(AttributeContext.class);
-		}
-		public TermContext term(int i) {
-			return getRuleContext(TermContext.class,i);
-		}
-		public TerminalNode TOKEN_LET() { return getToken(SmtLibParser.TOKEN_LET, 0); }
-		public TerminalNode TOKEN_FORALL() { return getToken(SmtLibParser.TOKEN_FORALL, 0); }
-		public TerminalNode TOKEN_BANG() { return getToken(SmtLibParser.TOKEN_BANG, 0); }
 		public TermContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_term; }
+	 
+		public TermContext() { }
+		public void copyFrom(TermContext ctx) {
+			super.copyFrom(ctx);
+		}
+	}
+	public static class TermVariableContext extends TermContext {
+		public Qual_identifierContext qual_identifier() {
+			return getRuleContext(Qual_identifierContext.class,0);
+		}
+		public TermVariableContext(TermContext ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTerm(this);
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermVariable(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTerm(this);
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermVariable(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTerm(this);
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermVariable(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermFunctionContext extends TermContext {
+		public Qual_identifierContext qual_identifier() {
+			return getRuleContext(Qual_identifierContext.class,0);
+		}
+		public TermContext term(int i) {
+			return getRuleContext(TermContext.class,i);
+		}
+		public List<TermContext> term() {
+			return getRuleContexts(TermContext.class);
+		}
+		public TermFunctionContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermFunction(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermFunction(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermFunction(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermBinderLetContext extends TermContext {
+		public Var_bindingContext var_binding(int i) {
+			return getRuleContext(Var_bindingContext.class,i);
+		}
+		public TermContext term() {
+			return getRuleContext(TermContext.class,0);
+		}
+		public TerminalNode TOKEN_LET() { return getToken(SmtLibParser.TOKEN_LET, 0); }
+		public List<Var_bindingContext> var_binding() {
+			return getRuleContexts(Var_bindingContext.class);
+		}
+		public TermBinderLetContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermBinderLet(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermBinderLet(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermBinderLet(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermConstantContext extends TermContext {
+		public Spec_constantContext spec_constant() {
+			return getRuleContext(Spec_constantContext.class,0);
+		}
+		public TermConstantContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermConstant(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermConstant(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermConstant(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermBinderForAllContext extends TermContext {
+		public List<Sorted_varContext> sorted_var() {
+			return getRuleContexts(Sorted_varContext.class);
+		}
+		public TermContext term() {
+			return getRuleContext(TermContext.class,0);
+		}
+		public TerminalNode TOKEN_FORALL() { return getToken(SmtLibParser.TOKEN_FORALL, 0); }
+		public Sorted_varContext sorted_var(int i) {
+			return getRuleContext(Sorted_varContext.class,i);
+		}
+		public TermBinderForAllContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermBinderForAll(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermBinderForAll(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermBinderForAll(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermAnnotationContext extends TermContext {
+		public TermContext term() {
+			return getRuleContext(TermContext.class,0);
+		}
+		public TerminalNode TOKEN_BANG() { return getToken(SmtLibParser.TOKEN_BANG, 0); }
+		public List<AttributeContext> attribute() {
+			return getRuleContexts(AttributeContext.class);
+		}
+		public AttributeContext attribute(int i) {
+			return getRuleContext(AttributeContext.class,i);
+		}
+		public TermAnnotationContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermAnnotation(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermAnnotation(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermAnnotation(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class TermBinderExistsContext extends TermContext {
+		public TerminalNode TOKEN_EXISTS() { return getToken(SmtLibParser.TOKEN_EXISTS, 0); }
+		public Sorted_varContext sorted_var(int i) {
+			return getRuleContext(Sorted_varContext.class,i);
+		}
+		public List<Sorted_varContext> sorted_var() {
+			return getRuleContexts(Sorted_varContext.class);
+		}
+		public TermContext term() {
+			return getRuleContext(TermContext.class,0);
+		}
+		public TermBinderExistsContext(TermContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).enterTermBinderExists(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof SmtLibListener ) ((SmtLibListener)listener).exitTermBinderExists(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof SmtLibVisitor ) return ((SmtLibVisitor<? extends T>)visitor).visitTermBinderExists(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -997,6 +1125,7 @@ public class SmtLibParser extends Parser {
 			setState(220);
 			switch ( getInterpreter().adaptivePredict(_input,15,_ctx) ) {
 			case 1:
+				_localctx = new TermConstantContext(_localctx);
 				enterOuterAlt(_localctx, 1);
 				{
 				setState(163); spec_constant();
@@ -1004,6 +1133,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 2:
+				_localctx = new TermVariableContext(_localctx);
 				enterOuterAlt(_localctx, 2);
 				{
 				setState(164); qual_identifier();
@@ -1011,6 +1141,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 3:
+				_localctx = new TermFunctionContext(_localctx);
 				enterOuterAlt(_localctx, 3);
 				{
 				setState(165); match(1);
@@ -1033,6 +1164,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 4:
+				_localctx = new TermBinderLetContext(_localctx);
 				enterOuterAlt(_localctx, 4);
 				{
 				setState(174); match(1);
@@ -1058,6 +1190,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 5:
+				_localctx = new TermBinderForAllContext(_localctx);
 				enterOuterAlt(_localctx, 5);
 				{
 				setState(186); match(1);
@@ -1083,6 +1216,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 6:
+				_localctx = new TermBinderExistsContext(_localctx);
 				enterOuterAlt(_localctx, 6);
 				{
 				setState(198); match(1);
@@ -1108,6 +1242,7 @@ public class SmtLibParser extends Parser {
 				break;
 
 			case 7:
+				_localctx = new TermAnnotationContext(_localctx);
 				enterOuterAlt(_localctx, 7);
 				{
 				setState(210); match(1);
@@ -1144,14 +1279,14 @@ public class SmtLibParser extends Parser {
 
 	public static class Sort_symbol_declContext extends ParserRuleContext {
 		public TerminalNode NUMERAL() { return getToken(SmtLibParser.NUMERAL, 0); }
-		public List<AttributeContext> attribute() {
-			return getRuleContexts(AttributeContext.class);
+		public IdentifierContext identifier() {
+			return getRuleContext(IdentifierContext.class,0);
 		}
 		public AttributeContext attribute(int i) {
 			return getRuleContext(AttributeContext.class,i);
 		}
-		public IdentifierContext identifier() {
-			return getRuleContext(IdentifierContext.class,0);
+		public List<AttributeContext> attribute() {
+			return getRuleContexts(AttributeContext.class);
 		}
 		public Sort_symbol_declContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -1210,9 +1345,9 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Meta_spec_constantContext extends ParserRuleContext {
+		public TerminalNode TOKEN_NUMERAL() { return getToken(SmtLibParser.TOKEN_NUMERAL, 0); }
 		public TerminalNode TOKEN_DECIMAL() { return getToken(SmtLibParser.TOKEN_DECIMAL, 0); }
 		public TerminalNode TOKEN_STRING() { return getToken(SmtLibParser.TOKEN_STRING, 0); }
-		public TerminalNode TOKEN_NUMERAL() { return getToken(SmtLibParser.TOKEN_NUMERAL, 0); }
 		public Meta_spec_constantContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -1259,6 +1394,15 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Fun_symbol_declContext extends ParserRuleContext {
+		public Meta_spec_constantContext meta_spec_constant() {
+			return getRuleContext(Meta_spec_constantContext.class,0);
+		}
+		public List<SortContext> sort() {
+			return getRuleContexts(SortContext.class);
+		}
+		public SortContext sort(int i) {
+			return getRuleContext(SortContext.class,i);
+		}
 		public List<AttributeContext> attribute() {
 			return getRuleContexts(AttributeContext.class);
 		}
@@ -1270,15 +1414,6 @@ public class SmtLibParser extends Parser {
 		}
 		public AttributeContext attribute(int i) {
 			return getRuleContext(AttributeContext.class,i);
-		}
-		public Meta_spec_constantContext meta_spec_constant() {
-			return getRuleContext(Meta_spec_constantContext.class,0);
-		}
-		public List<SortContext> sort() {
-			return getRuleContexts(SortContext.class);
-		}
-		public SortContext sort(int i) {
-			return getRuleContext(SortContext.class,i);
 		}
 		public Fun_symbol_declContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -1400,30 +1535,30 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Par_fun_symbol_declContext extends ParserRuleContext {
-		public AttributeContext attribute(int i) {
-			return getRuleContext(AttributeContext.class,i);
-		}
-		public SymbolContext symbol(int i) {
-			return getRuleContext(SymbolContext.class,i);
-		}
-		public IdentifierContext identifier() {
-			return getRuleContext(IdentifierContext.class,0);
-		}
-		public TerminalNode TOKEN_PAR() { return getToken(SmtLibParser.TOKEN_PAR, 0); }
 		public List<AttributeContext> attribute() {
 			return getRuleContexts(AttributeContext.class);
 		}
 		public Fun_symbol_declContext fun_symbol_decl() {
 			return getRuleContext(Fun_symbol_declContext.class,0);
 		}
+		public TerminalNode TOKEN_PAR() { return getToken(SmtLibParser.TOKEN_PAR, 0); }
+		public IdentifierContext identifier() {
+			return getRuleContext(IdentifierContext.class,0);
+		}
+		public SymbolContext symbol(int i) {
+			return getRuleContext(SymbolContext.class,i);
+		}
+		public AttributeContext attribute(int i) {
+			return getRuleContext(AttributeContext.class,i);
+		}
+		public List<SortContext> sort() {
+			return getRuleContexts(SortContext.class);
+		}
 		public SortContext sort(int i) {
 			return getRuleContext(SortContext.class,i);
 		}
 		public List<SymbolContext> symbol() {
 			return getRuleContexts(SymbolContext.class);
-		}
-		public List<SortContext> sort() {
-			return getRuleContexts(SortContext.class);
 		}
 		public Par_fun_symbol_declContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -1524,16 +1659,16 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Theory_declContext extends ParserRuleContext {
+		public TerminalNode SYM_THEORY() { return getToken(SmtLibParser.SYM_THEORY, 0); }
+		public Theory_attributeContext theory_attribute(int i) {
+			return getRuleContext(Theory_attributeContext.class,i);
+		}
 		public List<Theory_attributeContext> theory_attribute() {
 			return getRuleContexts(Theory_attributeContext.class);
 		}
 		public SymbolContext symbol() {
 			return getRuleContext(SymbolContext.class,0);
 		}
-		public Theory_attributeContext theory_attribute(int i) {
-			return getRuleContext(Theory_attributeContext.class,i);
-		}
-		public TerminalNode SYM_THEORY() { return getToken(SmtLibParser.SYM_THEORY, 0); }
 		public Theory_declContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -1598,28 +1733,28 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Theory_attributeContext extends ParserRuleContext {
+		public TerminalNode KEYWORD_SORTS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_SORTS_DESCRIPTION, 0); }
+		public TerminalNode KEYWORD_DEFINITION() { return getToken(SmtLibParser.KEYWORD_DEFINITION, 0); }
+		public Par_fun_symbol_declContext par_fun_symbol_decl(int i) {
+			return getRuleContext(Par_fun_symbol_declContext.class,i);
+		}
+		public Sort_symbol_declContext sort_symbol_decl(int i) {
+			return getRuleContext(Sort_symbol_declContext.class,i);
+		}
+		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
 		public TerminalNode KEYWORD_FUNS() { return getToken(SmtLibParser.KEYWORD_FUNS, 0); }
+		public AttributeContext attribute() {
+			return getRuleContext(AttributeContext.class,0);
+		}
+		public TerminalNode KEYWORD_FUNS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_FUNS_DESCRIPTION, 0); }
+		public TerminalNode KEYWORD_VALUES() { return getToken(SmtLibParser.KEYWORD_VALUES, 0); }
+		public TerminalNode KEYWORD_NOTES() { return getToken(SmtLibParser.KEYWORD_NOTES, 0); }
 		public TerminalNode KEYWORD_SORTS() { return getToken(SmtLibParser.KEYWORD_SORTS, 0); }
 		public List<Sort_symbol_declContext> sort_symbol_decl() {
 			return getRuleContexts(Sort_symbol_declContext.class);
 		}
 		public List<Par_fun_symbol_declContext> par_fun_symbol_decl() {
 			return getRuleContexts(Par_fun_symbol_declContext.class);
-		}
-		public TerminalNode KEYWORD_VALUES() { return getToken(SmtLibParser.KEYWORD_VALUES, 0); }
-		public TerminalNode KEYWORD_NOTES() { return getToken(SmtLibParser.KEYWORD_NOTES, 0); }
-		public AttributeContext attribute() {
-			return getRuleContext(AttributeContext.class,0);
-		}
-		public TerminalNode KEYWORD_FUNS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_FUNS_DESCRIPTION, 0); }
-		public Par_fun_symbol_declContext par_fun_symbol_decl(int i) {
-			return getRuleContext(Par_fun_symbol_declContext.class,i);
-		}
-		public TerminalNode KEYWORD_SORTS_DESCRIPTION() { return getToken(SmtLibParser.KEYWORD_SORTS_DESCRIPTION, 0); }
-		public TerminalNode KEYWORD_DEFINITION() { return getToken(SmtLibParser.KEYWORD_DEFINITION, 0); }
-		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
-		public Sort_symbol_declContext sort_symbol_decl(int i) {
-			return getRuleContext(Sort_symbol_declContext.class,i);
 		}
 		public Theory_attributeContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -1751,18 +1886,18 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Logic_attributeContext extends ParserRuleContext {
-		public TerminalNode KEYWORD_VALUES() { return getToken(SmtLibParser.KEYWORD_VALUES, 0); }
-		public TerminalNode KEYWORD_NOTES() { return getToken(SmtLibParser.KEYWORD_NOTES, 0); }
 		public AttributeContext attribute() {
 			return getRuleContext(AttributeContext.class,0);
 		}
+		public TerminalNode KEYWORD_NOTES() { return getToken(SmtLibParser.KEYWORD_NOTES, 0); }
+		public TerminalNode KEYWORD_VALUES() { return getToken(SmtLibParser.KEYWORD_VALUES, 0); }
+		public TerminalNode KEYWORD_THEORIES() { return getToken(SmtLibParser.KEYWORD_THEORIES, 0); }
+		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
 		public SymbolContext symbol(int i) {
 			return getRuleContext(SymbolContext.class,i);
 		}
-		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
-		public TerminalNode KEYWORD_THEORIES() { return getToken(SmtLibParser.KEYWORD_THEORIES, 0); }
-		public TerminalNode KEYWORD_EXTENSIONS() { return getToken(SmtLibParser.KEYWORD_EXTENSIONS, 0); }
 		public TerminalNode KEYWORD_LANGUAGE() { return getToken(SmtLibParser.KEYWORD_LANGUAGE, 0); }
+		public TerminalNode KEYWORD_EXTENSIONS() { return getToken(SmtLibParser.KEYWORD_EXTENSIONS, 0); }
 		public List<SymbolContext> symbol() {
 			return getRuleContexts(SymbolContext.class);
 		}
@@ -1866,15 +2001,15 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class LogicContext extends ParserRuleContext {
-		public TerminalNode SYM_LOGIC() { return getToken(SmtLibParser.SYM_LOGIC, 0); }
 		public Logic_attributeContext logic_attribute(int i) {
 			return getRuleContext(Logic_attributeContext.class,i);
 		}
-		public SymbolContext symbol() {
-			return getRuleContext(SymbolContext.class,0);
-		}
+		public TerminalNode SYM_LOGIC() { return getToken(SmtLibParser.SYM_LOGIC, 0); }
 		public List<Logic_attributeContext> logic_attribute() {
 			return getRuleContexts(Logic_attributeContext.class);
+		}
+		public SymbolContext symbol() {
+			return getRuleContext(SymbolContext.class,0);
 		}
 		public LogicContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -1981,25 +2116,25 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class OptionContext extends ParserRuleContext {
-		public TerminalNode KEYWORD_PRODUCE_UNSAT_CORES() { return getToken(SmtLibParser.KEYWORD_PRODUCE_UNSAT_CORES, 0); }
-		public TerminalNode KEYWORD_VERBOSITY() { return getToken(SmtLibParser.KEYWORD_VERBOSITY, 0); }
-		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
-		public TerminalNode KEYWORD_EXPAND_DEFINITIONS() { return getToken(SmtLibParser.KEYWORD_EXPAND_DEFINITIONS, 0); }
-		public TerminalNode KEYWORD_PRODUCE_MODELS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_MODELS, 0); }
-		public TerminalNode KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL, 0); }
-		public TerminalNode KEYWORD_PRODUCE_ASSIGNMENTS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_ASSIGNMENTS, 0); }
-		public B_valueContext b_value() {
-			return getRuleContext(B_valueContext.class,0);
-		}
-		public TerminalNode NUMERAL() { return getToken(SmtLibParser.NUMERAL, 0); }
-		public TerminalNode KEYWORD_PRINT_SUCCESS() { return getToken(SmtLibParser.KEYWORD_PRINT_SUCCESS, 0); }
+		public TerminalNode KEYWORD_PRODUCE_PROOFS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_PROOFS, 0); }
+		public TerminalNode KEYWORD_INTERACTIVE_MODE() { return getToken(SmtLibParser.KEYWORD_INTERACTIVE_MODE, 0); }
 		public TerminalNode KEYWORD_REGULAR_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_REGULAR_OUTPUT_CHANNEL, 0); }
 		public TerminalNode KEYWORD_RANDOM_SEED() { return getToken(SmtLibParser.KEYWORD_RANDOM_SEED, 0); }
-		public TerminalNode KEYWORD_INTERACTIVE_MODE() { return getToken(SmtLibParser.KEYWORD_INTERACTIVE_MODE, 0); }
 		public AttributeContext attribute() {
 			return getRuleContext(AttributeContext.class,0);
 		}
-		public TerminalNode KEYWORD_PRODUCE_PROOFS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_PROOFS, 0); }
+		public TerminalNode KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL() { return getToken(SmtLibParser.KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL, 0); }
+		public TerminalNode NUMERAL() { return getToken(SmtLibParser.NUMERAL, 0); }
+		public TerminalNode KEYWORD_PRINT_SUCCESS() { return getToken(SmtLibParser.KEYWORD_PRINT_SUCCESS, 0); }
+		public B_valueContext b_value() {
+			return getRuleContext(B_valueContext.class,0);
+		}
+		public TerminalNode KEYWORD_PRODUCE_ASSIGNMENTS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_ASSIGNMENTS, 0); }
+		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
+		public TerminalNode KEYWORD_VERBOSITY() { return getToken(SmtLibParser.KEYWORD_VERBOSITY, 0); }
+		public TerminalNode KEYWORD_PRODUCE_UNSAT_CORES() { return getToken(SmtLibParser.KEYWORD_PRODUCE_UNSAT_CORES, 0); }
+		public TerminalNode KEYWORD_EXPAND_DEFINITIONS() { return getToken(SmtLibParser.KEYWORD_EXPAND_DEFINITIONS, 0); }
+		public TerminalNode KEYWORD_PRODUCE_MODELS() { return getToken(SmtLibParser.KEYWORD_PRODUCE_MODELS, 0); }
 		public OptionContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2133,16 +2268,16 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Info_flagContext extends ParserRuleContext {
-		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
-		public TerminalNode KEYWORD_ERROR_BEHAVIOR() { return getToken(SmtLibParser.KEYWORD_ERROR_BEHAVIOR, 0); }
-		public TerminalNode KEYWORD_STATUS() { return getToken(SmtLibParser.KEYWORD_STATUS, 0); }
-		public TerminalNode KEYWORD_ALL_STATISTICS() { return getToken(SmtLibParser.KEYWORD_ALL_STATISTICS, 0); }
+		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
+		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
 		public KeywordContext keyword() {
 			return getRuleContext(KeywordContext.class,0);
 		}
 		public TerminalNode KEYWORD_AUTHORS() { return getToken(SmtLibParser.KEYWORD_AUTHORS, 0); }
-		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
-		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
+		public TerminalNode KEYWORD_ALL_STATISTICS() { return getToken(SmtLibParser.KEYWORD_ALL_STATISTICS, 0); }
+		public TerminalNode KEYWORD_STATUS() { return getToken(SmtLibParser.KEYWORD_STATUS, 0); }
+		public TerminalNode KEYWORD_ERROR_BEHAVIOR() { return getToken(SmtLibParser.KEYWORD_ERROR_BEHAVIOR, 0); }
+		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
 		public Info_flagContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2237,23 +2372,6 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class CommandContext extends ParserRuleContext {
-		public TerminalNode TOKEN_CMD_GET_PROOF() { return getToken(SmtLibParser.TOKEN_CMD_GET_PROOF, 0); }
-		public TerminalNode TOKEN_CMD_PUSH() { return getToken(SmtLibParser.TOKEN_CMD_PUSH, 0); }
-		public TerminalNode NUMERAL() { return getToken(SmtLibParser.NUMERAL, 0); }
-		public TerminalNode TOKEN_CMD_GET_UNSAT_CORE() { return getToken(SmtLibParser.TOKEN_CMD_GET_UNSAT_CORE, 0); }
-		public List<TermContext> term() {
-			return getRuleContexts(TermContext.class);
-		}
-		public TerminalNode TOKEN_CMD_EXIT() { return getToken(SmtLibParser.TOKEN_CMD_EXIT, 0); }
-		public TermContext term(int i) {
-			return getRuleContext(TermContext.class,i);
-		}
-		public SymbolContext symbol(int i) {
-			return getRuleContext(SymbolContext.class,i);
-		}
-		public TerminalNode TOKEN_CMD_ASSERT() { return getToken(SmtLibParser.TOKEN_CMD_ASSERT, 0); }
-		public TerminalNode TOKEN_CMD_DEFINE_SORT() { return getToken(SmtLibParser.TOKEN_CMD_DEFINE_SORT, 0); }
-		public TerminalNode TOKEN_CMD_GET_INFO() { return getToken(SmtLibParser.TOKEN_CMD_GET_INFO, 0); }
 		public List<SymbolContext> symbol() {
 			return getRuleContexts(SymbolContext.class);
 		}
@@ -2261,38 +2379,55 @@ public class SmtLibParser extends Parser {
 			return getRuleContext(KeywordContext.class,0);
 		}
 		public TerminalNode TOKEN_CMD_DEFINE_FUN() { return getToken(SmtLibParser.TOKEN_CMD_DEFINE_FUN, 0); }
-		public TerminalNode TOKEN_CMD_POP() { return getToken(SmtLibParser.TOKEN_CMD_POP, 0); }
-		public OptionContext option() {
-			return getRuleContext(OptionContext.class,0);
+		public TerminalNode TOKEN_CMD_ASSERT() { return getToken(SmtLibParser.TOKEN_CMD_ASSERT, 0); }
+		public TerminalNode TOKEN_CMD_DEFINE_SORT() { return getToken(SmtLibParser.TOKEN_CMD_DEFINE_SORT, 0); }
+		public TerminalNode TOKEN_CMD_GET_INFO() { return getToken(SmtLibParser.TOKEN_CMD_GET_INFO, 0); }
+		public SymbolContext symbol(int i) {
+			return getRuleContext(SymbolContext.class,i);
 		}
-		public TerminalNode TOKEN_CMD_GET_OPTION() { return getToken(SmtLibParser.TOKEN_CMD_GET_OPTION, 0); }
-		public Info_flagContext info_flag() {
-			return getRuleContext(Info_flagContext.class,0);
+		public TermContext term(int i) {
+			return getRuleContext(TermContext.class,i);
 		}
-		public TerminalNode TOKEN_CMD_SET_OPTION() { return getToken(SmtLibParser.TOKEN_CMD_SET_OPTION, 0); }
-		public TerminalNode TOKEN_CMD_SET_LOGIC() { return getToken(SmtLibParser.TOKEN_CMD_SET_LOGIC, 0); }
-		public TerminalNode TOKEN_CMD_SET_INFO() { return getToken(SmtLibParser.TOKEN_CMD_SET_INFO, 0); }
-		public List<Sorted_varContext> sorted_var() {
-			return getRuleContexts(Sorted_varContext.class);
+		public TerminalNode TOKEN_CMD_GET_UNSAT_CORE() { return getToken(SmtLibParser.TOKEN_CMD_GET_UNSAT_CORE, 0); }
+		public List<TermContext> term() {
+			return getRuleContexts(TermContext.class);
 		}
-		public AttributeContext attribute() {
-			return getRuleContext(AttributeContext.class,0);
-		}
-		public Sorted_varContext sorted_var(int i) {
-			return getRuleContext(Sorted_varContext.class,i);
-		}
-		public TerminalNode TOKEN_CMD_CHECK_SAT() { return getToken(SmtLibParser.TOKEN_CMD_CHECK_SAT, 0); }
-		public TerminalNode TOKEN_CMD_GET_ASSERTIONS() { return getToken(SmtLibParser.TOKEN_CMD_GET_ASSERTIONS, 0); }
-		public List<SortContext> sort() {
-			return getRuleContexts(SortContext.class);
-		}
-		public TerminalNode TOKEN_CMD_DECLARE_SORT() { return getToken(SmtLibParser.TOKEN_CMD_DECLARE_SORT, 0); }
+		public TerminalNode TOKEN_CMD_EXIT() { return getToken(SmtLibParser.TOKEN_CMD_EXIT, 0); }
+		public TerminalNode TOKEN_CMD_PUSH() { return getToken(SmtLibParser.TOKEN_CMD_PUSH, 0); }
+		public TerminalNode NUMERAL() { return getToken(SmtLibParser.NUMERAL, 0); }
+		public TerminalNode TOKEN_CMD_GET_PROOF() { return getToken(SmtLibParser.TOKEN_CMD_GET_PROOF, 0); }
 		public SortContext sort(int i) {
 			return getRuleContext(SortContext.class,i);
 		}
 		public TerminalNode TOKEN_CMD_GET_ASSIGNMENT() { return getToken(SmtLibParser.TOKEN_CMD_GET_ASSIGNMENT, 0); }
 		public TerminalNode TOKEN_CMD_DECLARE_FUN() { return getToken(SmtLibParser.TOKEN_CMD_DECLARE_FUN, 0); }
 		public TerminalNode TOKEN_CMD_GET_VALUE() { return getToken(SmtLibParser.TOKEN_CMD_GET_VALUE, 0); }
+		public List<SortContext> sort() {
+			return getRuleContexts(SortContext.class);
+		}
+		public TerminalNode TOKEN_CMD_DECLARE_SORT() { return getToken(SmtLibParser.TOKEN_CMD_DECLARE_SORT, 0); }
+		public Sorted_varContext sorted_var(int i) {
+			return getRuleContext(Sorted_varContext.class,i);
+		}
+		public TerminalNode TOKEN_CMD_CHECK_SAT() { return getToken(SmtLibParser.TOKEN_CMD_CHECK_SAT, 0); }
+		public TerminalNode TOKEN_CMD_GET_ASSERTIONS() { return getToken(SmtLibParser.TOKEN_CMD_GET_ASSERTIONS, 0); }
+		public AttributeContext attribute() {
+			return getRuleContext(AttributeContext.class,0);
+		}
+		public TerminalNode TOKEN_CMD_SET_INFO() { return getToken(SmtLibParser.TOKEN_CMD_SET_INFO, 0); }
+		public List<Sorted_varContext> sorted_var() {
+			return getRuleContexts(Sorted_varContext.class);
+		}
+		public Info_flagContext info_flag() {
+			return getRuleContext(Info_flagContext.class,0);
+		}
+		public TerminalNode TOKEN_CMD_SET_OPTION() { return getToken(SmtLibParser.TOKEN_CMD_SET_OPTION, 0); }
+		public TerminalNode TOKEN_CMD_SET_LOGIC() { return getToken(SmtLibParser.TOKEN_CMD_SET_LOGIC, 0); }
+		public OptionContext option() {
+			return getRuleContext(OptionContext.class,0);
+		}
+		public TerminalNode TOKEN_CMD_GET_OPTION() { return getToken(SmtLibParser.TOKEN_CMD_GET_OPTION, 0); }
+		public TerminalNode TOKEN_CMD_POP() { return getToken(SmtLibParser.TOKEN_CMD_POP, 0); }
 		public CommandContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2580,11 +2715,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class ScriptContext extends ParserRuleContext {
-		public List<CommandContext> command() {
-			return getRuleContexts(CommandContext.class);
-		}
 		public CommandContext command(int i) {
 			return getRuleContext(CommandContext.class,i);
+		}
+		public List<CommandContext> command() {
+			return getRuleContexts(CommandContext.class);
 		}
 		public ScriptContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -2639,10 +2774,10 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Gen_responseContext extends ParserRuleContext {
-		public TerminalNode SYM_UNSUPPORTED() { return getToken(SmtLibParser.SYM_UNSUPPORTED, 0); }
-		public TerminalNode SYM_ERROR() { return getToken(SmtLibParser.SYM_ERROR, 0); }
 		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
 		public TerminalNode SYM_SUCCESS() { return getToken(SmtLibParser.SYM_SUCCESS, 0); }
+		public TerminalNode SYM_UNSUPPORTED() { return getToken(SmtLibParser.SYM_UNSUPPORTED, 0); }
+		public TerminalNode SYM_ERROR() { return getToken(SmtLibParser.SYM_ERROR, 0); }
 		public Gen_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2753,8 +2888,8 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Reason_unknownContext extends ParserRuleContext {
-		public TerminalNode SYM_MEMOUT() { return getToken(SmtLibParser.SYM_MEMOUT, 0); }
 		public TerminalNode SYM_INCOMPLETE() { return getToken(SmtLibParser.SYM_INCOMPLETE, 0); }
+		public TerminalNode SYM_MEMOUT() { return getToken(SmtLibParser.SYM_MEMOUT, 0); }
 		public Reason_unknownContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2802,8 +2937,8 @@ public class SmtLibParser extends Parser {
 
 	public static class StatusContext extends ParserRuleContext {
 		public TerminalNode SYM_SAT() { return getToken(SmtLibParser.SYM_SAT, 0); }
-		public TerminalNode SYM_UNKNOWN() { return getToken(SmtLibParser.SYM_UNKNOWN, 0); }
 		public TerminalNode SYM_UNSAT() { return getToken(SmtLibParser.SYM_UNSAT, 0); }
+		public TerminalNode SYM_UNKNOWN() { return getToken(SmtLibParser.SYM_UNKNOWN, 0); }
 		public StatusContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2850,14 +2985,6 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Info_responseContext extends ParserRuleContext {
-		public TerminalNode KEYWORD_AUTHORS() { return getToken(SmtLibParser.KEYWORD_AUTHORS, 0); }
-		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
-		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
-		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
-		public Reason_unknownContext reason_unknown() {
-			return getRuleContext(Reason_unknownContext.class,0);
-		}
-		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
 		public Error_behaviorContext error_behavior() {
 			return getRuleContext(Error_behaviorContext.class,0);
 		}
@@ -2865,6 +2992,14 @@ public class SmtLibParser extends Parser {
 			return getRuleContext(AttributeContext.class,0);
 		}
 		public TerminalNode KEYWORD_ERROR_BEHAVIOR() { return getToken(SmtLibParser.KEYWORD_ERROR_BEHAVIOR, 0); }
+		public TerminalNode STRING() { return getToken(SmtLibParser.STRING, 0); }
+		public TerminalNode KEYWORD_NAME() { return getToken(SmtLibParser.KEYWORD_NAME, 0); }
+		public Reason_unknownContext reason_unknown() {
+			return getRuleContext(Reason_unknownContext.class,0);
+		}
+		public TerminalNode KEYWORD_VERSION() { return getToken(SmtLibParser.KEYWORD_VERSION, 0); }
+		public TerminalNode KEYWORD_REASON_UNKNOWN() { return getToken(SmtLibParser.KEYWORD_REASON_UNKNOWN, 0); }
+		public TerminalNode KEYWORD_AUTHORS() { return getToken(SmtLibParser.KEYWORD_AUTHORS, 0); }
 		public Info_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -2950,11 +3085,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Get_info_responseContext extends ParserRuleContext {
-		public Info_responseContext info_response(int i) {
-			return getRuleContext(Info_responseContext.class,i);
-		}
 		public List<Info_responseContext> info_response() {
 			return getRuleContexts(Info_responseContext.class);
+		}
+		public Info_responseContext info_response(int i) {
+			return getRuleContext(Info_responseContext.class,i);
 		}
 		public Get_info_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3054,11 +3189,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Get_assertions_responseContext extends ParserRuleContext {
-		public List<TermContext> term() {
-			return getRuleContexts(TermContext.class);
-		}
 		public TermContext term(int i) {
 			return getRuleContext(TermContext.class,i);
+		}
+		public List<TermContext> term() {
+			return getRuleContexts(TermContext.class);
 		}
 		public Get_assertions_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3201,11 +3336,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Get_unsat_core_responseContext extends ParserRuleContext {
-		public List<SymbolContext> symbol() {
-			return getRuleContexts(SymbolContext.class);
-		}
 		public SymbolContext symbol(int i) {
 			return getRuleContext(SymbolContext.class,i);
+		}
+		public List<SymbolContext> symbol() {
+			return getRuleContexts(SymbolContext.class);
 		}
 		public Get_unsat_core_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3262,11 +3397,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Valuation_pairContext extends ParserRuleContext {
-		public List<TermContext> term() {
-			return getRuleContexts(TermContext.class);
-		}
 		public TermContext term(int i) {
 			return getRuleContext(TermContext.class,i);
+		}
+		public List<TermContext> term() {
+			return getRuleContexts(TermContext.class);
 		}
 		public Valuation_pairContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3311,11 +3446,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class Get_value_responseContext extends ParserRuleContext {
-		public Valuation_pairContext valuation_pair(int i) {
-			return getRuleContext(Valuation_pairContext.class,i);
-		}
 		public List<Valuation_pairContext> valuation_pair() {
 			return getRuleContexts(Valuation_pairContext.class);
+		}
+		public Valuation_pairContext valuation_pair(int i) {
+			return getRuleContext(Valuation_pairContext.class,i);
 		}
 		public Get_value_responseContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -3372,11 +3507,11 @@ public class SmtLibParser extends Parser {
 	}
 
 	public static class T_valuation_pairContext extends ParserRuleContext {
-		public B_valueContext b_value() {
-			return getRuleContext(B_valueContext.class,0);
-		}
 		public SymbolContext symbol() {
 			return getRuleContext(SymbolContext.class,0);
+		}
+		public B_valueContext b_value() {
+			return getRuleContext(B_valueContext.class,0);
 		}
 		public T_valuation_pairContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
