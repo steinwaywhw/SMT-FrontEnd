@@ -124,7 +124,9 @@ public class SmtLibLexer extends Lexer {
 	}
 	private void WS_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
-		case 0: skip(); break;
+		case 0:
+            skip();
+            break;
 		}
 	}
 

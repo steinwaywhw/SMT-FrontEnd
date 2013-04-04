@@ -1,0 +1,35 @@
+
+
+indent(line) ::= "<\t><line>"
+
+termConstant (t) ::= "<t>"
+
+termId (t) ::= "<t>"
+
+termFunction (id, terms) ::= <<
+(<id> <terms; wrap, anchor, separator=" ">)
+>>
+
+termBinderLet (bindings, term) ::= <<
+let (<\n><bindings; wrap, anchor>) <term>
+>>
+
+termBinderForAll (bindings, term) ::= <<
+forall (<bindings:indent(); wrap, anchor>) <term:indent()>
+>>
+
+termBinderExists (bindings, term) ::= <<
+exists (<\n><bindings:indent(); wrap, anchor><\n>) <term:indent()>
+>>
+
+termAnnotation (term, attr) ::= <<
+!<term><\n><attr:indent()>
+>>
+
+varBinding (symbol, term) ::= <<
+(<symbol> <term; wrap, anchor>)
+>>
+
+sortedVar (symbol, sort) ::= <<
+(<symbol> <sort; wrap, anchor>)
+>>

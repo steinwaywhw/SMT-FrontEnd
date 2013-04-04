@@ -2,6 +2,7 @@
   <library name="antlr-4.0-complete">
     <CLASSES>
       <root url="jar:///usr/local/lib/antlr-4.0-complete.jar!/" />
+      <root url="jar:///usr/local/lib/ST-4.0.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
