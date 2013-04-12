@@ -91,7 +91,7 @@
       <file leaf-file-name="output" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="120" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.76514345">
+            <state line="39" column="90" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.62167907">
               <folding />
             </state>
           </provider>
@@ -539,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="120" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.76514345">
+        <state line="39" column="90" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.62167907">
           <folding />
         </state>
       </provider>
