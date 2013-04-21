@@ -1,8 +1,10 @@
 <component name="libraryTable">
-  <library name="antlr-4.0-complete">
+  <library name="Antlr">
     <CLASSES>
       <root url="jar:///usr/local/lib/antlr-4.0-complete.jar!/" />
       <root url="jar:///usr/local/lib/ST-4.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/antlr-4.0-complete.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ST-4.0.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

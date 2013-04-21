@@ -1,0 +1,8 @@
+\begin{thebibliography}{1}
+
+\bibitem{bs2010}
+Clark Barrett, Aaron Stump, and Cesare Tinelli.
+\newblock The satisfiability modulo theories library ({SMT-LIB)}.
+\newblock {\em www.smtlib.org}, 2010.
+
+\end{thebibliography}

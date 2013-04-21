@@ -1,4 +1,4 @@
-// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4 by ANTLR 4.0
+// Generated from C:\Users\Steinway Wu\Documents\GitHub\SMTFrontEnd\smtlib\src\edu\bu\hwwu\sfe\smtlib\parser\SmtLib.g4 by ANTLR 4.0
 package edu.bu.hwwu.sfe.smtlib.parser;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
@@ -44,7 +44,7 @@ public class SmtLibLexer extends Lexer {
 
 	public static final String[] tokenNames = {
 		"<INVALID>",
-		"'('", "')'", "'Bool'", "'continued-execution'", "'error'", "'false'", 
+		"')'", "'('", "'Bool'", "'continued-execution'", "'error'", "'false'", 
 		"'immediate-exit'", "'incomplete'", "'logic'", "'memout'", "'sat'", "'success'", 
 		"'theory'", "'true'", "'unknown'", "'unsat'", "'unsupported'", "':all-statistics'", 
 		"':authors'", "':axioms'", "':chainable'", "':definition'", "':diagnostic-output-channel'", 
@@ -117,16 +117,14 @@ public class SmtLibLexer extends Lexer {
 		case 92: COMMENT_action((RuleContext)_localctx, actionIndex); break;
 		}
 	}
+	private void WS_action(RuleContext _localctx, int actionIndex) {
+		switch (actionIndex) {
+		case 0: skip(); break;
+		}
+	}
 	private void COMMENT_action(RuleContext _localctx, int actionIndex) {
 		switch (actionIndex) {
 		case 1: skip(); break;
-		}
-	}
-	private void WS_action(RuleContext _localctx, int actionIndex) {
-		switch (actionIndex) {
-		case 0:
-            skip();
-            break;
 		}
 	}
 
@@ -243,7 +241,7 @@ public class SmtLibLexer extends Lexer {
 		"\2\2\u00a9\u03fc\3\2\2\2\u00ab\u0406\3\2\2\2\u00ad\u0408\3\2\2\2\u00af"+
 		"\u0412\3\2\2\2\u00b1\u041a\3\2\2\2\u00b3\u0422\3\2\2\2\u00b5\u042f\3\2"+
 		"\2\2\u00b7\u0437\3\2\2\2\u00b9\u0441\3\2\2\2\u00bb\u044a\3\2\2\2\u00bd"+
-		"\u0453\3\2\2\2\u00bf\u00c0\7*\2\2\u00c0\4\3\2\2\2\u00c1\u00c2\7+\2\2\u00c2"+
+		"\u0453\3\2\2\2\u00bf\u00c0\7+\2\2\u00c0\4\3\2\2\2\u00c1\u00c2\7*\2\2\u00c2"+
 		"\6\3\2\2\2\u00c3\u00c4\7D\2\2\u00c4\u00c5\7q\2\2\u00c5\u00c6\7q\2\2\u00c6"+
 		"\u00c7\7n\2\2\u00c7\b\3\2\2\2\u00c8\u00c9\7e\2\2\u00c9\u00ca\7q\2\2\u00ca"+
 		"\u00cb\7p\2\2\u00cb\u00cc\7v\2\2\u00cc\u00cd\7k\2\2\u00cd\u00ce\7p\2\2"+

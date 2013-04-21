@@ -1,0 +1,187 @@
+\documentclass[11pt,letter]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx} 
+\usepackage{times}              
+\usepackage{bm}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage[left=2cm,right=2cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{centernot}
+\usepackage{stmaryrd}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{syntax}
+\usepackage{mdframed}
+
+\mdfsetup{leftmargin=1cm,rightmargin=1cm,innertopmargin=0.5cm,innerbottommargin=0.5cm,linewidth=1}
+
+
+\newtheorem*{note}{Note}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newtheorem{lem}{Lemma}
+\newtheorem*{theorem}{Theorem}
+\newtheorem*{answer}{Answer}
+\newtheorem*{ex}{Example}
+\newtheorem*{base}{Base case}
+\newtheorem*{inductive}{Inductive step}
+\newtheorem*{cov}{Course-of-values inductive step}
+\newtheorem*{conclusion}{Conclusion}
+\setlength{\grammarparsep}{20pt} % increase separation between rules
+\setlength{\grammarindent}{9em} % increase separation between LHS/RHS 
+
+
+\title{SMT-LIB 2.0 Theories and Logics}
+\author{Hanwen Wu, Wenxin Feng}
+
+
+\begin{document}
+\maketitle
+
+\section{Theory}
+In the following, we are going to present some abstract informal definition of different theories in SMT-LIB 2.0. Note that the Core Theory is included in all other theories by default.
+
+In all the figures, function symbols will only be applied to well-sorted terms according to their own function ranks/signatures/definitions.
+\subsection{Core}
+Core Theory is all about boolean sort and boolean functions/constants. It is the very base for all other theories.
+\begin{table}[h]
+\begin{mdframed}
+\centering
+\begin{tabular}{r c l}
+sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool\\
+\\
+function\qquad $f$ & $\Coloneqq$ & \bf true \rm : \tt bool  $\mid$ \bf false \rm : \tt bool \\
+& $\mid$ & (\bf not \tt\ bool\rm) : \tt bool $\mid$ \rm(\bf and \tt\ bool bool\rm) : \tt bool \\
+& $\mid$ & (\bf or \tt\ bool bool\rm) : \tt bool \\
+& $\mid$ & (\bf xor \tt\ bool bool\rm) : \tt bool \\
+& $\mid$ & ($\Rightarrow$ \tt\ bool bool\rm) : \tt bool $\mid$ \rm($=$ \tt\ $\alpha$ $\alpha$\rm) : \tt bool\\
+& $\mid$ & (\bf distinct \tt\ $\alpha$ $\alpha$\rm) : \tt bool $\mid$ \rm(\bf ite \tt\ bool $\alpha$ $\alpha$\rm) : $\alpha$\\
+\\
+term\qquad $t$ & $\Coloneqq$ & \bf true $\mid$ false\\
+& $\mid$ & (\bf not \rm $t$) $\mid$ (\bf and \rm $t$ $t$) $\mid$ (\bf or \rm $t$ $t$) $\mid$ (\bf xor \rm $t$ $t$) \\
+& $\mid$ & ($\Rightarrow$ $t$ $t$) $\mid$ ($=$ $t$ $t$) $\mid$ (\bf distinct \rm $t$ $t$) $\mid$ (\bf ite \rm $t$ $t$ $t$)
+\end{tabular}
+\end{mdframed}
+\caption{Core Theory}
+\end{table}
+
+\subsection{Integer Theory}
+Integer Theory defines the integer domain, and operations over integers.
+\begin{table}[h]
+\begin{mdframed}
+\centering
+\begin{tabular}{r c l}
+sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool $\mid$ \tt int\\
+\\
+function\qquad $f$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & $\mathbb{Z}$ \rm : \tt int\\
+& $\mid$ & ($-$ \tt\ int\rm) : \tt int $\mid$ \rm($-$ \tt\ int int\rm) : \tt int\\
+& $\mid$ & ($+$ \tt\ int int\rm) : \tt int $\mid$ \rm($\times$ \tt\ int int\rm) : \tt int\\
+& $\mid$ & (\bf div \tt\ int int\rm) : \tt int $\mid$ \rm(\bf mod \tt\ int int\rm) : \tt int\\
+& $\mid$ & (\bf abs \tt\ int\rm) : \tt int \\
+& $\mid$ & ($\leqslant$ \tt\ int int\rm) : \tt bool $\mid$ \rm($<$ \tt\ int int\rm) : \tt bool\\
+& $\mid$ & ($\geqslant$ \tt\ int int\rm) : \tt bool $\mid$ \rm($>$ \tt\ int int\rm) : \tt bool\\
+& $\mid$ & ( (_\ \bf\ divisible \rm\ $n$) \tt\ int\rm) : \tt bool \rm\qquad($n$ is a positive integer)\\
+\\
+term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & $\ldots\quad-1,0,1\quad\ldots$\\
+& $\mid$ & ($-$ $t$) $\mid$ ($-$ $t$ $t$) $\mid$ ($+$ $t$ $t$) $\mid$ ($\times$ $t$ $t$) \\
+& $\mid$ & (\bf div \rm $t$ $t$) $\mid$ (\bf mod \rm $t$ $t$) $\mid$ (\bf abs \rm $t$)\\
+& $\mid$ & ($\leqslant$ $t$ $t$) $\mid$ ($<$ $t$ $t$) $\mid$ ($\geqslant$ $t$ $t$) $\mid$ ($>$ $t$ $t$)\\
+& $\mid$ & ( (_\ \bf\ divisible \rm\ $n$\ )\ $t$\ )
+\end{tabular}
+\end{mdframed}
+\caption{Integer Theory}
+\end{table}
+
+\subsection{Fixed-Size Bit Vectors Theory}
+This theory declaration defines a core theory for fixed-size bitvectors 
+   where the operations of concatenation and extraction of bitvectors as well 
+   as the usual logical and arithmetic operations are overloaded\cite{bs2010}.
+
+
+\begin{table}[h]
+\begin{mdframed}
+\centering
+\begin{tabular}{r c l}
+sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool \\
+& $\mid$ & \rm(\tt \_\ BitVec $m$\rm)\it\qquad \rm($m$ \rm is a positive integer, we use {\tt bv} for short)\\
+\\
+function\qquad $f$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & {\tt \#b}X \rm : \tt bv \rm\qquad (all binary constants)\\
+& $\mid$ & {\tt \#x}X \rm : \tt bv \rm\qquad (all hexadeximal constants)\\
+& $\mid$ & (\bf concat \tt\ bv bv\rm) : \tt bv \\
+& $\mid$ & \rm(\ (\_\tt\ {\bf extract}\ $i$\ $j$\rm) \tt\ bv\rm) : \tt bv\rm\qquad ($i, j$ specify the range)\\
+& $\mid$ & (\bf bvnot \tt\ bv\rm) : \tt bv \rm$\mid$ (\bf bvneg \tt\ bv\rm) : \tt bv \\
+& $\mid$ & (\bf bvand \tt\ bv bv\rm) : \tt bv \rm$\mid$ (\bf bvor \tt\ bv bv\rm) : \tt bv \\
+& $\mid$ & (\bf bvadd \tt\ bv bv\rm) : \tt bv \rm$\mid$ (\bf bvmul \tt\ bv bv\rm) : \tt bv \\
+& $\mid$ & (\bf bvudiv \tt\ bv bv\rm) : \tt bv \rm$\mid$ (\bf bvurem \tt\ bv bv\rm) : \tt bv \\
+& $\mid$ & (\bf bvshl \tt\ bv bv\rm) : \tt bv \rm$\mid$ (\bf bvlshr \tt\ bv bv\rm) : \tt bv \\
+& $\mid$ & (\bf bvult \tt\ bv bv\rm) : \tt bool \\
+\\
+term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & {\tt \#b}X \rm\qquad (all binary constants)\\
+& $\mid$ & {\tt \#x}X \rm\qquad (all hexadeximal constants)\\
+& $\mid$ & (\bf concat \rm $t$ $t$) $\mid$ (\ (\_\tt\ {\bf extract} \rm $i$ $j$)\ $t$)\\ 
+& $\mid$ & (\bf bvnot \rm $t$) $\mid$ (\bf bvneg \rm $t$) $\mid$ (\bf bvand \rm $t$ $t$) $\mid$ (\bf bvor \rm $t$ $t$)\\
+& $\mid$ & (\bf bvadd \rm $t$ $t$) $\mid$ (\bf bvmul \rm $t$ $t$) $\mid$ (\bf bvudiv \rm $t$ $t$) $\mid$ (\bf bvurem \rm $t$ $t$)\\
+& $\mid$ & (\bf bvshl \rm $t$ $t$) $\mid$ (\bf bvlshr \rm $t$ $t$) $\mid$ (\bf bvult \rm $t$ $t$) \\
+\end{tabular}
+\end{mdframed}
+\caption{Fixed-Size Bit Vectors Theory}
+\end{table}
+
+
+\section{Logic}
+\subsection{Quantifier-Free Uninterpreted Functions}
+Closed quantifier-free formulas built over an arbitrary expansion of the Core signature with free sort and function symbols \cite{bs2010}. Users can define there own sorts and function symbols, but all of them are abstract. Functions can contain variables, but they must be bounded by \bf let \rm binder, so that the formulas are closed.
+
+\begin{table}[h]
+\begin{mdframed}
+\centering
+\begin{tabular}{r c l}
+sort\qquad $\alpha$ & $\Coloneqq$ & $\ldots$ $\mid$ $\alpha'$ ($\alpha^*$)\rm\qquad(user defined, abstract)\\
+\\
+function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm ($f'$ $\alpha^*$) : $\alpha$\qquad(user defined, abstract)\\
+\\
+term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & (\bf\ let \rm ( bindings$^+$ ) $t$\ )\\
+& $\mid$ & ($f$ $t^*$)
+\end{tabular}
+\end{mdframed}
+\caption{QF-UF Logic}
+\end{table}
+
+\subsection{Quantifier-Free Linear Integer Arithmetic}
+Closed quantifier-free formulas built over an arbitrary expansion of the
+  Integer Theory with free {\it constant} symbols, but whose terms of sort {\tt int} 
+  are all linear \cite{bs2010}. Note that user can only define constants, not arbitrary functions who take one or more arguments. User can't define sort either. Also, non-linear functions like \bf div\rm, \bf mod\rm, \bf abs \rm and non-linear $\times$ are not allowed.
+
+\begin{table}[h]
+\begin{mdframed}
+\centering
+\begin{tabular}{r c l}
+sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool $\mid$ int\\
+\\
+function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm $f'$ : $\alpha$\qquad(user defined constant)\\
+\\
+term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
+& $\mid$ & $\ldots\quad-1,0,1\quad\ldots$\\
+& $\mid$ & ($-$ $t$) $\mid$ ($-$ $t$ $t$) $\mid$ ($+$ $t$ $t$) \\
+& $\mid$ & ($\times$ $c$ $t$) $\mid$ ($\times$ $t$ $c$) \qquad($c$ is an integer literal)\\
+& $\mid$ & ($\leqslant$ $t$ $t$) $\mid$ ($<$ $t$ $t$) $\mid$ ($\geqslant$ $t$ $t$) $\mid$ ($>$ $t$ $t$)\\
+& $\mid$ & ( (_\ \bf\ divisible \rm\ $n$ )\ $t$\ )\\
+& $\mid$ & (\bf\ let \rm ( bindings$^+$ ) $t$\ )\\
+
+\end{tabular}
+\end{mdframed}
+\caption{QF-LIA Logic}
+\end{table}
+
+
+\bibliographystyle{plain}
+\bibliography{smtlib}
+
+
+\end{document}

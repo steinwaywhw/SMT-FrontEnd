@@ -29,7 +29,7 @@ public class PrettyPrinter extends SmtLibBaseVisitor<ST> {
     @Override
     public ST visitTermBinderExists(SmtLibParser.TermBinderExistsContext ctx) {
         ST st = stg.getInstanceOf("termBinderExists");
-        st.add("bindings", ctx.sorted_var());
+        st.add("bindings", ctx.sortedVar());
         st.add("term", visit(ctx.term()));
         super.visitTermBinderExists(ctx);
         return st;
@@ -38,7 +38,7 @@ public class PrettyPrinter extends SmtLibBaseVisitor<ST> {
     @Override
     public ST visitTermBinderForAll(SmtLibParser.TermBinderForAllContext ctx) {
         ST st = stg.getInstanceOf("termBinderForAll");
-        st.add("bindings", ctx.sorted_var());
+        st.add("bindings", ctx.sortedVar());
         st.add("term", visit(ctx.term()));
         super.visitTermBinderForAll(ctx);
         return st;
@@ -47,7 +47,7 @@ public class PrettyPrinter extends SmtLibBaseVisitor<ST> {
     @Override
     public ST visitTermBinderLet(SmtLibParser.TermBinderLetContext ctx) {
         ST st = stg.getInstanceOf("termBinderLet");
-        for (SmtLibParser.Var_bindingContext v : ctx.var_binding()) {
+        for (SmtLibParser.VarBindingContext v : ctx.varBinding()) {
             st.add("bindings", visit(v));
         }
         st.add("term", visit(ctx.term()));
@@ -68,7 +68,7 @@ public class PrettyPrinter extends SmtLibBaseVisitor<ST> {
     @Override
     public ST visitTermFunction(SmtLibParser.TermFunctionContext ctx) {
         ST st = stg.getInstanceOf("termFunction");
-        st.add("id", ctx.qual_identifier().getText());
+        st.add("id", ctx.qualIdentifier().getText());
         for (SmtLibParser.TermContext t : ctx.term())
             st.add("terms", visit(t));
         super.visitTermFunction(ctx);
@@ -86,20 +86,20 @@ public class PrettyPrinter extends SmtLibBaseVisitor<ST> {
     }
 
     @Override
-    public ST visitVar_binding(SmtLibParser.Var_bindingContext ctx) {
+    public ST visitVarBinding(SmtLibParser.VarBindingContext ctx) {
         ST st = stg.getInstanceOf("varBinding");
         st.add("symbol", ctx.symbol().getText());
         st.add("term", visit(ctx.term()));
-        super.visitVar_binding(ctx);
+        super.visitVarBinding(ctx);
         return st;
     }
 
     @Override
-    public ST visitSorted_var(SmtLibParser.Sorted_varContext ctx) {
+    public ST visitSortedVar(SmtLibParser.SortedVarContext ctx) {
         ST st = stg.getInstanceOf("sortedVar");
         st.add("symbol", ctx.symbol().getText());
         st.add("sort", ctx.sort().getText());
-        super.visitSorted_var(ctx);
+        super.visitSortedVar(ctx);
         return st;
     }
 }

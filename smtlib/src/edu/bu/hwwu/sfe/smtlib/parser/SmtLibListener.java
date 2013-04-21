@@ -1,147 +1,147 @@
-// Generated from /home/hwwu/SMT/SMT-FrontEnd.git/smtlib/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4 by ANTLR 4.0
+// Generated from C:\Users\Steinway Wu\Documents\GitHub\SMTFrontEnd\smtlib\src\edu\bu\hwwu\sfe\smtlib\parser\SmtLib.g4 by ANTLR 4.0
 package edu.bu.hwwu.sfe.smtlib.parser;
 import org.antlr.v4.runtime.tree.*;
 import org.antlr.v4.runtime.Token;
 
 public interface SmtLibListener extends ParseTreeListener {
-	void enterPar_fun_symbol_decl(SmtLibParser.Par_fun_symbol_declContext ctx);
-	void exitPar_fun_symbol_decl(SmtLibParser.Par_fun_symbol_declContext ctx);
-
-	void enterLogic_attribute(SmtLibParser.Logic_attributeContext ctx);
-	void exitLogic_attribute(SmtLibParser.Logic_attributeContext ctx);
-
-	void enterInfo_response(SmtLibParser.Info_responseContext ctx);
-	void exitInfo_response(SmtLibParser.Info_responseContext ctx);
-
-	void enterLogic(SmtLibParser.LogicContext ctx);
-	void exitLogic(SmtLibParser.LogicContext ctx);
-
-	void enterAttribute_value(SmtLibParser.Attribute_valueContext ctx);
-	void exitAttribute_value(SmtLibParser.Attribute_valueContext ctx);
-
-	void enterTermBinderForAll(SmtLibParser.TermBinderForAllContext ctx);
-	void exitTermBinderForAll(SmtLibParser.TermBinderForAllContext ctx);
-
-	void enterIdentifier(SmtLibParser.IdentifierContext ctx);
-	void exitIdentifier(SmtLibParser.IdentifierContext ctx);
-
-	void enterGen_response(SmtLibParser.Gen_responseContext ctx);
-	void exitGen_response(SmtLibParser.Gen_responseContext ctx);
-
-	void enterProof(SmtLibParser.ProofContext ctx);
-	void exitProof(SmtLibParser.ProofContext ctx);
-
-	void enterCheck_sat_response(SmtLibParser.Check_sat_responseContext ctx);
-	void exitCheck_sat_response(SmtLibParser.Check_sat_responseContext ctx);
-
-	void enterStatus(SmtLibParser.StatusContext ctx);
-	void exitStatus(SmtLibParser.StatusContext ctx);
-
-	void enterSort_symbol_decl(SmtLibParser.Sort_symbol_declContext ctx);
-	void exitSort_symbol_decl(SmtLibParser.Sort_symbol_declContext ctx);
-
-	void enterFun_symbol_decl(SmtLibParser.Fun_symbol_declContext ctx);
-	void exitFun_symbol_decl(SmtLibParser.Fun_symbol_declContext ctx);
-
-	void enterScript(SmtLibParser.ScriptContext ctx);
-	void exitScript(SmtLibParser.ScriptContext ctx);
-
-	void enterTheory_attribute(SmtLibParser.Theory_attributeContext ctx);
-	void exitTheory_attribute(SmtLibParser.Theory_attributeContext ctx);
-
-	void enterKeyword(SmtLibParser.KeywordContext ctx);
-	void exitKeyword(SmtLibParser.KeywordContext ctx);
-
-	void enterMeta_spec_constant(SmtLibParser.Meta_spec_constantContext ctx);
-	void exitMeta_spec_constant(SmtLibParser.Meta_spec_constantContext ctx);
-
-	void enterError_behavior(SmtLibParser.Error_behaviorContext ctx);
-	void exitError_behavior(SmtLibParser.Error_behaviorContext ctx);
-
-	void enterTermBinderExists(SmtLibParser.TermBinderExistsContext ctx);
-	void exitTermBinderExists(SmtLibParser.TermBinderExistsContext ctx);
+	void enterBValue(SmtLibParser.BValueContext ctx);
+	void exitBValue(SmtLibParser.BValueContext ctx);
 
 	void enterSort(SmtLibParser.SortContext ctx);
 	void exitSort(SmtLibParser.SortContext ctx);
 
-	void enterGet_info_response(SmtLibParser.Get_info_responseContext ctx);
-	void exitGet_info_response(SmtLibParser.Get_info_responseContext ctx);
+	void enterGetValueResponse(SmtLibParser.GetValueResponseContext ctx);
+	void exitGetValueResponse(SmtLibParser.GetValueResponseContext ctx);
 
-	void enterReason_unknown(SmtLibParser.Reason_unknownContext ctx);
-	void exitReason_unknown(SmtLibParser.Reason_unknownContext ctx);
+	void enterGetUnsatCoreResponse(SmtLibParser.GetUnsatCoreResponseContext ctx);
+	void exitGetUnsatCoreResponse(SmtLibParser.GetUnsatCoreResponseContext ctx);
 
-	void enterS_expr(SmtLibParser.S_exprContext ctx);
-	void exitS_expr(SmtLibParser.S_exprContext ctx);
+	void enterSortedVar(SmtLibParser.SortedVarContext ctx);
+	void exitSortedVar(SmtLibParser.SortedVarContext ctx);
 
-	void enterB_value(SmtLibParser.B_valueContext ctx);
-	void exitB_value(SmtLibParser.B_valueContext ctx);
+	void enterFunSymbolDecl(SmtLibParser.FunSymbolDeclContext ctx);
+	void exitFunSymbolDecl(SmtLibParser.FunSymbolDeclContext ctx);
+
+	void enterProof(SmtLibParser.ProofContext ctx);
+	void exitProof(SmtLibParser.ProofContext ctx);
+
+	void enterQualIdentifier(SmtLibParser.QualIdentifierContext ctx);
+	void exitQualIdentifier(SmtLibParser.QualIdentifierContext ctx);
 
 	void enterAttribute(SmtLibParser.AttributeContext ctx);
 	void exitAttribute(SmtLibParser.AttributeContext ctx);
 
-	void enterGet_assertions_response(SmtLibParser.Get_assertions_responseContext ctx);
-	void exitGet_assertions_response(SmtLibParser.Get_assertions_responseContext ctx);
+	void enterValuationPair(SmtLibParser.ValuationPairContext ctx);
+	void exitValuationPair(SmtLibParser.ValuationPairContext ctx);
 
-	void enterInfo_flag(SmtLibParser.Info_flagContext ctx);
-	void exitInfo_flag(SmtLibParser.Info_flagContext ctx);
+	void enterGetAssertionsResponse(SmtLibParser.GetAssertionsResponseContext ctx);
+	void exitGetAssertionsResponse(SmtLibParser.GetAssertionsResponseContext ctx);
 
-	void enterGet_value_response(SmtLibParser.Get_value_responseContext ctx);
-	void exitGet_value_response(SmtLibParser.Get_value_responseContext ctx);
-
-	void enterOption(SmtLibParser.OptionContext ctx);
-	void exitOption(SmtLibParser.OptionContext ctx);
-
-	void enterTermAnnotation(SmtLibParser.TermAnnotationContext ctx);
-	void exitTermAnnotation(SmtLibParser.TermAnnotationContext ctx);
-
-	void enterValuation_pair(SmtLibParser.Valuation_pairContext ctx);
-	void exitValuation_pair(SmtLibParser.Valuation_pairContext ctx);
-
-	void enterGet_assignment_response(SmtLibParser.Get_assignment_responseContext ctx);
-	void exitGet_assignment_response(SmtLibParser.Get_assignment_responseContext ctx);
-
-	void enterGet_option_response(SmtLibParser.Get_option_responseContext ctx);
-	void exitGet_option_response(SmtLibParser.Get_option_responseContext ctx);
-
-	void enterCommand(SmtLibParser.CommandContext ctx);
-	void exitCommand(SmtLibParser.CommandContext ctx);
-
-	void enterTermVariable(SmtLibParser.TermVariableContext ctx);
-	void exitTermVariable(SmtLibParser.TermVariableContext ctx);
-
-	void enterT_valuation_pair(SmtLibParser.T_valuation_pairContext ctx);
-	void exitT_valuation_pair(SmtLibParser.T_valuation_pairContext ctx);
-
-	void enterTermFunction(SmtLibParser.TermFunctionContext ctx);
-	void exitTermFunction(SmtLibParser.TermFunctionContext ctx);
-
-	void enterQual_identifier(SmtLibParser.Qual_identifierContext ctx);
-	void exitQual_identifier(SmtLibParser.Qual_identifierContext ctx);
-
-	void enterSorted_var(SmtLibParser.Sorted_varContext ctx);
-	void exitSorted_var(SmtLibParser.Sorted_varContext ctx);
-
-	void enterSymbol(SmtLibParser.SymbolContext ctx);
-	void exitSymbol(SmtLibParser.SymbolContext ctx);
-
-	void enterGet_proof_response(SmtLibParser.Get_proof_responseContext ctx);
-	void exitGet_proof_response(SmtLibParser.Get_proof_responseContext ctx);
-
-	void enterVar_binding(SmtLibParser.Var_bindingContext ctx);
-	void exitVar_binding(SmtLibParser.Var_bindingContext ctx);
-
-	void enterTermBinderLet(SmtLibParser.TermBinderLetContext ctx);
-	void exitTermBinderLet(SmtLibParser.TermBinderLetContext ctx);
-
-	void enterGet_unsat_core_response(SmtLibParser.Get_unsat_core_responseContext ctx);
-	void exitGet_unsat_core_response(SmtLibParser.Get_unsat_core_responseContext ctx);
+	void enterTheoryDecl(SmtLibParser.TheoryDeclContext ctx);
+	void exitTheoryDecl(SmtLibParser.TheoryDeclContext ctx);
 
 	void enterTermConstant(SmtLibParser.TermConstantContext ctx);
 	void exitTermConstant(SmtLibParser.TermConstantContext ctx);
 
-	void enterSpec_constant(SmtLibParser.Spec_constantContext ctx);
-	void exitSpec_constant(SmtLibParser.Spec_constantContext ctx);
+	void enterCommand(SmtLibParser.CommandContext ctx);
+	void exitCommand(SmtLibParser.CommandContext ctx);
 
-	void enterTheory_decl(SmtLibParser.Theory_declContext ctx);
-	void exitTheory_decl(SmtLibParser.Theory_declContext ctx);
+	void enterVarBinding(SmtLibParser.VarBindingContext ctx);
+	void exitVarBinding(SmtLibParser.VarBindingContext ctx);
+
+	void enterCheckSatResponse(SmtLibParser.CheckSatResponseContext ctx);
+	void exitCheckSatResponse(SmtLibParser.CheckSatResponseContext ctx);
+
+	void enterReasonUnknown(SmtLibParser.ReasonUnknownContext ctx);
+	void exitReasonUnknown(SmtLibParser.ReasonUnknownContext ctx);
+
+	void enterLogicAttribute(SmtLibParser.LogicAttributeContext ctx);
+	void exitLogicAttribute(SmtLibParser.LogicAttributeContext ctx);
+
+	void enterOption(SmtLibParser.OptionContext ctx);
+	void exitOption(SmtLibParser.OptionContext ctx);
+
+	void enterGetProofResponse(SmtLibParser.GetProofResponseContext ctx);
+	void exitGetProofResponse(SmtLibParser.GetProofResponseContext ctx);
+
+	void enterInfoResponse(SmtLibParser.InfoResponseContext ctx);
+	void exitInfoResponse(SmtLibParser.InfoResponseContext ctx);
+
+	void enterMetaSpecConstant(SmtLibParser.MetaSpecConstantContext ctx);
+	void exitMetaSpecConstant(SmtLibParser.MetaSpecConstantContext ctx);
+
+	void enterErrorBehavior(SmtLibParser.ErrorBehaviorContext ctx);
+	void exitErrorBehavior(SmtLibParser.ErrorBehaviorContext ctx);
+
+	void enterInfoFlag(SmtLibParser.InfoFlagContext ctx);
+	void exitInfoFlag(SmtLibParser.InfoFlagContext ctx);
+
+	void enterSpecConstant(SmtLibParser.SpecConstantContext ctx);
+	void exitSpecConstant(SmtLibParser.SpecConstantContext ctx);
+
+	void enterTermAnnotation(SmtLibParser.TermAnnotationContext ctx);
+	void exitTermAnnotation(SmtLibParser.TermAnnotationContext ctx);
+
+	void enterParFunSymbolDecl(SmtLibParser.ParFunSymbolDeclContext ctx);
+	void exitParFunSymbolDecl(SmtLibParser.ParFunSymbolDeclContext ctx);
+
+	void enterSExpr(SmtLibParser.SExprContext ctx);
+	void exitSExpr(SmtLibParser.SExprContext ctx);
+
+	void enterSortSymbolDecl(SmtLibParser.SortSymbolDeclContext ctx);
+	void exitSortSymbolDecl(SmtLibParser.SortSymbolDeclContext ctx);
+
+	void enterSymbol(SmtLibParser.SymbolContext ctx);
+	void exitSymbol(SmtLibParser.SymbolContext ctx);
+
+	void enterTermBinderForAll(SmtLibParser.TermBinderForAllContext ctx);
+	void exitTermBinderForAll(SmtLibParser.TermBinderForAllContext ctx);
+
+	void enterStatus(SmtLibParser.StatusContext ctx);
+	void exitStatus(SmtLibParser.StatusContext ctx);
+
+	void enterKeyword(SmtLibParser.KeywordContext ctx);
+	void exitKeyword(SmtLibParser.KeywordContext ctx);
+
+	void enterGenResponse(SmtLibParser.GenResponseContext ctx);
+	void exitGenResponse(SmtLibParser.GenResponseContext ctx);
+
+	void enterTermVariable(SmtLibParser.TermVariableContext ctx);
+	void exitTermVariable(SmtLibParser.TermVariableContext ctx);
+
+	void enterTermFunction(SmtLibParser.TermFunctionContext ctx);
+	void exitTermFunction(SmtLibParser.TermFunctionContext ctx);
+
+	void enterScript(SmtLibParser.ScriptContext ctx);
+	void exitScript(SmtLibParser.ScriptContext ctx);
+
+	void enterLogic(SmtLibParser.LogicContext ctx);
+	void exitLogic(SmtLibParser.LogicContext ctx);
+
+	void enterGetOptionResponse(SmtLibParser.GetOptionResponseContext ctx);
+	void exitGetOptionResponse(SmtLibParser.GetOptionResponseContext ctx);
+
+	void enterTValuationPair(SmtLibParser.TValuationPairContext ctx);
+	void exitTValuationPair(SmtLibParser.TValuationPairContext ctx);
+
+	void enterAttributeValue(SmtLibParser.AttributeValueContext ctx);
+	void exitAttributeValue(SmtLibParser.AttributeValueContext ctx);
+
+	void enterGetAssignmentResponse(SmtLibParser.GetAssignmentResponseContext ctx);
+	void exitGetAssignmentResponse(SmtLibParser.GetAssignmentResponseContext ctx);
+
+	void enterTermBinderExists(SmtLibParser.TermBinderExistsContext ctx);
+	void exitTermBinderExists(SmtLibParser.TermBinderExistsContext ctx);
+
+	void enterTermBinderLet(SmtLibParser.TermBinderLetContext ctx);
+	void exitTermBinderLet(SmtLibParser.TermBinderLetContext ctx);
+
+	void enterGetInfoResponse(SmtLibParser.GetInfoResponseContext ctx);
+	void exitGetInfoResponse(SmtLibParser.GetInfoResponseContext ctx);
+
+	void enterTheoryAttribute(SmtLibParser.TheoryAttributeContext ctx);
+	void exitTheoryAttribute(SmtLibParser.TheoryAttributeContext ctx);
+
+	void enterIdentifier(SmtLibParser.IdentifierContext ctx);
+	void exitIdentifier(SmtLibParser.IdentifierContext ctx);
 }

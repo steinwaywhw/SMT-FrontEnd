@@ -5,9 +5,12 @@
     <ignored path="smtlib.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365100245197" ignored="false" />
-    <file path="/PrettyPrinter.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365088496364" ignored="false" />
+    <file path="/PrettyPrinter.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365565941643" ignored="false" />
     <file path="/FormulaExtractor.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365100474903" ignored="false" />
     <file path="/fragment.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365002179309" ignored="false" />
+    <file path="/StaticAnalyst.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365612103181" ignored="false" />
+    <file path="/SmtLib.g4" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365569327066" ignored="false" />
+    <file path="/SymbolTable.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365612143459" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="55" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,18 +81,52 @@
       <file leaf-file-name="FormulaExtractor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/FormulaExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="926" selection-end="979" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="53" column="57" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output">
+      <file leaf-file-name="StaticAnalyst.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/StaticAnalyst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="120" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.76514345">
+            <state line="1" column="15" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymbolTable.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.31105047">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmtLibListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmtLibParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1050" column="81" selection-start="43402" selection-end="43402" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmtLibVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="60" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,16 +135,7 @@
       <file leaf-file-name="PrettyPrinter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="10" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmtLib.g4" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="93" column="39" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +144,7 @@
       <file leaf-file-name="SmtLibBaseVisitor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibBaseVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="73" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+            <state line="30" column="45" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,18 +162,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibBaseVisitor.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibLexer.java" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/FormulaExtractor.java" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibVisitor.java" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/StaticAnalyst.java" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="24" />
-    <option name="width" value="2562" />
-    <option name="height" value="1553" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,6 +205,34 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.bu.hwwu.sfe.smtlib.parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,34 +271,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.bu.hwwu.sfe.smtlib.parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -252,17 +282,17 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="/usr/local/lib/ST-4.0.6.jar!/" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ST-4.0.7.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -348,27 +378,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="2562" height="1553" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32377622" sideWeight="0.4988281" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953736" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.175" sideWeight="0.67622375" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32377622" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18082368" sideWeight="0.6772069" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32279316" sideWeight="0.4988281" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32307693" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -436,9 +466,7 @@
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="63" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,9 +480,7 @@
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="63" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -463,51 +489,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="0" selection-start="13550" selection-end="13550" vertical-scroll-proportion="0.33296943">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibLexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="12" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-21.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1044" column="81" selection-start="43158" selection-end="43158" vertical-scroll-proportion="0.67672414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/lib/antlr-4.0-complete.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="-4.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="47" selection-start="984" selection-end="984" vertical-scroll-proportion="0.46227416">
-          <folding />
-        </state>
+        <state line="127" column="12" selection-start="6975" selection-end="6975" vertical-scroll-proportion="-21.6" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibBaseVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="73" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="30" column="45" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -515,31 +504,65 @@
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="39" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/FormulaExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="926" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="10" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="120" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.76514345">
+        <state line="48" column="120" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.76514345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1050" column="81" selection-start="43402" selection-end="43402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="60" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="39" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/FormulaExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="57" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="255" column="0" selection-start="8855" selection-end="8970" vertical-scroll-proportion="0.5618839" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/StaticAnalyst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="15" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.31105047">
           <folding />
         </state>
       </provider>
@@ -610,7 +633,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>antlr-4.0-complete</last-edited>
+          <last-edited>Antlr</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

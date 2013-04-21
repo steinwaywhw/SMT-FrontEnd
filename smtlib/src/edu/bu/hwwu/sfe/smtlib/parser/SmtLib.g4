@@ -166,44 +166,44 @@ keyword     : KEYWORD_TOKEN
             | KEYWORD_VERSION
             ;
 
-spec_constant   : NUMERAL | DECIMAL | HEXADECIMAL | BINARY | STRING;
-s_expr          : spec_constant | symbol | keyword | '(' s_expr* ')';
+specConstant   : NUMERAL | DECIMAL | HEXADECIMAL | BINARY | STRING;
+sExpr          : specConstant | symbol | keyword | '(' sExpr* ')';
                                                   
 identifier      : symbol | '(' TOKEN_UNDERSCORE symbol NUMERAL+ ')';
 sort            : identifier | '(' identifier sort+ ')';
-attribute_value : symbol | spec_constant | '(' s_expr* ')';
-attribute       : keyword | keyword attribute_value;
+attributeValue : symbol | specConstant | '(' sExpr* ')';
+attribute       : keyword | keyword attributeValue;
 
-qual_identifier : identifier | '(' TOKEN_AS identifier sort ')';
-var_binding     : '(' symbol term ')';
-sorted_var      : '(' symbol sort ')';
+qualIdentifier : identifier | '(' TOKEN_AS identifier sort ')';
+varBinding     : '(' symbol term ')';
+sortedVar      : '(' symbol sort ')';
 term           
-    : spec_constant                                     # TermConstant
-    | qual_identifier                                   # TermVariable
-    | '(' qual_identifier term+ ')'                     # TermFunction
-    | '(' TOKEN_LET '(' var_binding+ ')' term ')'       # TermBinderLet
-    | '(' TOKEN_FORALL '(' sorted_var+ ')' term ')'     # TermBinderForAll
-    | '(' TOKEN_EXISTS '(' sorted_var+ ')' term ')'     # TermBinderExists
-    | '(' TOKEN_BANG term attribute+ ')'                # TermAnnotation
+    : specConstant                                     # TermConstant
+    | qualIdentifier                                   # TermVariable
+    | '(' qualIdentifier term+ ')'                     # TermFunction
+    | '(' TOKEN_LET '(' varBinding+ ')' term ')'       # TermBinderLet
+    | '(' TOKEN_FORALL '(' sortedVar+ ')' term ')'     # TermBinderForAll
+    | '(' TOKEN_EXISTS '(' sortedVar+ ')' term ')'     # TermBinderExists
+    | '(' TOKEN_BANG term attribute+ ')'               # TermAnnotation
     ;
                
-sort_symbol_decl    : '(' identifier NUMERAL attribute* ')';
-meta_spec_constant  : TOKEN_NUMERAL | TOKEN_DECIMAL | TOKEN_STRING;
-fun_symbol_decl     
-    : '(' spec_constant sort attribute* ')'
-    | '(' meta_spec_constant sort attribute* ')'
+sortSymbolDecl    : '(' identifier NUMERAL attribute* ')';
+metaSpecConstant  : TOKEN_NUMERAL | TOKEN_DECIMAL | TOKEN_STRING;
+funSymbolDecl     
+    : '(' specConstant sort attribute* ')'
+    | '(' metaSpecConstant sort attribute* ')'
     | '(' identifier sort+ attribute* ')'
     ;
-par_fun_symbol_decl 
-    : fun_symbol_decl
+parFunSymbolDecl 
+    : funSymbolDecl
     | '(' TOKEN_PAR '(' symbol+ ')' '(' identifier sort+ attribute* ')' ')'
     ;
 
-theory_decl : '(' SYM_THEORY symbol? theory_attribute+ ')';
+theoryDecl : '(' SYM_THEORY symbol? theoryAttribute+ ')';
 
-theory_attribute
-    : KEYWORD_SORTS '(' sort_symbol_decl+ ')'
-    | KEYWORD_FUNS '(' par_fun_symbol_decl+ ')'
+theoryAttribute
+    : KEYWORD_SORTS '(' sortSymbolDecl+ ')'
+    | KEYWORD_FUNS '(' parFunSymbolDecl+ ')'
     | KEYWORD_SORTS_DESCRIPTION STRING
     | KEYWORD_FUNS_DESCRIPTION STRING
     | KEYWORD_DEFINITION STRING
@@ -212,7 +212,7 @@ theory_attribute
     | attribute
     ;
 
-logic_attribute 
+logicAttribute 
     : KEYWORD_THEORIES '(' symbol+ ')'
     | KEYWORD_LANGUAGE STRING
     | KEYWORD_EXTENSIONS STRING
@@ -220,17 +220,17 @@ logic_attribute
     | KEYWORD_NOTES STRING
     | attribute
     ;
-logic   : '(' SYM_LOGIC symbol logic_attribute+ ')';
+logic   : '(' SYM_LOGIC symbol logicAttribute+ ')';
 
-b_value : SYM_TRUE | SYM_FALSE;
+bValue : SYM_TRUE | SYM_FALSE;
 option 
-    : KEYWORD_PRINT_SUCCESS b_value
-    | KEYWORD_EXPAND_DEFINITIONS b_value
-    | KEYWORD_INTERACTIVE_MODE b_value
-    | KEYWORD_PRODUCE_PROOFS b_value
-    | KEYWORD_PRODUCE_UNSAT_CORES b_value
-    | KEYWORD_PRODUCE_MODELS b_value
-    | KEYWORD_PRODUCE_ASSIGNMENTS b_value
+    : KEYWORD_PRINT_SUCCESS bValue
+    | KEYWORD_EXPAND_DEFINITIONS bValue
+    | KEYWORD_INTERACTIVE_MODE bValue
+    | KEYWORD_PRODUCE_PROOFS bValue
+    | KEYWORD_PRODUCE_UNSAT_CORES bValue
+    | KEYWORD_PRODUCE_MODELS bValue
+    | KEYWORD_PRODUCE_ASSIGNMENTS bValue
     | KEYWORD_REGULAR_OUTPUT_CHANNEL STRING
     | KEYWORD_DIAGNOSTIC_OUTPUT_CHANNEL STRING
     | KEYWORD_RANDOM_SEED NUMERAL
@@ -238,7 +238,7 @@ option
     | attribute
     ;
 
-info_flag 
+infoFlag 
     : KEYWORD_ERROR_BEHAVIOR
     | KEYWORD_NAME
     | KEYWORD_AUTHORS
@@ -256,7 +256,7 @@ command
     | '(' TOKEN_CMD_DECLARE_SORT symbol NUMERAL ')'
     | '(' TOKEN_CMD_DEFINE_SORT symbol '(' symbol* ')' sort ')'
     | '(' TOKEN_CMD_DECLARE_FUN symbol '(' sort* ')' sort ')'
-    | '(' TOKEN_CMD_DEFINE_FUN symbol '(' sorted_var* ')' sort term ')'
+    | '(' TOKEN_CMD_DEFINE_FUN symbol '(' sortedVar* ')' sort term ')'
     | '(' TOKEN_CMD_PUSH NUMERAL ')'
     | '(' TOKEN_CMD_POP NUMERAL ')'
     | '(' TOKEN_CMD_ASSERT term ')'
@@ -267,33 +267,33 @@ command
     | '(' TOKEN_CMD_GET_VALUE '(' term+ ')' ')'
     | '(' TOKEN_CMD_GET_ASSIGNMENT ')'
     | '(' TOKEN_CMD_GET_OPTION keyword ')'
-    | '(' TOKEN_CMD_GET_INFO info_flag ')'
+    | '(' TOKEN_CMD_GET_INFO infoFlag ')'
     | '(' TOKEN_CMD_EXIT ')'
     ;
 
 script : command+;
 
-gen_response    : SYM_UNSUPPORTED | SYM_SUCCESS | '(' SYM_ERROR STRING ')';
-error_behavior  : SYM_IMMEDIATE_EXIT | SYM_CONTINUED_EXECUTION;
-reason_unknown  : SYM_MEMOUT | SYM_INCOMPLETE;
-status          : SYM_SAT | SYM_UNSAT | SYM_UNKNOWN;
-info_response   
-    : KEYWORD_ERROR_BEHAVIOR error_behavior
+genResponse    : SYM_UNSUPPORTED | SYM_SUCCESS | '(' SYM_ERROR STRING ')';
+errorBehavior  : SYM_IMMEDIATE_EXIT | SYM_CONTINUED_EXECUTION;
+reasonUnknown  : SYM_MEMOUT | SYM_INCOMPLETE;
+status         : SYM_SAT | SYM_UNSAT | SYM_UNKNOWN;
+infoResponse   
+    : KEYWORD_ERROR_BEHAVIOR errorBehavior
     | KEYWORD_NAME STRING
     | KEYWORD_AUTHORS STRING
     | KEYWORD_VERSION STRING
-    | KEYWORD_REASON_UNKNOWN reason_unknown
+    | KEYWORD_REASON_UNKNOWN reasonUnknown
     | attribute
     ;
 
-get_info_response       : '(' info_response+ ')';
-check_sat_response      : status;
-get_assertions_response : '(' term+ ')';
-proof                   : s_expr;
-get_proof_response      : proof;
-get_unsat_core_response : '(' symbol+ ')';
-valuation_pair          : '(' term term ')';
-get_value_response      : '(' valuation_pair+ ')';
-t_valuation_pair        : '(' symbol b_value ')';
-get_assignment_response : '(' t_valuation_pair* ')';
-get_option_response     : attribute_value;
+getInfoResponse       : '(' infoResponse+ ')';
+checkSatResponse      : status;
+getAssertionsResponse : '(' term+ ')';
+proof                 : sExpr;
+getProofResponse      : proof;
+getUnsatCoreResponse  : '(' symbol+ ')';
+valuationPair         : '(' term term ')';
+getValueResponse      : '(' valuationPair+ ')';
+tValuationPair        : '(' symbol bValue ')';
+getAssignmentResponse : '(' tValuationPair* ')';
+getOptionResponse     : attributeValue;
