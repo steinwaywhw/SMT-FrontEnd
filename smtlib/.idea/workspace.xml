@@ -5,12 +5,9 @@
     <ignored path="smtlib.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365100245197" ignored="false" />
-    <file path="/PrettyPrinter.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365565941643" ignored="false" />
+    <file path="/PrettyPrinter.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365088496364" ignored="false" />
     <file path="/FormulaExtractor.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365100474903" ignored="false" />
     <file path="/fragment.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365002179309" ignored="false" />
-    <file path="/StaticAnalyst.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365612103181" ignored="false" />
-    <file path="/SmtLib.g4" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365569327066" ignored="false" />
-    <file path="/SymbolTable.java" changelist="f83f4ae7-6286-4f7b-923b-a75ad66d0d2a" time="1365612143459" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,43 +87,7 @@
       <file leaf-file-name="StaticAnalyst.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/StaticAnalyst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="15" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymbolTable.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.31105047">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmtLibListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmtLibParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1050" column="81" selection-start="43402" selection-end="43402" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmtLibVisitor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+            <state line="39" column="90" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.62167907">
               <folding />
             </state>
           </provider>
@@ -135,7 +96,16 @@
       <file leaf-file-name="PrettyPrinter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="39" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0">
+            <state line="54" column="10" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmtLib.g4" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +114,7 @@
       <file leaf-file-name="SmtLibBaseVisitor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibBaseVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
+            <state line="10" column="73" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,22 +132,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibBaseVisitor.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibLexer.java" />
+        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/output" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/FormulaExtractor.java" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLibVisitor.java" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/PrettyPrinter.java" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SmtLib.g4" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/StaticAnalyst.java" />
-        <option value="$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="2562" />
+    <option name="height" value="1553" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -205,34 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smtlib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.bu.hwwu.sfe.smtlib.parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +209,34 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smtlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.bu.hwwu.sfe.smtlib.parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -282,16 +248,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ST-4.0.7.jar!/" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="last_opened_file_path" value="/usr/local/lib/ST-4.0.6.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -562,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/bu/hwwu/sfe/smtlib/parser/SymbolTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.31105047">
+        <state line="39" column="90" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.62167907">
           <folding />
         </state>
       </provider>
@@ -633,7 +597,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Antlr</last-edited>
+          <last-edited>antlr-4.0-complete</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
