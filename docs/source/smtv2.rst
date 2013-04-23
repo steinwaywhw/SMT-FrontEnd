@@ -54,7 +54,7 @@ A can be regarded as a model.
 
 * :math:`A`: the universe (of values) of A, including *BOOL* :math:`^{A}` ={true,false}.
 * :math:`\sigma^{A} \subset A`: give the sort :math:`\sigma \in` *Sort* (:math:`\Sigma^{\mathcal{S}}`) a universe :math:`\sigma^{A} \subset A`. For example, *BOOL* :math:`^{A}` is {true,flase} :math:`\in A`. *INT* :math:`^{A}` could be all the integers :math:`\mathbb{Z} \in A`.
-* :math:`(f:\sigma) A \in \sigma^{A}`: give the constant symbol :math:`f:σ` a value in the universe of :math:`\sigma`
+* :math:`(f:\sigma)^{A} \in \sigma^{A}`: give the constant symbol :math:`f:σ` a value in the universe of :math:`\sigma`
 * :math:`(f:\sigma_1,\sigma_2,...,\sigma_n,\sigma)^{A}`: define the function symbol as a relation from :math:`(\sigma_1,\sigma_2,...,\sigma_n)^{A}` to :math:`\sigma^{A}`. This must include the equality relations (or identity predicate over :math:`\sigma^A`, that is =(:math:`\sigma,\sigma`,BOOL) as standard equality relations from (:math:`\sigma^{A},\sigma^{A}`) to {true,false}).
 
 :math:`\sigma^{A}` is called the extension of :math:`\sigma` in :math:`A`.
