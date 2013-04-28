@@ -1,12 +1,6 @@
 
-sfe : sfe.o
+main: solver.c main.c frontend.c
+	gcc -g solver.c main.c frontend.c -o main
 
-sfe.o : sfe.c
-
-
-
-
-
-find:
-	find ../../ -type f -iname *.smt
-	find ../../ -type f -iname *.smt2 | xargs -n 1 time -f "%U" cvc4
+clean:
+	rm *.o main
