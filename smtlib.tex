@@ -13,7 +13,7 @@
 \usepackage{mathtools}
 \usepackage{syntax}
 \usepackage{mdframed}
-
+\usepackage{authblk}
 \mdfsetup{leftmargin=1cm,rightmargin=1cm,innertopmargin=0.5cm,innerbottommargin=0.5cm,linewidth=1}
 
 
@@ -32,18 +32,33 @@
 \setlength{\grammarindent}{9em} % increase separation between LHS/RHS 
 
 
-\title{SMT-LIB 2.0 Theories and Logics}
-\author{Hanwen Wu, Wenxin Feng}
+\title{Comparing and Integrating CVC4 and Alt-Ergo}
+\author{Hanwen Wu}
+\author{Wenxin Feng}
+\affil{ Department of Computer Science\\Boston University\\ \small\tt hwwu,wenxinf@bu.edu}
 
 
 \begin{document}
 \maketitle
 
-\section{Theory}
+\begin{abstract}
+This technical report summarize the abilities of CVC4 and Alt-Ergo by testing them using SMT-LIB 2.0 benchmarks within the theories of boolean, free functions, integers, bitvectors, quantifiers and inductions. The results show that CVC4 is both more powerful and more efficient than Alt-Ergo. It is complete in ....
+\end{abstract}
+\section{Overview}
+
+Our main goal is thoroughly characterizing and comparing the abilities of two different SMT solvers, CVC4\cite{barrett:cvc4:2011} and Alt-Ergo\cite{alt-ergo}. Since they both can take SMT-LIB 2.0\cite{bs2010} as their input language, we will also summarize it. 
+
+In this report, we will first of all, give a short introduction on SMT-LIB logic. Second, formally classifying input formulas using SMT-LIB logic. Third, introducing and summarizing the two solvers. Forth, carefully characterizing and comparing the abilities of the two solvers by testing them within different classes of formulas. And finally integrating them using a lightweight frontend written in C programming language.
+
+\section{SMT-LIB 2.0 Logic}
+
+In this section, we will briefly introduce SMT-LIB 2.0 logic so that we can more easily describe the classification of input formulas using SMT-LIB format later.
+
+\subsection{Theory}
 In the following, we are going to present some abstract informal definition of different theories in SMT-LIB 2.0. Note that the Core Theory is included in all other theories by default.
 
 In all the figures, function symbols will only be applied to well-sorted terms according to their own function ranks/signatures/definitions.
-\subsection{Core}
+\subsubsection{Core}
 Core Theory is all about boolean sort and boolean functions/constants. It is the very base for all other theories.
 \begin{table}[h]
 \begin{mdframed}
@@ -66,7 +81,7 @@ term\qquad $t$ & $\Coloneqq$ & \bf true $\mid$ false\\
 \caption{Core Theory}
 \end{table}
 
-\subsection{Integer Theory}
+\subsubsection{Integer Theory}
 Integer Theory defines the integer domain, and operations over integers.
 \begin{table}[h]
 \begin{mdframed}
@@ -95,7 +110,7 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{Integer Theory}
 \end{table}
 
-\subsection{Fixed-Size Bit Vectors Theory}
+\subsubsection{Fixed-Size Bit Vectors Theory}
 This theory declaration defines a core theory for fixed-size bitvectors 
    where the operations of concatenation and extraction of bitvectors as well 
    as the usual logical and arithmetic operations are overloaded\cite{bs2010}.
@@ -129,12 +144,12 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 & $\mid$ & (\bf bvshl \rm $t$ $t$) $\mid$ (\bf bvlshr \rm $t$ $t$) $\mid$ (\bf bvult \rm $t$ $t$) \\
 \end{tabular}
 \end{mdframed}
-\caption{Fixed-Size Bit Vectors Theory}
+\caption{Fixed-Size Bitvectors Theory}
 \end{table}
 
 
-\section{Logic}
-\subsection{Quantifier-Free Uninterpreted Functions}
+\subsection{Logic}
+\subsubsection{Quantifier-Free Uninterpreted Functions}
 Closed quantifier-free formulas built over an arbitrary expansion of the Core signature with free sort and function symbols \cite{bs2010}. Users can define there own sorts and function symbols, but all of them are abstract. Functions can contain variables, but they must be bounded by \bf let \rm binder, so that the formulas are closed.
 
 \begin{table}[h]
@@ -153,7 +168,7 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{QF-UF Logic}
 \end{table}
 
-\subsection{Quantifier-Free Linear Integer Arithmetic}
+\subsubsection{Quantifier-Free Linear Integer Arithmetic}
 Closed quantifier-free formulas built over an arbitrary expansion of the
   Integer Theory with free {\it constant} symbols, but whose terms of sort {\tt int} 
   are all linear \cite{bs2010}. Note that user can only define constants, not arbitrary functions who take one or more arguments. User can't define sort either. Also, non-linear functions like \bf div\rm, \bf mod\rm, \bf abs \rm and non-linear $\times$ are not allowed.
@@ -179,6 +194,10 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{QF-LIA Logic}
 \end{table}
 
+\section{CVC4}
+CVC4, the fifth generation of Cooperating Validity Checker from NYU and U Iowa, is a DPLL({\it T}) solver with a SAT solver core and a delegation path to different decision procedure implementations, each in charge of solving formulas in some background theory.\cite{barrett:cvc4:2011}. It has implmented decision procedures for the theory of uninterpreted/free functions, arithmetic, arrays, bitvectors and inductive datatypes. It uses a combination method based on Nelson-Oppen method to cooperate different theories. Also, it supports quantifiers through heuristic instantiaion\footnote{See \url{http://cvc4.cs.nyu.edu/wiki/About_CVC4}} and has the ability to generate model.
+
+\section{Alt-Ergo}
 
 \bibliographystyle{plain}
 \bibliography{smtlib}
