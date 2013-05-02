@@ -54,6 +54,92 @@ In this report, we will first of all, give a short introduction on SMT-LIB logic
 
 In this section, we will briefly introduce SMT-LIB 2.0 logic so that we can more easily describe the classification of input formulas using SMT-LIB format later.
 
+\subsection{An Introduction}
+
+Since we are going to use SMT-LIB 2.0 logic to describt the classification of formulas, it is necessary to understand the SMT-LIB 2.0 logic itself, which can be used as an input language for both solvers (Alt-Ergo, CVC4).
+
+\subsubsection{Sets of Symbols}
+
+These are part of the sets defined by SMT-LIB 2.0\cite{barrett:smt-lib:2010}. They are alphabets of the logic, namely, the sources of symbols.
+\begin{itemize}
+\item $\mathcal{S}$: Infinite set of sort symbols, containing $\tt bool$.
+\item $\mathcal{U}$: Infinite set of sort parameters.
+\item $\mathcal{X}$: Infinite set of variables.
+\item $\mathcal{F}$: Infinite set of function symbols.
+\item $\mathcal{B}$: Boolean values $\tt \{true, false\}$.
+\item $\vdots$
+\end{itemize}
+
+
+\subsubsection{Sorts}
+
+Sorts over a set of sort symbols $\mathcal{S}$ are defined as $\tt Sort(\mathcal{S})$. Sorts are defined inductively as follows.
+
+\begin{itemize}
+\item $\sigma \in \mathcal{S}$ of arity 0 is a sort.
+\item $\sigma \sigma_1, \sigma_2, \sigma_3, \ldots, \sigma_n$ is a sort if $\sigma \in \mathcal{S}$ of arity $n$, $\sigma_1$ to $\sigma_n$ are sorts.
+\end{itemize}
+
+\subsubsection{Signature}
+
+Baiscly, a signature $\Sigma$ defines sort symbols and arities, function symbols and ranks, some variables and their sorts.
+
+\begin{itemize}
+\item $\Sigma^\mathcal{S} \subset \mathcal{S}$: sort symbols, containing $\tt bool$.
+\item $\Sigma^\mathcal{F} \subset \mathcal{F}$: function symbols, containing equality, conjunction, and negation.
+\item $\Sigma^\mathcal{S}$ to $\mathbb{N}$: a total mapping from sort symbol to its arity, including $\tt bool \Rightarrow 0$.
+\item $\Sigma^\mathcal{F}$ to $\tt Sort(\Sigma^\mathcal{S})+$: a left total mapping from a function symbol to its rank, containing $=(\sigma, \sigma, {\tt bool} )$, $\neg({\tt bool},{\tt bool})$, $\wedge ({\tt bool}, {\tt bool}, {\tt bool})$.
+\item $\mathcal{X}$ to $\tt Sort(\Sigma^\mathcal{S})$: a partial mapping from a variable to its sort.
+\end{itemize}
+
+In the logic definitions of SMT-LIB, we will see ``expended sigmature'' a lot. We will formalize the expension methods in the following subsections.
+
+\subsubsection{Formulas}
+
+In SMT-LIB 2.0, formulas are well sorted terms of sort $\tt bool$ over $\Sigma$
+
+\subsubsection{Structure}
+
+A structure in SMT-LIB 2.0 $\bf A$ can be regarded as a model. It is defined as follows.
+
+\begin{itemize}
+\item $A$: the universe (of values) of $\bf A$, including $\tt bool^{\bf A} = \{true, false\}$.
+\item $\sigma^{\bf A} \subset A$: give the sort $\sigma \in \tt Sort(\Sigma^\mathcal{S})$ a universe $\sigma^{\bf A} \subset A$. For example, $\tt bool^{\bf A}$ is $\{true, false\} \subset \rm A$. $\tt int^{\bf A}$ could be all the integers $\mathbb{Z} \subset A$.
+\item $(f:\sigma)^{\bf A} \in \sigma^{\bf A}$: give the constant symbol $f:\sigma$ a value in the universe of $\sigma$
+\item $(f:\sigma_1,\sigma_2,\ldots,\sigma_n,\sigma)^{\bf A}$: define the function symbol as a relation from $(\sigma_1,\sigma_2,...,\sigma_n)^{\bf A}$ to $\sigma^{\bf A}$. This must include the equality relations (or identity predicate over $\sigma^{\bf A}$, that is $\tt = (\sigma, \sigma, bool)$ as standard equality relations from $(\sigma^{\bf A}, \sigma^{\bf A})$ to $\{true, false\}$).
+\end{itemize}
+
+\item $\sigma^{\bf A}$ is called the extension of $\sigma$ in $\bf A$.
+
+\subsubsection{Valuation and Interpretation}
+
+Valuations $v$ is a partial mapping $v$ from $\mathcal{X} \times \tt Sort(\Sigma^\mathcal{S})$ to $\sigma^{\bf A}$. That is to give variable $x$ of sort $\sigma$ a value in $\sigma^{\bf A}$.
+
+Interpretation $\mathcal{I}$ is defined as $\mathcal{I} = ({\bf A}, v)$, that is the structure together with the valuations make the $\Sigma$-interpretation.
+
+$\mathcal{I}$ will assign a meaning to well-sorted terms by uniquely mapping them into the $\bf A$. And that is the semantics.
+
+As long as we have semantics, we can talk about satisfiability. If $\varphi$ is mapped to $\tt true$ by some $\mathcal{I}$, then it is satisfiable. If $\varphi$ is not closed, we say $\mathcal{I} = ({\bf A}, v)$ makes true $\varphi$. If $\varphi$ is closed, we say the structure $\bf A$ makes true $\varphi$. (Since it doesn't matter what valuation it is). If $\varphi$ is closed, we say the structure $\bf A$ a model of $\varphi$.
+
+\subsubsection{Theories}
+Traditionally, theory is a set of axioms. But here it consists of three parts.
+\begin{itemize}
+\item Signature: $\Sigma$
+\item Axioms:\\
+This part is left for the people who implement solvers. Take $\tt int$ theory as an example, since we have the plus sign in our signature (we just denote it as $\tt ADD$, so that you know it is only a symbol, not the actual operation), we will have an axiom like $\forall x:{\tt int}. y:{\tt int}. \exists z:{\tt int}. {\tt ADD}(x,y,z) \leftrightarrow x + y = z$. Therefore, our model (or structure) must contain the correct relations to map $\tt ADD$ to the actual addition operation to satisfy this axiom.
+
+Also, some theories like $\tt real$ include those axioms as plain text, like associativity, commutativity, etc.
+\item Models: A set of $\Sigma$-structures, all of which are models of the theory.
+\end{itemize}
+
+\subsubsection{Logics}
+Sublogic is a sublogic of SMT-LIB logic with restrictions. Common restrictions are
+\begin{itemize}
+\item fixing a signature $\Sigma$ and its theory $\mathcal{T}$
+\item restricting structures to the models of $\mathcal{T}$
+\item restricting input sentences as subset of $\Sigma$-sentences
+\end{itemize}
+
 \subsection{Theory}
 In the following, we are going to present some abstract informal definition of different theories in SMT-LIB 2.0. Note that the Core Theory is included in all other theories by default.
 
@@ -194,12 +280,29 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{QF-LIA Logic}
 \end{table}
 
-\section{CVC4}
-CVC4, the fifth generation of Cooperating Validity Checker from NYU and U Iowa, is a DPLL({\it T}) solver with a SAT solver core and a delegation path to different decision procedure implementations, each in charge of solving formulas in some background theory.\cite{barrett:cvc4:2011}. It has implmented decision procedures for the theory of uninterpreted/free functions, arithmetic, arrays, bitvectors and inductive datatypes. It uses a combination method based on Nelson-Oppen method to cooperate different theories. Also, it supports quantifiers through heuristic instantiaion\footnote{See \url{http://cvc4.cs.nyu.edu/wiki/About_CVC4}} and has the ability to generate model.
+\section{Comparing CVC4 and Alt-Ergo}
 
-\section{Alt-Ergo}
+In this section, we will give a short summary of both solvers first. Their overall architectures, built-in theories, combination methods, and unique features will be briefly discussed. Then we will summarize our test methods and results to show their abilities within different sublogics using SMT-LIB 2.0 benchmarks.
+
+\subsection{CVC4}
+
+CVC4, the fifth generation of Cooperating Validity Checker from NYU and U Iowa, is a DPLL({\it T}) solver with a SAT solver core and a delegation path to different decision procedure implementations, each in charge of solving formulas in some background theory\cite{barrett:cvc4:2011}. It works for first-order logics. It has implmented decision procedures for the theory of uninterpreted/free functions, arithmetic(integer, real, linear, non-linear), arrays, bit-vectors and datatypes. It uses a combination method based on Nelson-Oppen to cooperate different theories. Also, it supports quantifiers through heuristic instantiaion\footnote{See \url{http://cvc4.cs.nyu.edu/wiki/About_CVC4}} and has the ability to generate model. By our tests of $k$-induction over linear integer arithmetic, it supports induction very well.
+
+For both satisfiable/unsatisfiable formulas, CVC4 will come up with the correct answer 
+
+\subsection{Alt-Ergo}
+
+Alt-Ergo is dedicated to program verification. It works in first-order logic. It uses a CC(X)\footnote{CC(X): Congruence closure modulo X}, a variant of Shostak algorithm, to combine free theory with equality and an arbitrary solvable built-in theory X\cite{conchonHDR2012}. Alt-Ergo has implemented decision procedures for the theory of uninterpreted/free functions, arithmetic(integer, real, linear, non-linear), arrays, bit-vectors, datatypes, etc. It also has direct support for polymorphism in its native input language. Associative and commutative symbols are being handled specially using its AC(X) theory to boost the performance. It has some support for universal and extential quantifiers through instantiation. It has the ability to generate proof. Also, by our test of $k$-induction, it can prove them quickly.
+
+For unsatisfiable formulas, Alt-Ergo will eventually answer {\tt unsat} correctly. But for satisfiable formulas, it never answers {\tt sat}, but {\tt unknown}.
+
+
+Since integer theory are intensively used in program verification, 
 
 Alt-Ergo uses a Simplex-based extension of Fourier-Motzkin for solving linear integer arithmetic, and it is sound and complete when it is quantifier free\cite{bobot:hal-00687640}.
+
+\subsection{}
+
 
 
 \bibliographystyle{plain}

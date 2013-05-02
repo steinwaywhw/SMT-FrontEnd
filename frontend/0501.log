@@ -14436,3 +14436,3424 @@ Thu May  2 01:39:45 EDT 2013
 
 CHANGE TIMEOUT
 
+Thu May  2 12:43:09 EDT 2013
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27600_2600_100.smt2
+[cvc] sat User[6.26] Sys[0.04] Real[0:07.02]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24600_2600_100.smt2
+[cvc] sat User[5.73] Sys[0.03] Real[0:05.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13000_2600_100.smt2
+[cvc] unsat User[3.56] Sys[0.01] Real[0:03.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17800_2600_100.smt2
+[cvc] sat User[13.01] Sys[0.06] Real[0:13.10]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10900_2600_100.smt2
+[cvc] unsat User[3.60] Sys[0.00] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20900_2600_100.smt2
+[cvc] sat User[5.89] Sys[0.02] Real[0:05.92]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14200_2600_100.smt2
+[cvc] unsat User[25.83] Sys[0.04] Real[0:25.93]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25500_2600_100.smt2
+[cvc] sat User[7.12] Sys[0.02] Real[0:07.16]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6500_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.00] Real[0:03.59]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22400_2600_100.smt2
+[cvc] sat User[6.97] Sys[0.03] Real[0:07.02]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18900_2600_100.smt2
+[cvc] sat User[8.69] Sys[0.03] Real[0:08.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10600_2600_100.smt2
+[cvc] unsat User[3.70] Sys[0.00] Real[0:03.72]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16300_2600_100.smt2
+[cvc] sat User[21.12] Sys[0.16] Real[0:21.32]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19000_2600_100.smt2
+[cvc] sat User[7.93] Sys[0.13] Real[0:08.09]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6800_2600_100.smt2
+[cvc] unsat User[3.83] Sys[0.00] Real[0:03.84]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5400_2600_100.smt2
+[cvc] unsat User[3.73] Sys[0.00] Real[0:03.74]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12900_2600_100.smt2
+[cvc] unsat User[3.87] Sys[0.00] Real[0:03.89]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13900_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8000_2600_100.smt2
+[cvc] unsat User[4.20] Sys[0.10] Real[0:04.31]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5500_2600_100.smt2
+[cvc] unsat User[3.87] Sys[0.01] Real[0:03.89]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21000_2600_100.smt2
+[cvc] sat User[7.90] Sys[0.04] Real[0:07.96]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15000_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13100_2600_100.smt2
+[cvc] unsat User[3.63] Sys[0.01] Real[0:03.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13700_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11300_2600_100.smt2
+[cvc] unsat User[3.73] Sys[0.00] Real[0:03.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26800_2600_100.smt2
+[cvc] sat User[6.60] Sys[0.04] Real[0:06.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6300_2600_100.smt2
+[cvc] unsat User[3.75] Sys[0.00] Real[0:03.76]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25100_2600_100.smt2
+[cvc] sat User[6.52] Sys[0.04] Real[0:06.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22900_2600_100.smt2
+[cvc] sat User[6.00] Sys[0.02] Real[0:06.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29100_2600_100.smt2
+[cvc] sat User[6.32] Sys[0.03] Real[0:06.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11600_2600_100.smt2
+[cvc] unsat User[3.87] Sys[0.00] Real[0:03.89]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21900_2600_100.smt2
+[cvc] sat User[7.38] Sys[0.03] Real[0:07.44]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7500_2600_100.smt2
+[cvc] unsat User[3.77] Sys[0.02] Real[0:03.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29300_2600_100.smt2
+[cvc] sat User[6.53] Sys[0.03] Real[0:06.60]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5000_2600_100.smt2
+[cvc] unsat User[3.74] Sys[0.00] Real[0:03.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28400_2600_100.smt2
+[cvc] sat User[6.87] Sys[0.03] Real[0:06.93]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11100_2600_100.smt2
+[cvc] unsat User[3.75] Sys[0.00] Real[0:03.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8700_2600_100.smt2
+[cvc] unsat User[3.59] Sys[0.00] Real[0:03.60]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8900_2600_100.smt2
+[cvc] unsat User[3.68] Sys[0.01] Real[0:03.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23400_2600_100.smt2
+[cvc] sat User[6.70] Sys[0.05] Real[0:06.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15400_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5900_2600_100.smt2
+[cvc] unsat User[3.76] Sys[0.02] Real[0:03.79]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19500_2600_100.smt2
+[cvc] sat User[8.26] Sys[0.03] Real[0:08.32]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex30000_2600_100.smt2
+[cvc] sat User[6.39] Sys[0.03] Real[0:06.44]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28900_2600_100.smt2
+[cvc] sat User[6.72] Sys[0.03] Real[0:06.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27900_2600_100.smt2
+[cvc] sat User[6.42] Sys[0.02] Real[0:06.46]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29000_2600_100.smt2
+[cvc] sat User[6.25] Sys[0.03] Real[0:06.30]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9800_2600_100.smt2
+[cvc] unsat User[3.59] Sys[0.00] Real[0:03.61]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19400_2600_100.smt2
+[cvc] sat User[12.29] Sys[0.05] Real[0:12.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20300_2600_100.smt2
+[cvc] sat User[6.90] Sys[0.03] Real[0:06.95]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19300_2600_100.smt2
+[cvc] sat User[8.48] Sys[0.03] Real[0:08.54]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20500_2600_100.smt2
+[cvc] sat User[7.61] Sys[0.04] Real[0:07.67]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20000_2600_100.smt2
+[cvc] sat User[6.38] Sys[0.03] Real[0:06.44]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23800_2600_100.smt2
+[cvc] sat User[5.83] Sys[0.03] Real[0:05.88]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20200_2600_100.smt2
+[cvc] sat User[7.54] Sys[0.05] Real[0:07.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18500_2600_100.smt2
+[cvc] sat User[10.96] Sys[0.06] Real[0:11.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8200_2600_100.smt2
+[cvc] unsat User[3.56] Sys[0.01] Real[0:03.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26400_2600_100.smt2
+[cvc] sat User[6.00] Sys[0.02] Real[0:06.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12200_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.01] Real[0:03.60]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13200_2600_100.smt2
+[cvc] unsat User[3.60] Sys[0.01] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12400_2600_100.smt2
+[cvc] unsat User[3.62] Sys[0.02] Real[0:03.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28800_2600_100.smt2
+[cvc] sat User[6.11] Sys[0.04] Real[0:06.17]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9900_2600_100.smt2
+[cvc] unsat User[3.72] Sys[0.02] Real[0:03.74]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5600_2600_100.smt2
+[cvc] unsat User[3.49] Sys[0.02] Real[0:03.52]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17300_2600_100.smt2
+[cvc] sat User[10.78] Sys[0.08] Real[0:10.89]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17700_2600_100.smt2
+[cvc] sat User[22.83] Sys[0.10] Real[0:22.99]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24400_2600_100.smt2
+[cvc] sat User[5.91] Sys[0.02] Real[0:05.95]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28600_2600_100.smt2
+[cvc] sat User[6.98] Sys[0.05] Real[0:07.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14100_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18200_2600_100.smt2
+[cvc] sat User[8.72] Sys[0.04] Real[0:08.80]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18000_2600_100.smt2
+[cvc] sat User[22.91] Sys[0.09] Real[0:23.18]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22600_2600_100.smt2
+[cvc] sat User[7.22] Sys[0.04] Real[0:07.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26200_2600_100.smt2
+[cvc] sat User[6.51] Sys[0.01] Real[0:06.54]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22100_2600_100.smt2
+[cvc] sat User[5.95] Sys[0.01] Real[0:05.98]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12300_2600_100.smt2
+[cvc] unsat User[3.60] Sys[0.01] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10800_2600_100.smt2
+[cvc] unsat User[3.70] Sys[0.00] Real[0:03.72]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14900_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7400_2600_100.smt2
+[cvc] unsat User[3.66] Sys[0.02] Real[0:03.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12500_2600_100.smt2
+[cvc] unsat User[3.74] Sys[0.02] Real[0:03.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12600_2600_100.smt2
+[cvc] unsat User[3.66] Sys[0.01] Real[0:03.68]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27300_2600_100.smt2
+[cvc] sat User[6.43] Sys[0.03] Real[0:06.48]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27200_2600_100.smt2
+[cvc] sat User[6.42] Sys[0.03] Real[0:06.48]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25200_2600_100.smt2
+[cvc] sat User[6.20] Sys[0.02] Real[0:06.24]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23600_2600_100.smt2
+[cvc] sat User[6.43] Sys[0.04] Real[0:06.49]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21600_2600_100.smt2
+[cvc] sat User[6.88] Sys[0.05] Real[0:06.95]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17500_2600_100.smt2
+[cvc] sat User[12.34] Sys[0.08] Real[0:12.45]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23700_2600_100.smt2
+[cvc] sat User[6.02] Sys[0.03] Real[0:06.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7900_2600_100.smt2
+[cvc] unsat User[3.67] Sys[0.00] Real[0:03.69]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13500_2600_100.smt2
+[cvc] unsat User[28.67] Sys[0.07] Real[0:28.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24300_2600_100.smt2
+[cvc] sat User[6.52] Sys[0.03] Real[0:06.57]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29400_2600_100.smt2
+[cvc] sat User[6.37] Sys[0.02] Real[0:06.42]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11000_2600_100.smt2
+[cvc] unsat User[3.67] Sys[0.02] Real[0:03.71]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12000_2600_100.smt2
+[cvc] unsat User[3.79] Sys[0.00] Real[0:03.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15300_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24700_2600_100.smt2
+[cvc] sat User[5.88] Sys[0.04] Real[0:05.94]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9500_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.00] Real[0:03.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14300_2600_100.smt2
+[cvc] unsat User[5.74] Sys[0.03] Real[0:05.79]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14400_2600_100.smt2
+[cvc] unsat User[10.79] Sys[0.03] Real[0:10.86]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6900_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.00] Real[0:03.59]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29500_2600_100.smt2
+[cvc] sat User[6.34] Sys[0.01] Real[0:06.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10500_2600_100.smt2
+[cvc] unsat User[3.98] Sys[0.02] Real[0:04.03]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6000_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.00] Real[0:03.59]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10100_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.00] Real[0:03.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28200_2600_100.smt2
+[cvc] sat User[6.39] Sys[0.04] Real[0:06.45]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15200_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13800_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20400_2600_100.smt2
+[cvc] sat User[6.98] Sys[0.02] Real[0:07.02]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29700_2600_100.smt2
+[cvc] sat User[6.54] Sys[0.04] Real[0:06.61]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8500_2600_100.smt2
+[cvc] unsat User[3.59] Sys[0.01] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10200_2600_100.smt2
+[cvc] unsat User[3.66] Sys[0.02] Real[0:03.69]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7300_2600_100.smt2
+[cvc] unsat User[3.56] Sys[0.01] Real[0:03.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27500_2600_100.smt2
+[cvc] sat User[6.63] Sys[0.03] Real[0:06.68]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25800_2600_100.smt2
+[cvc] sat User[6.46] Sys[0.02] Real[0:06.50]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24800_2600_100.smt2
+[cvc] sat User[5.92] Sys[0.01] Real[0:05.95]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25900_2600_100.smt2
+[cvc] sat User[6.48] Sys[0.03] Real[0:06.53]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7100_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.01] Real[0:03.60]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8300_2600_100.smt2
+[cvc] unsat User[3.61] Sys[0.01] Real[0:03.64]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28300_2600_100.smt2
+[cvc] sat User[6.46] Sys[0.02] Real[0:06.50]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14000_2600_100.smt2
+[cvc] unsat User[12.51] Sys[0.02] Real[0:12.57]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11700_2600_100.smt2
+[cvc] unsat User[3.69] Sys[0.01] Real[0:03.71]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20600_2600_100.smt2
+[cvc] sat User[6.98] Sys[0.03] Real[0:07.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5200_2600_100.smt2
+[cvc] unsat User[3.61] Sys[0.01] Real[0:03.63]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21300_2600_100.smt2
+[cvc] sat User[6.75] Sys[0.04] Real[0:06.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17900_2600_100.smt2
+[cvc] sat User[9.22] Sys[0.03] Real[0:09.28]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27100_2600_100.smt2
+[cvc] sat User[6.52] Sys[0.03] Real[0:06.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11400_2600_100.smt2
+[cvc] unsat User[3.70] Sys[0.00] Real[0:03.72]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29200_2600_100.smt2
+[cvc] sat User[6.19] Sys[0.02] Real[0:06.22]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16800_2600_100.smt2
+[cvc] sat User[19.29] Sys[0.07] Real[0:19.41]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7700_2600_100.smt2
+[cvc] unsat User[3.63] Sys[0.02] Real[0:03.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26700_2600_100.smt2
+[cvc] sat User[6.41] Sys[0.06] Real[0:06.50]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10300_2600_100.smt2
+[cvc] unsat User[3.60] Sys[0.01] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18700_2600_100.smt2
+[cvc] sat User[11.17] Sys[0.04] Real[0:11.24]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex29900_2600_100.smt2
+[cvc] sat User[6.10] Sys[0.04] Real[0:06.16]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9200_2600_100.smt2
+[cvc] unsat User[3.69] Sys[0.00] Real[0:03.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28500_2600_100.smt2
+[cvc] sat User[6.18] Sys[0.02] Real[0:06.22]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex7200_2600_100.smt2
+[cvc] unsat User[3.60] Sys[0.01] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18100_2600_100.smt2
+[cvc] sat User[8.95] Sys[0.06] Real[0:09.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19200_2600_100.smt2
+[cvc] sat User[6.71] Sys[0.02] Real[0:06.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12700_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.00] Real[0:03.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25300_2600_100.smt2
+[cvc] sat User[7.24] Sys[0.02] Real[0:07.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19100_2600_100.smt2
+[cvc] sat User[9.20] Sys[0.06] Real[0:09.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18800_2600_100.smt2
+[cvc] sat User[8.75] Sys[0.05] Real[0:08.83]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27800_2600_100.smt2
+[cvc] sat User[6.28] Sys[0.06] Real[0:06.36]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28000_2600_100.smt2
+[cvc] sat User[6.72] Sys[0.02] Real[0:06.76]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9000_2600_100.smt2
+[cvc] unsat User[3.54] Sys[0.00] Real[0:03.55]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15800_2600_100.smt2
+[cvc] sat User[16.04] Sys[0.06] Real[0:16.14]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24000_2600_100.smt2
+[cvc] sat User[5.96] Sys[0.02] Real[0:06.00]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23500_2600_100.smt2
+[cvc] sat User[6.52] Sys[0.03] Real[0:06.56]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22000_2600_100.smt2
+[cvc] sat User[6.24] Sys[0.03] Real[0:06.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17600_2600_100.smt2
+[cvc] sat User[22.29] Sys[0.06] Real[0:22.40]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6700_2600_100.smt2
+[cvc] unsat User[3.61] Sys[0.00] Real[0:03.63]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20100_2600_100.smt2
+[cvc] sat User[7.64] Sys[0.06] Real[0:07.72]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27400_2600_100.smt2
+[cvc] sat User[6.40] Sys[0.01] Real[0:06.43]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25000_2600_100.smt2
+[cvc] sat User[6.25] Sys[0.02] Real[0:06.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11200_2600_100.smt2
+[cvc] unsat User[3.80] Sys[0.00] Real[0:03.82]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11500_2600_100.smt2
+[cvc] unsat User[3.68] Sys[0.00] Real[0:03.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex20700_2600_100.smt2
+[cvc] sat User[6.88] Sys[0.03] Real[0:06.93]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8800_2600_100.smt2
+[cvc] unsat User[3.67] Sys[0.01] Real[0:03.69]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16400_2600_100.smt2
+[cvc] sat User[17.10] Sys[0.07] Real[0:17.21]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex24500_2600_100.smt2
+[cvc] sat User[5.92] Sys[0.03] Real[0:05.97]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16200_2600_100.smt2
+[cvc] sat User[23.42] Sys[0.07] Real[0:23.56]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25600_2600_100.smt2
+[cvc] sat User[6.04] Sys[0.00] Real[0:06.06]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17200_2600_100.smt2
+[cvc] sat User[10.35] Sys[0.03] Real[0:10.41]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11900_2600_100.smt2
+[cvc] unsat User[3.80] Sys[0.02] Real[0:03.83]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8100_2600_100.smt2
+[cvc] unsat User[3.72] Sys[0.00] Real[0:03.74]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18600_2600_100.smt2
+[cvc] sat User[12.68] Sys[0.05] Real[0:12.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26000_2600_100.smt2
+[cvc] sat User[6.60] Sys[0.04] Real[0:06.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex17100_2600_100.smt2
+[cvc] sat User[16.96] Sys[0.06] Real[0:17.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex8600_2600_100.smt2
+[cvc] unsat User[3.55] Sys[0.00] Real[0:03.57]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex14600_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex10400_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.01] Real[0:03.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13400_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16000_2600_100.smt2
+[cvc] sat User[12.06] Sys[0.04] Real[0:12.13]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15100_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22300_2600_100.smt2
+[cvc] sat User[6.23] Sys[0.02] Real[0:06.27]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21500_2600_100.smt2
+[cvc] sat User[6.66] Sys[0.02] Real[0:06.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22200_2600_100.smt2
+[cvc] sat User[6.24] Sys[0.02] Real[0:06.27]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18300_2600_100.smt2
+[cvc] sat User[7.88] Sys[0.02] Real[0:07.92]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5300_2600_100.smt2
+[cvc] unsat User[3.74] Sys[0.01] Real[0:03.76]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex27000_2600_100.smt2
+[cvc] sat User[6.86] Sys[0.02] Real[0:06.90]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23900_2600_100.smt2
+[cvc] sat User[6.27] Sys[0.05] Real[0:06.34]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex13600_2600_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9600_2600_100.smt2
+[cvc] unsat User[3.61] Sys[0.02] Real[0:03.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex11800_2600_100.smt2
+[cvc] unsat User[3.70] Sys[0.00] Real[0:03.72]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex15700_2600_100.smt2
+[cvc] sat User[28.82] Sys[0.10] Real[0:28.99]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26100_2600_100.smt2
+[cvc] sat User[7.03] Sys[0.02] Real[0:07.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex18400_2600_100.smt2
+[cvc] sat User[10.38] Sys[0.04] Real[0:10.46]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19700_2600_100.smt2
+[cvc] sat User[8.65] Sys[0.06] Real[0:08.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22800_2600_100.smt2
+[cvc] sat User[6.23] Sys[0.03] Real[0:06.28]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex25700_2600_100.smt2
+[cvc] sat User[6.42] Sys[0.02] Real[0:06.47]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex12800_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.00] Real[0:03.66]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9300_2600_100.smt2
+[cvc] unsat User[3.67] Sys[0.01] Real[0:03.70]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28700_2600_100.smt2
+[cvc] sat User[6.38] Sys[0.04] Real[0:06.43]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6200_2600_100.smt2
+[cvc] unsat User[3.58] Sys[0.00] Real[0:03.59]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex16700_2600_100.smt2
+[cvc] sat User[16.89] Sys[0.07] Real[0:17.00]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21100_2600_100.smt2
+[cvc] sat User[7.04] Sys[0.02] Real[0:07.08]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6400_2600_100.smt2
+[cvc] unsat User[3.68] Sys[0.01] Real[0:03.71]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex23200_2600_100.smt2
+[cvc] sat User[6.55] Sys[0.02] Real[0:06.59]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex26600_2600_100.smt2
+[cvc] sat User[6.73] Sys[0.03] Real[0:06.78]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex22500_2600_100.smt2
+[cvc] sat User[6.45] Sys[0.03] Real[0:06.51]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex28100_2600_100.smt2
+[cvc] sat User[6.95] Sys[0.04] Real[0:07.02]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex6600_2600_100.smt2
+[cvc] unsat User[3.64] Sys[0.00] Real[0:03.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex9400_2600_100.smt2
+[cvc] unsat User[4.02] Sys[0.01] Real[0:04.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex5100_2600_100.smt2
+[cvc] unsat User[3.59] Sys[0.00] Real[0:03.60]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex21400_2600_100.smt2
+[cvc] sat User[6.77] Sys[0.05] Real[0:06.84]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_random_LIA/ex19600_2600_100.smt2
+[cvc] sat User[7.03] Sys[0.04] Real[0:07.09]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6680_2400_100.smt2
+[cvc] sat User[8.58] Sys[0.04] Real[0:08.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9500_2400_100.smt2
+[cvc] sat User[5.95] Sys[0.01] Real[0:05.98]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8740_2400_100.smt2
+[cvc] sat User[7.12] Sys[0.02] Real[0:07.15]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5900_2400_100.smt2
+[cvc] sat User[25.77] Sys[0.06] Real[0:25.89]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7240_2400_100.smt2
+[cvc] sat User[6.74] Sys[0.03] Real[0:06.79]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2200_2400_100.smt2
+[cvc] unsat User[3.14] Sys[0.00] Real[0:03.15]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6240_2400_100.smt2
+[cvc] sat User[16.01] Sys[0.05] Real[0:16.12]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6560_2400_100.smt2
+[cvc] sat User[8.14] Sys[0.02] Real[0:08.19]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8680_2400_100.smt2
+[cvc] sat User[7.29] Sys[0.03] Real[0:07.36]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4300_2400_100.smt2
+[cvc] unsat User[3.30] Sys[0.02] Real[0:03.32]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7620_2400_100.smt2
+[cvc] sat User[6.60] Sys[0.02] Real[0:06.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7180_2400_100.smt2
+[cvc] sat User[6.97] Sys[0.02] Real[0:07.01]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5000_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9000_2400_100.smt2
+[cvc] sat User[7.05] Sys[0.02] Real[0:07.09]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7000_2400_100.smt2
+[cvc] sat User[7.40] Sys[0.11] Real[0:07.53]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4680_2400_100.smt2
+[cvc] unsat User[3.38] Sys[0.00] Real[0:03.39]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6280_2400_100.smt2
+[cvc] sat User[23.12] Sys[0.06] Real[0:23.25]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2140_2400_100.smt2
+[cvc] unsat User[3.57] Sys[0.01] Real[0:03.71]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2560_2400_100.smt2
+[cvc] unsat User[3.27] Sys[0.00] Real[0:03.28]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6620_2400_100.smt2
+[cvc] sat User[11.00] Sys[0.04] Real[0:11.08]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9320_2400_100.smt2
+[cvc] sat User[6.89] Sys[0.03] Real[0:06.95]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6780_2400_100.smt2
+[cvc] sat User[13.89] Sys[0.06] Real[0:13.99]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4360_2400_100.smt2
+[cvc] unsat User[3.28] Sys[0.00] Real[0:03.30]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unknown] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5060_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8940_2400_100.smt2
+[cvc] sat User[6.31] Sys[0.02] Real[0:06.35]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3060_2400_100.smt2
+[cvc] unsat User[3.22] Sys[0.00] Real[0:03.23]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8480_2400_100.smt2
+[cvc] sat User[6.41] Sys[0.00] Real[0:06.44]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3180_2400_100.smt2
+[cvc] unsat User[3.21] Sys[0.01] Real[0:03.24]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7740_2400_100.smt2
+[cvc] sat User[6.29] Sys[0.02] Real[0:06.33]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3460_2400_100.smt2
+[cvc] unsat User[3.17] Sys[0.01] Real[0:03.19]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4840_2400_100.smt2
+[cvc] unsat User[3.22] Sys[0.01] Real[0:03.24]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3980_2400_100.smt2
+[cvc] unsat User[3.20] Sys[0.01] Real[0:03.22]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9160_2400_100.smt2
+[cvc] sat User[6.10] Sys[0.02] Real[0:06.15]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6720_2400_100.smt2
+[cvc] sat User[7.77] Sys[0.04] Real[0:07.83]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4660_2400_100.smt2
+[cvc] unsat User[3.14] Sys[0.00] Real[0:03.16]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7980_2400_100.smt2
+[cvc] sat User[6.11] Sys[0.00] Real[0:06.13]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4220_2400_100.smt2
+[cvc] unsat User[3.18] Sys[0.00] Real[0:03.20]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8560_2400_100.smt2
+[cvc] sat User[6.31] Sys[0.04] Real[0:06.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4120_2400_100.smt2
+[cvc] unsat User[3.17] Sys[0.00] Real[0:03.19]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6580_2400_100.smt2
+[cvc] sat User[11.41] Sys[0.02] Real[0:11.46]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7440_2400_100.smt2
+[cvc] sat User[6.98] Sys[0.02] Real[0:07.03]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7460_2400_100.smt2
+[cvc] sat User[6.76] Sys[0.03] Real[0:06.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6920_2400_100.smt2
+[cvc] sat User[8.64] Sys[0.03] Real[0:08.69]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6980_2400_100.smt2
+[cvc] sat User[8.43] Sys[0.04] Real[0:08.50]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2180_2400_100.smt2
+[cvc] unsat User[3.34] Sys[0.01] Real[0:03.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2940_2400_100.smt2
+[cvc] unsat User[3.18] Sys[0.00] Real[0:03.20]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6860_2400_100.smt2
+[cvc] sat User[6.64] Sys[0.02] Real[0:06.69]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8700_2400_100.smt2
+[cvc] sat User[7.74] Sys[0.02] Real[0:07.79]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8960_2400_100.smt2
+[cvc] sat User[6.18] Sys[0.03] Real[0:06.23]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4380_2400_100.smt2
+[cvc] unsat User[3.10] Sys[0.00] Real[0:03.11]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6740_2400_100.smt2
+[cvc] sat User[9.21] Sys[0.02] Real[0:09.26]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5740_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6500_2400_100.smt2
+[cvc] sat User[7.01] Sys[0.02] Real[0:07.05]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4100_2400_100.smt2
+[cvc] unsat User[3.16] Sys[0.01] Real[0:03.18]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5260_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5680_2400_100.smt2
+[cvc] sat User[21.80] Sys[0.05] Real[0:21.91]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7200_2400_100.smt2
+[cvc] sat User[6.74] Sys[0.03] Real[0:06.80]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4900_2400_100.smt2
+[cvc] unsat User[5.06] Sys[0.00] Real[0:05.08]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8820_2400_100.smt2
+[cvc] sat User[7.04] Sys[0.04] Real[0:07.10]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7840_2400_100.smt2
+[cvc] sat User[5.90] Sys[0.03] Real[0:05.96]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2500_2400_100.smt2
+[cvc] unsat User[3.27] Sys[0.01] Real[0:03.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3700_2400_100.smt2
+[cvc] unsat User[3.60] Sys[0.00] Real[0:03.61]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2480_2400_100.smt2
+[cvc] unsat User[3.36] Sys[0.01] Real[0:03.38]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8200_2400_100.smt2
+[cvc] sat User[6.31] Sys[0.03] Real[0:06.37]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8620_2400_100.smt2
+[cvc] sat User[6.69] Sys[0.03] Real[0:06.74]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7680_2400_100.smt2
+[cvc] sat User[6.80] Sys[0.01] Real[0:06.82]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2640_2400_100.smt2
+[cvc] unsat User[3.20] Sys[0.00] Real[0:03.21]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3440_2400_100.smt2
+[cvc] unsat User[3.20] Sys[0.01] Real[0:03.22]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9560_2400_100.smt2
+[cvc] sat User[5.80] Sys[0.01] Real[0:05.84]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2100_2400_100.smt2
+[cvc] unsat User[3.36] Sys[0.00] Real[0:03.38]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3800_2400_100.smt2
+[cvc] unsat User[3.27] Sys[0.00] Real[0:03.31]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7220_2400_100.smt2
+[cvc] sat User[8.42] Sys[0.04] Real[0:08.49]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3400_2400_100.smt2
+[cvc] unsat User[3.18] Sys[0.00] Real[0:03.20]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6300_2400_100.smt2
+[cvc] sat User[11.99] Sys[0.05] Real[0:12.07]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+Thu May  2 15:48:03 EDT 2013
+
+Skipped
+
+Thu May  2 15:51:55 EDT 2013
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9280_2400_100.smt2
+[cvc] sat User[6.30] Sys[0.05] Real[0:06.37]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3020_2400_100.smt2
+[cvc] unsat User[3.16] Sys[0.00] Real[0:03.17]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8800_2400_100.smt2
+[cvc] sat User[6.89] Sys[0.02] Real[0:06.93]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5340_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2440_2400_100.smt2
+[cvc] unsat User[3.24] Sys[0.00] Real[0:03.25]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9260_2400_100.smt2
+[cvc] sat User[6.84] Sys[0.01] Real[0:06.87]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5400_2400_100.smt2
+[cvc] sat User[26.73] Sys[0.04] Real[0:26.85]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6600_2400_100.smt2
+[cvc] sat User[9.34] Sys[0.04] Real[0:09.41]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9840_2400_100.smt2
+[cvc] sat User[6.36] Sys[0.02] Real[0:06.40]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7760_2400_100.smt2
+[cvc] sat User[6.78] Sys[0.01] Real[0:06.82]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8140_2400_100.smt2
+[cvc] sat User[6.23] Sys[0.04] Real[0:06.28]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5200_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6540_2400_100.smt2
+[cvc] sat User[11.02] Sys[0.04] Real[0:11.09]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2580_2400_100.smt2
+[cvc] unsat User[3.26] Sys[0.00] Real[0:03.28]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6420_2400_100.smt2
+[cvc] sat User[7.54] Sys[0.01] Real[0:07.58]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5300_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7600_2400_100.smt2
+[cvc] sat User[5.74] Sys[0.01] Real[0:05.77]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5440_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6140_2400_100.smt2
+[cvc] sat User[8.21] Sys[0.03] Real[0:08.26]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6940_2400_100.smt2
+[cvc] sat User[9.34] Sys[0.06] Real[0:09.43]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2420_2400_100.smt2
+[cvc] unsat User[3.36] Sys[0.00] Real[0:03.38]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unknown] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5020_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7300_2400_100.smt2
+[cvc] sat User[11.94] Sys[0.05] Real[0:12.06]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7340_2400_100.smt2
+[cvc] sat User[12.49] Sys[0.06] Real[0:12.58]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7020_2400_100.smt2
+[cvc] sat User[7.90] Sys[0.03] Real[0:07.95]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3200_2400_100.smt2
+[cvc] unsat User[3.28] Sys[0.01] Real[0:03.31]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4960_2400_100.smt2
+[cvc] unsat User[4.64] Sys[0.02] Real[0:04.67]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4340_2400_100.smt2
+[cvc] unsat User[3.23] Sys[0.00] Real[0:03.25]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6480_2400_100.smt2
+[cvc] sat User[8.99] Sys[0.02] Real[0:09.04]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2620_2400_100.smt2
+[cvc] unsat User[3.19] Sys[0.01] Real[0:03.21]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4400_2400_100.smt2
+[cvc] unsat User[3.11] Sys[0.00] Real[0:03.13]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6020_2400_100.smt2
+[cvc] sat User[10.69] Sys[0.07] Real[0:10.80]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2840_2400_100.smt2
+[cvc] unsat User[3.15] Sys[0.01] Real[0:03.17]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6120_2400_100.smt2
+[cvc] sat User[9.68] Sys[0.04] Real[0:09.74]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7080_2400_100.smt2
+[cvc] sat User[6.55] Sys[0.04] Real[0:06.60]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9400_2400_100.smt2
+[cvc] sat User[7.26] Sys[0.03] Real[0:07.31]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3860_2400_100.smt2
+[cvc] unsat User[3.23] Sys[0.00] Real[0:03.25]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5380_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3480_2400_100.smt2
+[cvc] unsat User[3.28] Sys[0.03] Real[0:03.32]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7920_2400_100.smt2
+[cvc] sat User[6.19] Sys[0.01] Real[0:06.22]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6320_2400_100.smt2
+[cvc] sat User[11.56] Sys[0.04] Real[0:11.63]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex8320_2400_100.smt2
+[cvc] sat User[6.26] Sys[0.03] Real[0:06.32]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex6800_2400_100.smt2
+[cvc] sat User[6.38] Sys[0.03] Real[0:06.44]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4940_2400_100.smt2
+[cvc] unsat User[4.91] Sys[0.00] Real[0:04.93]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9460_2400_100.smt2
+[cvc] sat User[6.11] Sys[0.02] Real[0:06.15]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2020_2400_100.smt2
+[cvc] unsat User[3.24] Sys[0.00] Real[0:03.25]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9680_2400_100.smt2
+[cvc] sat User[5.68] Sys[0.02] Real[0:05.73]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex7140_2400_100.smt2
+[cvc] sat User[6.52] Sys[0.04] Real[0:06.57]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex2400_2400_100.smt2
+[cvc] unsat User[3.13] Sys[0.01] Real[0:03.15]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9640_2400_100.smt2
+[cvc] sat User[5.57] Sys[0.03] Real[0:05.62]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4760_2400_100.smt2
+[cvc] unsat User[3.11] Sys[0.00] Real[0:03.12]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unknown] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex5080_2400_100.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4640_2400_100.smt2
+[cvc] unsat User[3.17] Sys[0.00] Real[0:03.19]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4180_2400_100.smt2
+[cvc] unsat User[3.11] Sys[0.00] Real[0:03.12]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [sat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex9200_2400_100.smt2
+[cvc] sat User[5.54] Sys[0.04] Real[0:05.60]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex3340_2400_100.smt2
+[cvc] unsat User[3.22] Sys[0.00] Real[0:03.24]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_LIA] [unsat] /home/hwwu/SMT/benchmarks/QF_LIA/bofill-scheduling/SMT_real_LIA/ex4080_2400_100.smt2
+[cvc] unsat User[3.15] Sys[0.00] Real[0:03.16]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+Thu May  2 16:13:13 EDT 2013
+
+Thu May  2 16:14:03 EDT 2013
+
+Thu May  2 16:17:15 EDT 2013
+
+Thu May  2 16:17:25 EDT 2013
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-9.smt2
+[cvc] unsat User[0.80] Sys[0.00] Real[0:00.81]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-19.smt2
+[cvc] sat User[2.74] Sys[0.01] Real[0:02.77]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-17.smt2
+[cvc] unsat User[2.59] Sys[0.02] Real[0:02.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-15.smt2
+[cvc] unsat User[1.76] Sys[0.01] Real[0:01.78]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-12.smt2
+[cvc] unsat User[1.27] Sys[0.01] Real[0:01.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-10.smt2
+[cvc] unsat User[1.02] Sys[0.00] Real[0:01.04]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-14.smt2
+[cvc] unsat User[1.75] Sys[0.00] Real[0:01.76]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-5.smt2
+[cvc] unsat User[0.40] Sys[0.00] Real[0:00.41]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-11.smt2
+[cvc] unsat User[1.00] Sys[0.01] Real[0:01.02]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+Thu May  2 16:23:55 EDT 2013
+
+Thu May  2 16:26:00 EDT 2013
+
+Thu May  2 16:26:33 EDT 2013
+
+Thu May  2 16:26:59 EDT 2013
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-16.smt2
+[cvc] unsat User[2.09] Sys[0.01] Real[0:02.11]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-invalid-9.smt2
+[cvc] sat User[0.30] Sys[0.00] Real[0:00.31]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-invalid-8.smt2
+[cvc] sat User[0.28] Sys[0.00] Real[0:00.28]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-invalid-1.smt2
+[cvc] unsat User[0.01] Sys[0.00] Real[0:00.02]
+[alt-ergo] unsat User[0.00] Sys[0.01] Real[0:00.01]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-14.smt2
+[cvc] unsat User[0.65] Sys[0.00] Real[0:00.65]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-9.smt2
+[cvc] unsat User[0.36] Sys[0.00] Real[0:00.36]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.11.10.i.a.u.smt2
+[cvc] unsat User[6.76] Sys[0.01] Real[0:06.79]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.12.2.i.a.u.smt2
+[cvc] unsat User[14.33] Sys[0.03] Real[0:14.40]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.17.5.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.16.5.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.13.10.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.12.5.i.a.u.smt2
+[cvc] unsat User[6.36] Sys[0.02] Real[0:06.39]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.10.10.i.a.u.smt2
+[cvc] unsat User[3.59] Sys[0.02] Real[0:03.62]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/gp10_03_mkspan1081.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_7_mkspan906.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per20_2_mkspan1002.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per10_2_mkspan1055.smt2
+[cvc] sat User[23.82] Sys[0.06] Real[0:23.94]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_6_mkspan948.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per10_2_mkspan1017.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1247.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_9_mkspan597.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1413.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1170.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_3_mkspan874.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_2_mkspan1079.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j6_per0_0_mkspan1056.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_2_mkspan1049.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per10_1_mkspan1018.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_8_mkspan923.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1276.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1294.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_7_mkspan618.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_6_mkspan936.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1258.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_9_mkspan906.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_0_mkspan1051.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_1_mkspan1178.smt2
+Thu May  2 17:10:16 EDT 2013
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-7.smt2
+[cvc] unsat User[0.59] Sys[0.01] Real[0:01.46]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-12.smt2
+[cvc] unsat User[0.56] Sys[0.00] Real[0:00.56]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-invalid-10.smt2
+[cvc] sat User[0.35] Sys[0.00] Real[0:00.35]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-18.smt2
+[cvc] unsat User[0.93] Sys[0.00] Real[0:00.94]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.18.10.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.14.5.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j6_per0_0_mkspan1045.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_1_mkspan639.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_10_mkspan904.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_1_mkspan637.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/gp10_03_mkspan1080.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1268.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1588.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1352.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1249.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_1_mkspan1140.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1570.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1282.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_2_mkspan593.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_6_mkspan1204.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per10_2_mkspan1006.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_10_mkspan910.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per20_2_mkspan1009.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per10_2_mkspan1011.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_10x10_7_mkspan620.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per10_0_mkspan1018.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per10_0_mkspan1012.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per10_2_mkspan1012.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_5_mkspan960.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c245_s17.smt2
+[cvc] unsat User[7.19] Sys[0.01] Real[0:07.22]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c245_s9.smt2
+[cvc] unsat User[26.89] Sys[0.01] Real[0:26.96]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c210_s15.smt2
+[cvc] sat User[11.07] Sys[0.00] Real[0:11.11]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c175_s6.smt2
+[cvc] sat User[9.01] Sys[0.02] Real[0:09.05]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c175_s3.smt2
+[cvc] sat User[3.13] Sys[0.00] Real[0:03.14]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c210_s2.smt2
+[cvc] unsat User[14.42] Sys[0.01] Real[0:14.48]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c175_s19.smt2
+[cvc] sat User[1.71] Sys[0.00] Real[0:01.72]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/planning/plan-6.cvc.smt2
+[cvc] unsat User[0.44] Sys[0.00] Real[0:00.45]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop2-2-1-1-2-4-9.smt2
+[cvc] sat User[0.00] Sys[0.01] Real[0:00.01]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unknown] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop50-2-25-25-4-4-11.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop6-2-3-3-2-4-12.smt2
+[cvc] sat User[0.21] Sys[0.00] Real[0:00.21]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen98-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen6-1.smt2
+[cvc] unsat User[0.14] Sys[0.00] Real[0:00.15]
+[alt-ergo] unsat User[0.38] Sys[0.00] Real[0:00.39]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen91-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen37-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen34-1.smt2
+[cvc] sat User[23.99] Sys[0.03] Real[0:24.09]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen77-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen9-1.smt2
+[cvc] unsat User[0.46] Sys[0.00] Real[0:00.47]
+[alt-ergo] unsat User[3.06] Sys[0.00] Real[0:03.08]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen64-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen53-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen80-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen21-1.smt2
+[cvc] sat User[5.09] Sys[0.01] Real[0:05.12]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen8-1.smt2
+[cvc] unsat User[0.32] Sys[0.00] Real[0:00.32]
+[alt-ergo] unsat User[1.54] Sys[0.00] Real[0:01.55]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen40-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen19-1.smt2
+[cvc] sat User[6.13] Sys[0.03] Real[0:06.18]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/super_queen/super_queen96-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen13-1.smt2
+[cvc] sat User[1.08] Sys[0.00] Real[0:01.08]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen46-1.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen92-1.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[21.88] Sys[1.02] Real[0:22.97]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen47-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen17-1.smt2
+[cvc] sat User[5.94] Sys[0.00] Real[0:05.96]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen30-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[4.93] Sys[0.12] Real[0:05.07]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen44-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[24.40] Sys[0.61] Real[0:25.08]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen93-1.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[22.08] Sys[0.91] Real[0:23.06]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen24-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[2.14] Sys[0.03] Real[0:02.19]
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[22.08] Sys[0.91] Real[0:23.06]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen36-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[10.34] Sys[0.30] Real[0:10.68]
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[22.08] Sys[0.91] Real[0:23.06]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen19-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen77-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen26-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[2.87] Sys[0.05] Real[0:02.93]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen16-1.smt2
+[cvc] error: timeout
+[alt-ergo] unknown (sat) User[0.73] Sys[0.02] Real[0:00.75]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen25-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/toroidal_bench/toroidal_queen96-1.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[22.12] Sys[0.94] Real[0:23.13]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen10-1.smt2
+[cvc] sat User[0.62] Sys[0.00] Real[0:00.63]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen41-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen88-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen60-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen67-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen22-1.smt2
+[cvc] sat User[18.95] Sys[0.03] Real[0:19.03]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen8-1.smt2
+[cvc] sat User[0.28] Sys[0.00] Real[0:00.28]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen75-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen97-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen35-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/queens_bench/n_queen/queen83-1.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-30.base.cvc.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] File "/home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-30.base.cvc.smt2", line 1703, characters 133889-133901:typing error: syntax error User[0.78] Sys[0.01] Real[0:00.79]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-10.base.cvc.smt2
+[cvc] unsat User[5.42] Sys[0.00] Real[0:05.45]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] File "/home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-10.base.cvc.smt2", line 603, characters 44383-44395:typing error: syntax error User[0.10] Sys[0.00] Real[0:00.11]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-36.base.cvc.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] File "/home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-36.base.cvc.smt2", line 2033, characters 161069-161081:typing error: syntax error User[1.08] Sys[0.02] Real[0:01.10]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-12.induction.cvc.smt2
+[cvc] sat User[4.19] Sys[0.02] Real[0:04.22]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-12.base.cvc.smt2
+[cvc] unsat User[9.98] Sys[0.02] Real[0:10.03]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] File "/home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-12.base.cvc.smt2", line 713, characters 53139-53151:typing error: syntax error User[0.16] Sys[0.00] Real[0:00.16]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-13.induction.cvc.smt2
+[cvc] sat User[5.10] Sys[0.02] Real[0:05.13]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-8.base.cvc.smt2
+[cvc] unsat User[3.43] Sys[0.00] Real[0:03.45]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] File "/home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-8.base.cvc.smt2", line 493, characters 35600-35612:typing error: syntax error User[0.08] Sys[0.00] Real[0:00.08]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/qlock/qlock-4-10-7.induction.cvc.smt2
+[cvc] sat User[2.25] Sys[0.00] Real[0:02.26]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sep/hardware/cache_neg.2step.smt2
+[cvc] unsat User[0.04] Sys[0.00] Real[0:00.04]
+[alt-ergo] unsat User[0.98] Sys[0.00] Real[0:00.99]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/RTCL/b13_tf_15/ckt_PROP1_tf_15.smt2
+[cvc] unsat User[0.11] Sys[0.00] Real[0:00.12]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: out of memory. User[18.49] Sys[0.98] Real[0:19.53]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/RTCL/b13_tf_13_PROP40/ckt_PROP40_tf_13.smt2
+[cvc] sat User[0.09] Sys[0.00] Real[0:00.09]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/cellar/CELAR6_SUB4.smt2
+[cvc] unsat User[2.84] Sys[0.01] Real[0:02.86]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/post_office/PO3-4-PO3.smt2
+[cvc] unsat User[0.28] Sys[0.00] Real[0:00.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/post_office/PO3-7-PO3.smt2
+[cvc] unsat User[0.53] Sys[0.00] Real[0:00.54]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER10-1-ninc.smt2
+[cvc] unsat User[0.08] Sys[0.00] Real[0:00.08]
+[alt-ergo] unsat User[13.25] Sys[0.00] Real[0:13.29]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER13-7-ninc.smt2
+[cvc] unsat User[1.56] Sys[0.01] Real[0:01.58]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER1-2-ninc.smt2
+[cvc] sat User[0.03] Sys[0.00] Real[0:00.04]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER14-5-ninc.smt2
+[cvc] unsat User[0.82] Sys[0.01] Real[0:00.83]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER13-14-ninc.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER6-4-ninc.smt2
+[cvc] unsat User[0.27] Sys[0.00] Real[0:00.28]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER7-6-ninc.smt2
+[cvc] unsat User[0.55] Sys[0.00] Real[0:00.56]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER9-10-ninc.smt2
+[cvc] sat User[3.61] Sys[0.02] Real[0:03.64]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER3-1-ninc.smt2
+[cvc] unsat User[0.03] Sys[0.00] Real[0:00.03]
+[alt-ergo] unsat User[0.72] Sys[0.00] Real[0:00.72]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/mathsat/fischer/FISCHER11-2-ninc.smt2
+[cvc] unsat User[0.28] Sys[0.00] Real[0:00.29]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/SchurNumbers/15.5.schur.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/SchurNumbers/15.1.schur.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/SchurNumbers/20.3.schur.lp.smt2
+[cvc] unsat User[28.64] Sys[0.06] Real[0:28.77]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/EdgeMatching/edge-matching-width=9-height=9-colours=12.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/EdgeMatching/edge-matching-width=8-height=8-colours=15.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/EdgeMatching/edge-matching-width=7-height=7-colours=15.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/EdgeMatching/edge-matching-width=8-height=8-colours=13.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Sudoku/sudoku.in2.smt2
+[cvc] sat User[0.15] Sys[0.00] Real[0:00.15]
+[alt-ergo] unknown (sat) User[12.70] Sys[0.00] Real[0:12.74]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_15.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/WeightBoundedDominatingSet/rand_150_600_1159731678_5.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/DisjunctiveScheduling/disjunctiveScheduling.in7.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[7.48] Sys[0.31] Real[0:07.82]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/GeneralizedSlitherlink/trisquares.19.asp.smt2
+[cvc] sat User[27.88] Sys[0.11] Real[0:28.06]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/GeneralizedSlitherlink/penrose.44.asp.smt2
+[cvc] sat User[15.40] Sys[0.04] Real[0:15.48]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/GeneralizedSlitherlink/penrose.48.asp.smt2
+[cvc] sat User[13.82] Sys[0.05] Real[0:13.91]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/GeneralizedSlitherlink/penrose.11.asp.smt2
+[cvc] sat User[15.75] Sys[0.06] Real[0:15.87]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/HamiltonianPath/gryzzles.46.lp.smt2
+[cvc] sat User[23.25] Sys[0.10] Real[0:23.43]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/HamiltonianPath/gryzzles.12.lp.smt2
+[cvc] sat User[8.85] Sys[0.02] Real[0:08.90]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Labyrinth/laby_21_21_12.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[7.30] Sys[0.24] Real[0:07.56]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Labyrinth/laby_20_20_16.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[7.22] Sys[0.30] Real[0:07.56]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Labyrinth/laby_21_21_05.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[7.42] Sys[0.28] Real[0:07.73]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Labyrinth/laby_17_17_09.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[4.74] Sys[0.13] Real[0:04.89]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Labyrinth/laby_18_18_14.lp.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Stack_overflow User[4.84] Sys[0.19] Real[0:05.05]
+
+[QF_IDL] [] /home/hwwu/SMT/benchmarks/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=30.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+Thu May  2 18:19:31 EDT 2013
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-13.smt2
+[cvc] unsat User[1.60] Sys[0.02] Real[0:01.63]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-2.smt2
+[cvc] unsat User[0.06] Sys[0.00] Real[0:00.07]
+[alt-ergo] unsat User[0.02] Sys[0.00] Real[0:00.03]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-invalid-6.smt2
+[cvc] sat User[0.20] Sys[0.00] Real[0:00.21]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+Thu May  2 18:21:05 EDT 2013
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/lpsat/lpsat-goal-20.smt2
+[cvc] sat User[2.94] Sys[0.00] Real[0:02.96]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-1.smt2
+[cvc] unsat User[0.00] Sys[0.00] Real[0:00.01]
+[alt-ergo] unsat User[0.00] Sys[0.00] Real[0:00.01]
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/sal/bakery/inf-bakery-mutex-8.smt2
+[cvc] unsat User[0.30] Sys[0.00] Real[0:00.31]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.18.2.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/diamonds/diamonds.16.3.i.a.u.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_1_mkspan1054.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_2_mkspan1056.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_8_mkspan893.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_2_mkspan921.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_2_mkspan919.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1261.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_1_mkspan1052.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1600.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_8_mkspan1180.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per20_2_mkspan1000.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1576.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per20_2_mkspan1019.smt2
+[cvc] sat User[23.38] Sys[0.08] Real[0:23.53]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1257.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_15x15_4_mkspan941.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1261.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_2_mkspan1570.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per0_1_mkspan1047.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per20_2_mkspan1002.smt2
+[cvc] error: timeout
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1258.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j7_per10_2_mkspan1013.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_5_mkspan1257.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_4_mkspan1253.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_3_mkspan1266.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/j8_per10_1_mkspan1004.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/schedulingIDL/tai_20x20_7_mkspan1370.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c210_s20.smt2
+[cvc] sat User[5.53] Sys[0.00] Real[0:05.55]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c175_s2.smt2
+[cvc] sat User[4.80] Sys[0.02] Real[0:04.84]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/DTP/DTP_k2_n35_c245_s4.smt2
+[cvc] unsat User[4.13] Sys[0.00] Real[0:04.15]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/planning/plan-42.cvc.smt2
+[cvc] unsat User[10.68] Sys[0.04] Real[0:10.75]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/planning/plan-30.cvc.smt2
+[cvc] unsat User[4.74] Sys[0.01] Real[0:04.78]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/planning/plan-31.cvc.smt2
+[cvc] unsat User[4.85] Sys[0.01] Real[0:04.88]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [unsat] /home/hwwu/SMT/benchmarks/QF_IDL/planning/plan-7.cvc.smt2
+[cvc] unsat User[0.54] Sys[0.00] Real[0:00.55]
+[alt-ergo] error: timeout
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop16-2-8-8-2-4-9.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop56-2-28-28-2-4-12.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_IDL] [sat] /home/hwwu/SMT/benchmarks/QF_IDL/job_shop/jobshop32-2-16-16-4-4-12.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+Thu May  2 18:44:45 EDT 2013
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1405.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [unsat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1577.smt2
+[cvc] error: timeout
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Smtlib2_to_why.Not_Implemented User[0.18] Sys[0.02] Real[0:00.20]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1153.smt2
+[cvc] sat User[14.01] Sys[0.18] Real[0:14.23]
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [unsat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1229.smt2
+[cvc] unsat User[22.83] Sys[0.41] Real[0:23.31]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Smtlib2_to_why.Not_Implemented User[0.11] Sys[0.01] Real[0:00.12]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1608.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [unsat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-2134.smt2
+[cvc] unsat User[2.65] Sys[0.04] Real[0:02.69]
+[alt-ergo] error: can't parse
+[cvc]
+[alt-ergo] Fatal error: exception Smtlib2_to_why.Not_Implemented User[0.03] Sys[0.00] Real[0:00.04]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1576.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1610.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1600.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1562.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
+[QF_BV] [sat] /home/hwwu/SMT/benchmarks/QF_BV/uclid/catchconv/convert-jpg2gif-query-1580.smt2
+[cvc] error: timeout
+[alt-ergo] skipped
+[cvc]
+[alt-ergo]
+
