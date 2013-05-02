@@ -1,8 +1,22 @@
 \begin{thebibliography}{1}
 
+\bibitem{barrett:cvc4:2011}
+Clark Barrett, Christopher~L. Conway, Morgan Deters, Liana Hadarean, Dejan
+  Jovanović, Tim King, Andrew Reynolds, and Cesare Tinelli.
+\newblock {CVC4}.
+\newblock In {\em Proceedings of the 23rd international conference on Computer
+  aided verification}, {CAV'11}, pages 171--177, Berlin, Heidelberg, 2011.
+  Springer-Verlag.
+
 \bibitem{bs2010}
 Clark Barrett, Aaron Stump, and Cesare Tinelli.
 \newblock The satisfiability modulo theories library ({SMT-LIB)}.
 \newblock {\em www.smtlib.org}, 2010.
+
+\bibitem{alt-ergo}
+Fran\c{c}ois Bobot, Sylvain Conchon, \'Evelyne Contejean, Mohamed Iguernelala,
+  St\'ephane Lescuyer, and Alain Mebsout.
+\newblock The {Alt-Ergo} automated theorem prover, 2008.
+\newblock \url{http://alt-ergo.lri.fr/}.
 
 \end{thebibliography}
