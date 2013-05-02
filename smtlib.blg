@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: smtlib.aux
 The style file: plain.bst
 Database file #1: smtlib.bib
-You've used 3 entries,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            515 strings with 4633 characters,
-and the built_in function-call counts, 1305 in all, are:
-= -- 118
-> -- 94
-< -- 1
-+ -- 39
-- -- 34
-* -- 97
-:= -- 225
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 26
+            526 strings with 5073 characters,
+and the built_in function-call counts, 1949 in all, are:
+= -- 175
+> -- 143
+< -- 3
++ -- 57
+- -- 51
+* -- 156
+:= -- 330
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 40
-empty$ -- 79
-format.name$ -- 34
-if$ -- 267
+cite$ -- 4
+duplicate$ -- 62
+empty$ -- 117
+format.name$ -- 51
+if$ -- 404
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 31
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 10
+pop$ -- 42
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 32
 quote$ -- 0
-skip$ -- 33
+skip$ -- 48
 stack$ -- 0
-substring$ -- 45
-swap$ -- 12
-text.length$ -- 1
+substring$ -- 70
+swap$ -- 22
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 16
 warning$ -- 0
-while$ -- 8
-width$ -- 4
-write$ -- 36
+while$ -- 13
+width$ -- 5
+write$ -- 50

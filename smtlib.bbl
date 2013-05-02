@@ -19,4 +19,14 @@ Fran\c{c}ois Bobot, Sylvain Conchon, \'Evelyne Contejean, Mohamed Iguernelala,
 \newblock The {Alt-Ergo} automated theorem prover, 2008.
 \newblock \url{http://alt-ergo.lri.fr/}.
 
+\bibitem{bobot:hal-00687640}
+Fran{\c c}ois Bobot, Sylvain Conchon, Evelyne Contejean, Mohamed Iguernelala,
+  Assia Mahboubi, Alain Mebsout, and Guillaume Melquiond.
+\newblock {A Simplex-Based Extension of Fourier-Motzkin for Solving Linear
+  Integer Arithmetic}.
+\newblock In Bernhard Gramlich, Dale Miller, and Uli Sattler, editors, {\em
+  {6th International Joint Conference on Automated Reasoning}}, volume 7364 of
+  {\em Lecture Notes in Computer Science}, pages 67--81, Manchester,
+  Royaume-Uni, 2012. Springer.
+
 \end{thebibliography}

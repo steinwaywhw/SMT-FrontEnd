@@ -35,7 +35,7 @@
 \title{Comparing and Integrating CVC4 and Alt-Ergo}
 \author{Hanwen Wu}
 \author{Wenxin Feng}
-\affil{ Department of Computer Science\\Boston University\\ \small\tt hwwu,wenxinf@bu.edu}
+\affil{ Department of Computer Science\\Boston University\\ \small\texttt{hwwu,wenxinf@bu.edu}}
 
 
 \begin{document}
@@ -198,6 +198,9 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 CVC4, the fifth generation of Cooperating Validity Checker from NYU and U Iowa, is a DPLL({\it T}) solver with a SAT solver core and a delegation path to different decision procedure implementations, each in charge of solving formulas in some background theory.\cite{barrett:cvc4:2011}. It has implmented decision procedures for the theory of uninterpreted/free functions, arithmetic, arrays, bitvectors and inductive datatypes. It uses a combination method based on Nelson-Oppen method to cooperate different theories. Also, it supports quantifiers through heuristic instantiaion\footnote{See \url{http://cvc4.cs.nyu.edu/wiki/About_CVC4}} and has the ability to generate model.
 
 \section{Alt-Ergo}
+
+Alt-Ergo uses a Simplex-based extension of Fourier-Motzkin for solving linear integer arithmetic, and it is sound and complete when it is quantifier free\cite{bobot:hal-00687640}.
+
 
 \bibliographystyle{plain}
 \bibliography{smtlib}
