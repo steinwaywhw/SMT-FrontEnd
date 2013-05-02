@@ -1,16 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  21 APR 2013 17:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.4.30)  30 APR 2013 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **smtlib.tex
 (./smtlib.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, an
-cientgreek, ibycus, arabic, pinyin, ukenglish, usenglishmax, farsi, monogreek, 
-greek, latin, loaded.
-(c:/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(c:/texlive/texmf-dist/tex/latex/base/size11.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,24 +24,24 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(c:/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(c:/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(c:/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -83,41 +82,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(c:/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(c:/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(c:/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(c:/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(c:/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(c:/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(c:/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(c:/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
@@ -125,10 +124,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(c:/texlive/texmf-dist/tex/latex/psnfss/times.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(c:/texlive/texmf-dist/tex/latex/tools/bm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -136,7 +135,7 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
-(c:/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -148,7 +147,7 @@ Package: amsthm 2009/07/02 v2.20.1
 \thm@headsep=\skip48
 \dth@everypar=\toks25
 )
-(c:/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
@@ -156,18 +155,18 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-(c:/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(c:/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(c:/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count100
@@ -183,23 +182,17 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen123
 \Gm@dimlist=\toks27
 )
-(c:/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2011/07/11 v1.3 Centers the not symbol horizontally (HO)
 )
-(c:/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
-Package: stmaryrd 1994/03/03 St Mary's Road symbol package
-\symstmry=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
-(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
-)
-(c:/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-(c:/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(c:/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -238,51 +231,47 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-(c:/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen124
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-(c:/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count105
 
-(c:/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count106
 
-(c:/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen125
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count107
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count108
 \c@Item=\count109
 \c@Hfootnote=\count110
@@ -290,27 +279,27 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(c:/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-(c:/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip51
 )
-(c:/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 
-(c:/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count113
 \calc@Bcount=\count114
-\calc@Adimen=\dimen128
-\calc@Bdimen=\dimen129
+\calc@Adimen=\dimen127
+\calc@Bdimen=\dimen128
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 76.
@@ -318,542 +307,26 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count115
 \calc@Cskip=\skip54
 )
-(c:/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 \g_MT_multlinerow_int=\count116
-\l_MT_multwidth_dim=\dimen130
+\l_MT_multwidth_dim=\dimen129
 \origjot=\skip55
-\l_MT_shortvdotswithinadjustabove_dim=\dimen131
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen132
-\l_MT_above_intertext_dim=\dimen133
-\l_MT_below_intertext_dim=\dimen134
-\l_MT_above_shortintertext_dim=\dimen135
-\l_MT_below_shortintertext_dim=\dimen136
+\l_MT_shortvdotswithinadjustabove_dim=\dimen130
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen131
+\l_MT_above_intertext_dim=\dimen132
+\l_MT_below_intertext_dim=\dimen133
+\l_MT_above_shortintertext_dim=\dimen134
+\l_MT_below_shortintertext_dim=\dimen135
 )
-(c:/texlive/texmf-dist/tex/latex/mdwtools/syntax.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mdwtools/syntax.sty
 Package: syntax 1996/05/17 1.07 Syntax typesetting (MDW)
 \grammarparsep=\skip56
-\grammarindent=\dimen137
+\grammarindent=\dimen136
 \sdstartspace=\skip57
 \sdendspace=\skip58
 \sdmidskip=\skip59
 \sdtokskip=\skip60
 \sdfinalskip=\skip61
-\sdrulewidth=\dimen138
-\sdcirclediam=\dimen139
-\sdindent=\dimen140
-)
-(c:/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
-Package: mdframed 2012/09/21\ 1.6d: mdframed
-
-(c:/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(c:/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
-Package: l3bootstrap 2012/07/16 v3991 L3 Experimental bootstrap code
-)
-Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
-)
-(c:/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count117
-)
-Package: expl3 2012/12/21 v4390 L3 Experimental code bundle wrapper
-
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
-Package: l3basics 2012/11/24 v4339 L3 Basic definitions
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
-Package: l3expan 2012/08/28 v4149 L3 Argument expansion
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
-Package: l3tl 2012/11/24 v4339 L3 Token lists
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
-Package: l3seq 2012/11/24 v4339 L3 Sequences and stacks
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
-Package: l3int 2012/09/26 v4237 L3 Integers
-\c_max_int=\count118
-\l_tmpa_int=\count119
-\l_tmpb_int=\count120
-\g_tmpa_int=\count121
-\g_tmpb_int=\count122
-\l_tmpc_int=\count123
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
-Package: l3quark 2012/11/04 v4268 L3 Quarks
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
-Package: l3prg 2012/11/24 v4339 L3 Control structures
-\g__prg_map_int=\count124
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
-Package: l3clist 2012/11/24 v4339 L3 Comma separated lists
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
-Package: l3token 2012/12/20 v4384 L3 Experimental token manipulation
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
-Package: l3prop 2012/09/09 v4212 L3 Property lists
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
-Package: l3msg 2012/09/09 v4212 L3 Messages
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
-Package: l3file 2012/12/20 v4377 L3 File and I/O operations
-\l__ior_stream_int=\count125
-\l_iow_line_count_int=\count126
-\l__iow_target_count_int=\count127
-\l__iow_current_line_int=\count128
-\l__iow_current_word_int=\count129
-\l__iow_current_indentation_int=\count130
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
-Package: l3skip 2012/11/04 v4260 L3 Dimensions and skips
-\c_zero_dim=\dimen141
-\c_max_dim=\dimen142
-\l_tmpa_dim=\dimen143
-\l_tmpb_dim=\dimen144
-\g_tmpa_dim=\dimen145
-\g_tmpb_dim=\dimen146
-\c_zero_skip=\skip62
-\c_max_skip=\skip63
-\l_tmpa_skip=\skip64
-\l_tmpb_skip=\skip65
-\g_tmpa_skip=\skip66
-\g_tmpb_skip=\skip67
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
-Package: l3keys 2012/11/02 v4256 L3 Experimental key-value interfaces
-\g__keyval_level_int=\count131
-\l_keys_choice_int=\count132
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
-Package: l3fp 2012/11/10 v4305 L3 Floating points
-\c__fp_leading_shift_int=\count133
-\c__fp_middle_shift_int=\count134
-\c__fp_trailing_shift_int=\count135
-\c__fp_big_leading_shift_int=\count136
-\c__fp_big_middle_shift_int=\count137
-\c__fp_big_trailing_shift_int=\count138
-\c__fp_Bigg_leading_shift_int=\count139
-\c__fp_Bigg_middle_shift_int=\count140
-\c__fp_Bigg_trailing_shift_int=\count141
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
-Package: l3box 2012/12/08 v4347 L3 Experimental boxes
-\c_empty_box=\box28
-\l_tmpa_box=\box29
-\l_tmpb_box=\box30
-\g_tmpa_box=\box31
-\g_tmpb_box=\box32
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
-Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
-\l__coffin_internal_box=\box33
-\l__coffin_internal_dim=\dimen147
-\l__coffin_offset_x_dim=\dimen148
-\l__coffin_offset_y_dim=\dimen149
-\l__coffin_x_dim=\dimen150
-\l__coffin_y_dim=\dimen151
-\l__coffin_x_prime_dim=\dimen152
-\l__coffin_y_prime_dim=\dimen153
-\c_empty_coffin=\box34
-\l__coffin_aligned_coffin=\box35
-\l__coffin_aligned_internal_coffin=\box36
-\l_tmpa_coffin=\box37
-\l_tmpb_coffin=\box38
-\l__coffin_display_coffin=\box39
-\l__coffin_display_coord_coffin=\box40
-\l__coffin_display_pole_coffin=\box41
-\l__coffin_display_offset_dim=\dimen154
-\l__coffin_display_x_dim=\dimen155
-\l__coffin_display_y_dim=\dimen156
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
-Package: l3color 2012/08/29 v4156 L3 Experimental color support
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
-Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count142
-\g__cctab_stack_int=\count143
-)
-(c:/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
-Package: l3candidates 2012/12/20 v4383 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen157
-\l__box_bottom_dim=\dimen158
-\l__box_left_dim=\dimen159
-\l__box_right_dim=\dimen160
-\l__box_top_new_dim=\dimen161
-\l__box_bottom_new_dim=\dimen162
-\l__box_left_new_dim=\dimen163
-\l__box_right_new_dim=\dimen164
-\l__box_internal_box=\box42
-\l__coffin_bounding_shift_dim=\dimen165
-\l__coffin_left_corner_dim=\dimen166
-\l__coffin_right_corner_dim=\dimen167
-\l__coffin_bottom_corner_dim=\dimen168
-\l__coffin_top_corner_dim=\dimen169
-\l__coffin_scaled_total_height_dim=\dimen170
-\l__coffin_scaled_width_dim=\dimen171
-))
-Package: xparse 2012/12/21 v4390 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count144
-\l__xparse_m_args_int=\count145
-\l__xparse_mandatory_args_int=\count146
-\l__xparse_processor_int=\count147
-\l__xparse_v_nesting_int=\count148
-)
-(c:/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count149
-)
-(c:/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
-
-(c:/texlive/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
-)
-\c@abspage=\count150
-Package zref Info: New property: abspage on input line 62.
-)
-(c:/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(c:/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-\mdf@templength=\skip68
-\c@mdf@globalstyle@cnt=\count151
-\mdf@skipabove@length=\skip69
-\mdf@skipbelow@length=\skip70
-\mdf@leftmargin@length=\skip71
-\mdf@rightmargin@length=\skip72
-\mdf@innerleftmargin@length=\skip73
-\mdf@innerrightmargin@length=\skip74
-\mdf@innertopmargin@length=\skip75
-\mdf@innerbottommargin@length=\skip76
-\mdf@splittopskip@length=\skip77
-\mdf@splitbottomskip@length=\skip78
-\mdf@outermargin@length=\skip79
-\mdf@innermargin@length=\skip80
-\mdf@linewidth@length=\skip81
-\mdf@innerlinewidth@length=\skip82
-\mdf@middlelinewidth@length=\skip83
-\mdf@outerlinewidth@length=\skip84
-\mdf@roundcorner@length=\skip85
-\mdf@footenotedistance@length=\skip86
-\mdf@userdefinedwidth@length=\skip87
-\mdf@frametitleaboveskip@length=\skip88
-\mdf@frametitlebelowskip@length=\skip89
-\mdf@frametitlerulewidth@length=\skip90
-\mdf@frametitleleftmargin@length=\skip91
-\mdf@frametitlerightmargin@length=\skip92
-\mdf@shadowsize@length=\skip93
-\mdf@extratopheight@length=\skip94
-\mdf@subtitleabovelinewidth@length=\skip95
-\mdf@subtitlebelowlinewidth@length=\skip96
-\mdf@subtitleaboveskip@length=\skip97
-\mdf@subtitlebelowskip@length=\skip98
-\mdf@subtitleinneraboveskip@length=\skip99
-\mdf@subtitleinnerbelowskip@length=\skip100
-\mdf@subsubtitleabovelinewidth@length=\skip101
-\mdf@subsubtitlebelowlinewidth@length=\skip102
-\mdf@subsubtitleaboveskip@length=\skip103
-\mdf@subsubtitlebelowskip@length=\skip104
-\mdf@subsubtitleinneraboveskip@length=\skip105
-\mdf@subsubtitleinnerbelowskip@length=\skip106
-\mdf@frametitlebox=\box43
-\mdf@footnotebox=\box44
-\mdf@splitbox@one=\box45
-\mdf@splitbox@two=\box46
-\mdf@splitbox@save=\box47
-\mdfsplitboxwidth=\skip107
-\mdfsplitboxtotalwidth=\skip108
-\mdfsplitboxheight=\skip109
-\mdfsplitboxdepth=\skip110
-\mdfsplitboxtotalheight=\skip111
-\mdfframetitleboxwidth=\skip112
-\mdfframetitleboxtotalwidth=\skip113
-\mdfframetitleboxheight=\skip114
-\mdfframetitleboxdepth=\skip115
-\mdfframetitleboxtotalheight=\skip116
-\mdffootnoteboxwidth=\skip117
-\mdffootnoteboxtotalwidth=\skip118
-\mdffootnoteboxheight=\skip119
-\mdffootnoteboxdepth=\skip120
-\mdffootnoteboxtotalheight=\skip121
-\mdftotallinewidth=\skip122
-\mdfboundingboxwidth=\skip123
-\mdfboundingboxtotalwidth=\skip124
-\mdfboundingboxheight=\skip125
-\mdfboundingboxdepth=\skip126
-\mdfboundingboxtotalheight=\skip127
-\mdf@freevspace@length=\skip128
-\mdf@horizontalwidthofbox@length=\skip129
-\mdf@verticalmarginwhole@length=\skip130
-
-
-****** mdframed patching \endmdf@trivlist
-
-****** -- success******
-
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
-. line 546.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
-. 637.
-.................................................
-(c:/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
-File: md-frame-0.mdf 2012/09/21\ 1.6d: md-frame-0
-)
-\c@mdf@zref@counter=\count152
-Package zref Info: New property: mdf@pagevalue on input line 830.
-\mdf@horizontalspaceofbox=\skip131
-)
-\c@problem=\count153
-\c@lem=\count154
-
-
-LaTeX Warning: Unused global option(s):
-    [letter].
-
-(./smtlib.aux)
-\openout1 = `smtlib.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
- (c:/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(c:/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen172
-\scratchbox=\box48
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen173
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks29
-) (c:/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(c:/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(c:/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=709.61174pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-66.59087pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=11.0pt
-* \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 39.
-(c:/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(c:/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count161
-)
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
- (./smtlib.out) (./smtlib.out)
-\@outlinefile=\write3
-\openout3 = `smtlib.out'.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
- (c:/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
-
-(c:/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+stmry on input line 41.
-
-(c:/texlive/texmf-dist/tex/latex/stmaryrd/ustmry.fd)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 50.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 52.
-
-(c:/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 65.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 65.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 65.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 73.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 94.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 94.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 94.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 106.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 131.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 131.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 131.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 142.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 152.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 152.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 152.
-[1
-
-{c:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 163.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 178.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 178.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 178.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./smtlib.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
- [2] [3] [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
- (./smtlib.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `smtlib.out' has not changed.
-(rerunfilecheck)             Checksum: 1B7252D3FC5B21ABC210B49DD55F476F;453.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
- ) 
-Here is how much of TeX's memory you used:
- 13849 strings out of 494916
- 225606 string characters out of 3178864
- 327569 words of memory out of 3000000
- 16810 multiletter control sequences out of 15000+200000
- 26678 words of font info for 71 fonts, out of 3000000 for 9000
- 81 hyphenation exceptions out of 8191
- 44i,14n,32p,925b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
-{c:/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/texmf-dist/fonts/type1/urw/
-courier/ucrr8a.pfb><c:/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/texmf-dist/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on smtlib.pdf (4 pages, 104433 bytes).
-PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+\sdrulewidth=\dimen1
