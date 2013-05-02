@@ -186,12 +186,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (c:/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2011/07/11 v1.3 Centers the not symbol horizontally (HO)
 )
-(c:/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
-Package: stmaryrd 1994/03/03 St Mary's Road symbol package
-\symstmry=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
-(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
-)
 (c:/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -269,7 +263,7 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 4653.
 \XeTeXLinkMargin=\dimen125
 \Fld@menulength=\count107
 \Field@Width=\dimen126
@@ -836,8 +830,8 @@ Package mdframed Info: mdframed inside a box
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./smtlib.bbl
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no ï¿½ in font ptmr7t!
  [2])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
  [3] [4] [5]

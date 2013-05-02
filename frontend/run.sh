@@ -18,10 +18,15 @@ TIMEFORMAT="User[%U] Sys[%S] Real[%E]"
 date
 echo ""
 
-for SMT_FILE in $(find ../../ -type f -iname *.smt2)
+for SMT_FILE in $(find ~/SMT/benchmarks/ -type f -iname *.smt2)
 do
+	FOUND=$(grep $SMT_FILE 0501.log)
+	if ( [ $? -eq 0 ] ) then
+		continue
+	fi
+
 	# Get LOGIC first
-	LOGIC=$(grep set-logic $SMT_FILE | awk "{print substr(substr(\$2, 1, length(\$2)-1),2,length(\$0))}")	
+	LOGIC=$(grep set-logic $SMT_FILE | awk "{print substr(substr(\$2, 1, length(\$2)-1),1,length(\$0))}")	
 	if ( [ $? -ne 0 ] ) then
 		echo "error: can't get logic for $SMT_FILE" 
 		LOGIC="N/A"
@@ -34,7 +39,7 @@ do
 	fi
 
 	# Get expected result here
-	EXPECTED=$(grep 'set-info :status' $SMT_FILE | awk "{print substr(substr(\$3, 1, length(\$3)-1),2,length(\$0))}")
+	EXPECTED=$(grep 'set-info :status' $SMT_FILE | awk "{print substr(substr(\$3, 1, length(\$3)-1),1,length(\$0))}")
 	if ( [ $? -ne 0 ] ) then
 		echo "error: can't get expected result for $SMT_FILE" 
 		EXPECTED="N/A"
