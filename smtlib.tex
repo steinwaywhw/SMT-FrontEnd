@@ -2,11 +2,10 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx} 
-\usepackage{times}              
 \usepackage{bm}
 \usepackage{amsthm}
 \usepackage{array}
-\usepackage[left=2cm,right=2cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{geometry}
 \usepackage{centernot}
 %%\usepackage{stmaryrd}
 \usepackage{hyperref}
@@ -14,7 +13,7 @@
 \usepackage{syntax}
 \usepackage{mdframed}
 \usepackage{authblk}
-\mdfsetup{leftmargin=1cm,rightmargin=1cm,innertopmargin=0.5cm,innerbottommargin=0.5cm,linewidth=1}
+\mdfsetup{leftmargin=0cm,rightmargin=0cm,innertopmargin=0.5cm,innerbottommargin=0.5cm,linewidth=0.9}
 
 
 \newtheorem*{note}{Note}
@@ -30,9 +29,9 @@
 \newtheorem*{conclusion}{Conclusion}
 \setlength{\grammarparsep}{20pt} % increase separation between rules
 \setlength{\grammarindent}{9em} % increase separation between LHS/RHS 
+\setlength{\columnsep}{3em}
 
-
-\title{Comparing and Integrating CVC4 and Alt-Ergo}
+\title{\bf Comparing and Integrating CVC4 and Alt-Ergo}
 \author{Hanwen Wu}
 \author{Wenxin Feng}
 \affil{ Department of Computer Science\\Boston University\\ \small\texttt{hwwu,wenxinf@bu.edu}}
@@ -42,7 +41,7 @@
 \maketitle
 
 \begin{abstract}
-This technical report summarize the abilities of CVC4 and Alt-Ergo by testing them using SMT-LIB 2.0 benchmarks within the theories of boolean, free functions, integers, bitvectors, quantifiers and inductions. The results show that CVC4 is both more powerful and more efficient than Alt-Ergo. It is complete in ....
+This technical report summarizes the abilities of CVC4 and Alt-Ergo by testing them using SMT-LIB 2.0 benchmarks within the theories of boolean, free functions, integers, bit-vectors, quantifiers and inductions. The results show that CVC4 is both more powerful and more efficient than Alt-Ergo. It is complete in ....
 \end{abstract}
 \section{Overview}
 
@@ -52,33 +51,37 @@ In this report, we will first of all, give a short introduction on SMT-LIB logic
 
 \section{SMT-LIB 2.0 Logic}
 
-In this section, we will briefly introduce SMT-LIB 2.0 logic so that we can more easily describe the classification of input formulas using SMT-LIB format later.
+In this section, we will briefly introduce SMT-LIB 2.0 logic so that we can more easily describe the classification of input formulas using SMT-LIB format later. It is developed as a standard logic to describe theories, input languages, and output languages. Currently it is supported by a variety of SMT solvers. They also hold competitions for SMT solvers every year, and have a collection of benchmarks which we will use for our tests.
 
 \subsection{An Introduction}
 
-Since we are going to use SMT-LIB 2.0 logic to describt the classification of formulas, it is necessary to understand the SMT-LIB 2.0 logic itself, which can be used as an input language for both solvers (Alt-Ergo, CVC4).
+Since we are going to use SMT-LIB 2.0 logic to describt the classification of formulas, it is necessary to understand the SMT-LIB 2.0 logic itself, which can be used as an input language for both solvers (Alt-Ergo, CVC4). 
+
+SMT-LIB 2.0 is basically a version of many-sorted first-order logic with equality\cite{bs2010}. It provides us the ability to write formulas, define theories and logics, and interact with provers using scripts. Provers that support SMT-LIB 2.0 should implement required funcionalieis and use correct semantics.
 
 \subsubsection{Sets of Symbols}
 
-These are part of the sets defined by SMT-LIB 2.0\cite{barrett:smt-lib:2010}. They are alphabets of the logic, namely, the sources of symbols.
+These are part of the sets defined by SMT-LIB 2.0\cite{barrett:smt-lib:2010}. They are alphabets of the logic, namely, the sources of symbols. These symbols will be used in the following subsections.
 \begin{itemize}
 \item $\mathcal{S}$: Infinite set of sort symbols, containing $\tt bool$.
 \item $\mathcal{U}$: Infinite set of sort parameters.
 \item $\mathcal{X}$: Infinite set of variables.
 \item $\mathcal{F}$: Infinite set of function symbols.
-\item $\mathcal{B}$: Boolean values $\tt \{true, false\}$.
-\item $\vdots$
+\item $\mathcal{B}$: Boolean values  \{{\bf true, false}\}.
+\item \qquad$\vdots$
 \end{itemize}
+
 
 
 \subsubsection{Sorts}
 
-Sorts over a set of sort symbols $\mathcal{S}$ are defined as $\tt Sort(\mathcal{S})$. Sorts are defined inductively as follows.
+SMT-LIB 2.0 is a sorted logic. Sorts over a set of sort symbols $\mathcal{S}$ are defined as Sort($\mathcal{S}$). Sorts are defined inductively as follows.
 
 \begin{itemize}
 \item $\sigma \in \mathcal{S}$ of arity 0 is a sort.
-\item $\sigma \sigma_1, \sigma_2, \sigma_3, \ldots, \sigma_n$ is a sort if $\sigma \in \mathcal{S}$ of arity $n$, $\sigma_1$ to $\sigma_n$ are sorts.
+\item $\sigma,\sigma_1, \sigma_2, \sigma_3, \ldots, \sigma_n$ is a sort if $\sigma \in \mathcal{S}$ is of arity $n$, and $\sigma_1$ to $\sigma_n$ are sorts.
 \end{itemize}
+The second item uses sorts to form new sorts. A list of integers can be a good example.
 
 \subsubsection{Signature}
 
@@ -88,64 +91,69 @@ Baiscly, a signature $\Sigma$ defines sort symbols and arities, function symbols
 \item $\Sigma^\mathcal{S} \subset \mathcal{S}$: sort symbols, containing $\tt bool$.
 \item $\Sigma^\mathcal{F} \subset \mathcal{F}$: function symbols, containing equality, conjunction, and negation.
 \item $\Sigma^\mathcal{S}$ to $\mathbb{N}$: a total mapping from sort symbol to its arity, including $\tt bool \Rightarrow 0$.
-\item $\Sigma^\mathcal{F}$ to $\tt Sort(\Sigma^\mathcal{S})+$: a left total mapping from a function symbol to its rank, containing $=(\sigma, \sigma, {\tt bool} )$, $\neg({\tt bool},{\tt bool})$, $\wedge ({\tt bool}, {\tt bool}, {\tt bool})$.
-\item $\mathcal{X}$ to $\tt Sort(\Sigma^\mathcal{S})$: a partial mapping from a variable to its sort.
+\item $\Sigma^\mathcal{F}$ to Sort($\Sigma^\mathcal{S}$)$+$: a left total mapping from a function symbol to its rank, containing $=(\sigma, \sigma, {\tt bool} )$, $\neg({\tt bool},{\tt bool})$, $\wedge ({\tt bool}, {\tt bool}, {\tt bool})$.
+\item $\mathcal{X}$ to Sort($\Sigma^\mathcal{S}$): a partial mapping from a variable to its sort.
 \end{itemize}
 
-In the logic definitions of SMT-LIB, we will see ``expended sigmature'' a lot. We will formalize the expension methods in the following subsections.
+In the logic definitions of SMT-LIB, we will see ``expended sigmature'' a lot. We will formalize the expension methods in later sections.
 
 \subsubsection{Formulas}
 
-In SMT-LIB 2.0, formulas are well sorted terms of sort $\tt bool$ over $\Sigma$
+In SMT-LIB 2.0, formulas are well sorted terms of sort $\tt bool$ over $\Sigma$. In actuall scripts, all the formulas are begin treated as closed formulas. This is possible since non-closed formulas can be quantified using extential quantifier, as far as its satisfiability is concerned.
 
 \subsubsection{Structure}
 
-A structure in SMT-LIB 2.0 $\bf A$ can be regarded as a model. It is defined as follows.
-
+A structure $\bf A$ in SMT-LIB 2.0  can be regarded as a model. It is defined as a tuple. \[\bf{A}\it = \{A,\sigma^{\bf A}\footnote{$\sigma^{\bf A}$ is called the extension of $\sigma$ in $\bf A$.}\ ,(f:\sigma)^{\bf A},(f:\sigma_1,\sigma_2,\ldots,\sigma_n,\sigma)^{\bf A} \}\]
+And the meaning of these four elements are the followings.
 \begin{itemize}
-\item $A$: the universe (of values) of $\bf A$, including $\tt bool^{\bf A} = \{true, false\}$.
-\item $\sigma^{\bf A} \subset A$: give the sort $\sigma \in \tt Sort(\Sigma^\mathcal{S})$ a universe $\sigma^{\bf A} \subset A$. For example, $\tt bool^{\bf A}$ is $\{true, false\} \subset \rm A$. $\tt int^{\bf A}$ could be all the integers $\mathbb{Z} \subset A$.
-\item $(f:\sigma)^{\bf A} \in \sigma^{\bf A}$: give the constant symbol $f:\sigma$ a value in the universe of $\sigma$
-\item $(f:\sigma_1,\sigma_2,\ldots,\sigma_n,\sigma)^{\bf A}$: define the function symbol as a relation from $(\sigma_1,\sigma_2,...,\sigma_n)^{\bf A}$ to $\sigma^{\bf A}$. This must include the equality relations (or identity predicate over $\sigma^{\bf A}$, that is $\tt = (\sigma, \sigma, bool)$ as standard equality relations from $(\sigma^{\bf A}, \sigma^{\bf A})$ to $\{true, false\}$).
+\item $A$: the universe (of values) of $\bf A$, including $\tt bool^{\bf A} = $ \{{\bf true, false}\}.
+\item $\sigma^{\bf A} \subset A$: gives the sort $\sigma \in $ Sort($\Sigma^\mathcal{S}$) a universe $\sigma^{\bf A} \subset A$. For example, $\tt bool^{\bf A}$ is  \{{\bf true, false}\} $ \subset \it A$. $\tt int^{\bf A}$ could be all the integers $\mathbb{Z} \subset A$.
+\item $(f:\sigma)^{\bf A} \in \sigma^{\bf A}$: gives the constant symbol $f:\sigma$ a value in the universe of $\sigma$
+\item $(f:\sigma_1,\sigma_2,\ldots,\sigma_n,\sigma)^{\bf A}$: defines the function symbol as a relation from $(\sigma_1,\sigma_2,...,\sigma_n)^{\bf A}$ to $\sigma^{\bf A}$. This must include the equality relations (or identity predicate over $\sigma^{\bf A}$, that is $\tt = (\sigma, \sigma, bool)$ as standard equality relations from $(\sigma^{\bf A}, \sigma^{\bf A})$ to  \{{\bf true, false}\}).
 \end{itemize}
-
-\item $\sigma^{\bf A}$ is called the extension of $\sigma$ in $\bf A$.
 
 \subsubsection{Valuation and Interpretation}
 
-Valuations $v$ is a partial mapping $v$ from $\mathcal{X} \times \tt Sort(\Sigma^\mathcal{S})$ to $\sigma^{\bf A}$. That is to give variable $x$ of sort $\sigma$ a value in $\sigma^{\bf A}$.
+Valuation $v$ is a partial mapping from $\mathcal{X} \times$Sort($\Sigma^\mathcal{S}$) to $\sigma^{\bf A}$. That is to give variable $x$ of sort $\sigma$ a value in $\sigma^{\bf A}$.
 
-Interpretation $\mathcal{I}$ is defined as $\mathcal{I} = ({\bf A}, v)$, that is the structure together with the valuations make the $\Sigma$-interpretation.
+Interpretation $\mathcal{I}$ is defined as $\mathcal{I} = ({\bf A}, v)$, that is the structure together with the valuation make the $\Sigma$-interpretation.
 
-$\mathcal{I}$ will assign a meaning to well-sorted terms by uniquely mapping them into the $\bf A$. And that is the semantics.
+$\mathcal{I}$ will assign meanings to well-sorted terms by uniquely mapping them into the $\bf A$. And that is the semantic.
 
-As long as we have semantics, we can talk about satisfiability. If $\varphi$ is mapped to $\tt true$ by some $\mathcal{I}$, then it is satisfiable. If $\varphi$ is not closed, we say $\mathcal{I} = ({\bf A}, v)$ makes true $\varphi$. If $\varphi$ is closed, we say the structure $\bf A$ makes true $\varphi$. (Since it doesn't matter what valuation it is). If $\varphi$ is closed, we say the structure $\bf A$ a model of $\varphi$.
+As long as we have semantics, we can talk about satisfiability. If $\varphi$ is mapped to {\bf true} by some $\mathcal{I}$, then it is satisfiable. If $\varphi$ is not closed, we say $\mathcal{I} = ({\bf A}, v)$ makes true $\varphi$. If $\varphi$ is closed, we say the structure $\bf A$ makes true $\varphi$. (Since it doesn't matter what valuation it is), and that means $\bf A$ is a model of $\varphi$.
 
 \subsubsection{Theories}
-Traditionally, theory is a set of axioms. But here it consists of three parts.
+Theory is a very important concept here. SMT stands for Satisfiablity Modulo Theory, that is to check the satisfiability of a given logical formula within some background theories. Traditionally, a theory is a set of enough axioms, with which we can induct the formula. But here a theory $\mathcal{T}$ consists of three parts.
 \begin{itemize}
 \item Signature: $\Sigma$
-\item Axioms:\\
-This part is left for the people who implement solvers. Take $\tt int$ theory as an example, since we have the plus sign in our signature (we just denote it as $\tt ADD$, so that you know it is only a symbol, not the actual operation), we will have an axiom like $\forall x:{\tt int}. y:{\tt int}. \exists z:{\tt int}. {\tt ADD}(x,y,z) \leftrightarrow x + y = z$. Therefore, our model (or structure) must contain the correct relations to map $\tt ADD$ to the actual addition operation to satisfy this axiom.
-
-Also, some theories like $\tt real$ include those axioms as plain text, like associativity, commutativity, etc.
 \item Models: A set of $\Sigma$-structures, all of which are models of the theory.
+\item Axioms: This is actually part of the models, and is left for the people who implement solvers. Take integer theory as an example. Since we have the plus sign in our signature (we just denote it as $\tt ADD$, so that we know it is only a symbol, not the actual operation), we will have an axiom like $\forall x:{\tt int}.\forall y:{\tt int}. \exists z:{\tt int}. {\tt ADD}(x,y,z) \leftrightarrow x + y = z$. Therefore, our model (or structure) must contain the correct relations to map $\tt ADD$ to the actual addition operation to satisfy this axiom. Also, some theories, like real numbers, include those axioms as plain text, like associativity, commutativity, etc.
+
 \end{itemize}
 
+The SMT-LIB 2.0 standard has defined six theories. They are Core (for propositional logic), Integer, Real, Real and Integer, Fixed Size Bit-Vector, and Arrays. Each of them defines corresponing signature, and models. The actually implmentations are left for the provers.
+
 \subsubsection{Logics}
-Sublogic is a sublogic of SMT-LIB logic with restrictions. Common restrictions are
+Logic in SMT-LIB is also very important. It is a sublogic of SMT-LIB logic with restrictions, and is based on some theories. Common restrictions are
 \begin{itemize}
 \item fixing a signature $\Sigma$ and its theory $\mathcal{T}$
 \item restricting structures to the models of $\mathcal{T}$
 \item restricting input sentences as subset of $\Sigma$-sentences
 \end{itemize}
 
+The SMT-LIB standard has classify formulas into many well-defined logics, including QF-UF, QF-LIA, QF-NIA, QF-IDL, QF-LRA, QF-NRA, QF-RDL, QF-BV, QF-AX, etc. We will not discuss them all, but focusing on integers and fixed-size bit-vectors.
+
 \subsection{Theory}
-In the following, we are going to present some abstract informal definition of different theories in SMT-LIB 2.0. Note that the Core Theory is included in all other theories by default.
+In the following, we are going to present some abstract definition of different theories in SMT-LIB 2.0. Note that the Core theory is included in all other theories by default.
 
 In all the figures, function symbols will only be applied to well-sorted terms according to their own function ranks/signatures/definitions.
-\subsubsection{Core}
-Core Theory is all about boolean sort and boolean functions/constants. It is the very base for all other theories.
+
+
+\subsubsection{Core Theory}
+Core Theory is all about boolean sort and boolean functions/constants. It is the very base for all other theories. 
+
+Beyond propositional logic, there are two more features in the Core theory. The first is equality/distinction. These two function symbols are defined not only for $\tt bool$, but also for all potential sorts in an expended signature. The second is $\bf ite$, which is the $\bf if-then-else$ operator. It is also defined for other sorts.
+
 \begin{table}[h]
 \begin{mdframed}
 \centering
@@ -167,8 +175,11 @@ term\qquad $t$ & $\Coloneqq$ & \bf true $\mid$ false\\
 \caption{Core Theory}
 \end{table}
 
+
 \subsubsection{Integer Theory}
-Integer Theory defines the integer domain, and operations over integers.
+Integer Theory defines the integer domain, and operations over integers. It is a superset of Core theory, thus includs all the sorts and function symbols defined in Core theory.
+
+Note that the Integer theory itself doesn't have any restriction on linear or non-linear operations. They should instead be defined in logics based on Integer theory. Also, the division, modulo operations here are defined for integers which actually involve flooring and ceiling. 
 \begin{table}[h]
 \begin{mdframed}
 \centering
@@ -196,10 +207,10 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{Integer Theory}
 \end{table}
 
-\subsubsection{Fixed-Size Bit Vectors Theory}
-This theory declaration defines a core theory for fixed-size bitvectors 
-   where the operations of concatenation and extraction of bitvectors as well 
-   as the usual logical and arithmetic operations are overloaded\cite{bs2010}.
+\subsubsection{Fixed-Size Bit-Vectors Theory}
+This theory defines a series of sorts for different size of bit-vectors. Concatenation and extraction of bit-vectors, and the usual logical and arithmetic operations are also defined. The universe of bit-vectors theory is those numeral constants in bit-vector format. They are defined using a SMT-LIB syntax of the form {\tt \#b}X and {\tt \#x}X for binary and hexadeximal constants.
+
+In the table, we use {\tt bv} for ({\tt \_\ BitVec $m$}), and omitting the size of the bit-vectors, only for layout reasons.
 
 
 \begin{table}[h]
@@ -207,7 +218,7 @@ This theory declaration defines a core theory for fixed-size bitvectors
 \centering
 \begin{tabular}{r c l}
 sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool \\
-& $\mid$ & \rm(\tt \_\ BitVec $m$\rm)\it\qquad \rm($m$ \rm is a positive integer, we use {\tt bv} for short)\\
+& $\mid$ & \rm(\tt \_\ BitVec $m$\rm)\it\quad \rm($m$ \rm is a positive integer, we use {\tt bv} for short)\\
 \\
 function\qquad $f$ & $\Coloneqq$ & $\ldots$ \\
 & $\mid$ & {\tt \#b}X \rm : \tt bv \rm\qquad (all binary constants)\\
@@ -230,11 +241,14 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 & $\mid$ & (\bf bvshl \rm $t$ $t$) $\mid$ (\bf bvlshr \rm $t$ $t$) $\mid$ (\bf bvult \rm $t$ $t$) \\
 \end{tabular}
 \end{mdframed}
-\caption{Fixed-Size Bitvectors Theory}
+\caption{Fixed-Size Bit-Vectors Theory}
 \end{table}
 
 
 \subsection{Logic}
+
+Logic is the main tool we use for classifying formulas and testing solver abilities. In the followings, we will formalize the definition of various logics of SMT-LIB.
+
 \subsubsection{Quantifier-Free Uninterpreted Functions}
 Closed quantifier-free formulas built over an arbitrary expansion of the Core signature with free sort and function symbols \cite{bs2010}. Users can define there own sorts and function symbols, but all of them are abstract. Functions can contain variables, but they must be bounded by \bf let \rm binder, so that the formulas are closed.
 
@@ -305,7 +319,7 @@ Alt-Ergo uses a Simplex-based extension of Fourier-Motzkin for solving linear in
 
 
 
-\bibliographystyle{plain}
+\bibliographystyle{alpha}
 \bibliography{smtlib}
 
 

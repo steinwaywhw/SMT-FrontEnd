@@ -1,25 +1,13 @@
-\begin{thebibliography}{1}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BCD{\etalchar{+}}11}
 
-\bibitem{barrett:cvc4:2011}
-Clark Barrett, Christopher~L. Conway, Morgan Deters, Liana Hadarean, Dejan
-  Jovanović, Tim King, Andrew Reynolds, and Cesare Tinelli.
-\newblock {CVC4}.
-\newblock In {\em Proceedings of the 23rd international conference on Computer
-  aided verification}, {CAV'11}, pages 171--177, Berlin, Heidelberg, 2011.
-  Springer-Verlag.
-
-\bibitem{bs2010}
-Clark Barrett, Aaron Stump, and Cesare Tinelli.
-\newblock The satisfiability modulo theories library ({SMT-LIB)}.
-\newblock {\em www.smtlib.org}, 2010.
-
-\bibitem{alt-ergo}
+\bibitem[BCC{\etalchar{+}}08]{alt-ergo}
 Fran\c{c}ois Bobot, Sylvain Conchon, \'Evelyne Contejean, Mohamed Iguernelala,
   St\'ephane Lescuyer, and Alain Mebsout.
 \newblock The {Alt-Ergo} automated theorem prover, 2008.
 \newblock \url{http://alt-ergo.lri.fr/}.
 
-\bibitem{bobot:hal-00687640}
+\bibitem[BCC{\etalchar{+}}12]{bobot:hal-00687640}
 Fran{\c c}ois Bobot, Sylvain Conchon, Evelyne Contejean, Mohamed Iguernelala,
   Assia Mahboubi, Alain Mebsout, and Guillaume Melquiond.
 \newblock {A Simplex-Based Extension of Fourier-Motzkin for Solving Linear
@@ -28,5 +16,30 @@ Fran{\c c}ois Bobot, Sylvain Conchon, Evelyne Contejean, Mohamed Iguernelala,
   {6th International Joint Conference on Automated Reasoning}}, volume 7364 of
   {\em Lecture Notes in Computer Science}, pages 67--81, Manchester,
   Royaume-Uni, 2012. Springer.
+
+\bibitem[BCD{\etalchar{+}}11]{barrett:cvc4:2011}
+Clark Barrett, Christopher~L. Conway, Morgan Deters, Liana Hadarean, Dejan
+  Jovanović, Tim King, Andrew Reynolds, and Cesare Tinelli.
+\newblock {CVC4}.
+\newblock In {\em Proceedings of the 23rd international conference on Computer
+  aided verification}, {CAV'11}, pages 171--177, Berlin, Heidelberg, 2011.
+  Springer-Verlag.
+
+\bibitem[BST10a]{bs2010}
+Clark Barrett, Aaron Stump, and Cesare Tinelli.
+\newblock The satisfiability modulo theories library ({SMT-LIB)}.
+\newblock {\em www.smtlib.org}, 2010.
+
+\bibitem[BST10b]{barrett:smt-lib:2010}
+Clark Barrett, Aaron Stump, and Cesare Tinelli.
+\newblock The smt-lib standard: Version 2.0.
+\newblock In {\em Proceedings of the 8th International Workshop on
+  Satisfiability Modulo Theories (Edinburgh, England)}, volume~13, 2010.
+
+\bibitem[Con]{conchonHDR2012}
+Sylvain Conchon.
+\newblock {\em {SMT} Techniques and their Applications: from Alt-Ergo to
+  Cubicle}.
+\newblock PhD thesis.
 
 \end{thebibliography}
