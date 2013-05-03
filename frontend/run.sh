@@ -18,16 +18,16 @@ TIMEFORMAT="User[%U] Sys[%S] Real[%E]"
 date
 echo ""
 
-for SMT_FILE in $(find ~/SMT/benchmarks/QF_BV -type f -iname *.smt2)
+for SMT_FILE in $(find ~/SMT/benchmarks/QF_NIA -type f -iname *.smt2)
 do
 
 	# Randomly pick
-	R=$[ $RANDOM % 100 ]
-	if ( [ $R -ge 10 ] ) then 
-		continue 
-	fi
+	#R=$[ $RANDOM % 100 ]
+	#if ( [ $R -ge 10 ] ) then 
+	#	continue 
+	#fi
 
-	FOUND=$(grep $SMT_FILE 0501.log)
+	FOUND=$(grep $SMT_FILE benchmark.log)
 	if ( [ $? -eq 0 ] ) then
 		continue
 	fi
@@ -42,7 +42,7 @@ do
 	#else
 
 		# Filter LOGIC here
-		#if ( [ "$LOGIC" != "QF_IDL" ] ) then
+		#if ( [ "$LOGIC" != "QF_UFBV" ] ) then
 		#	continue
 		#fi
 	fi
@@ -52,9 +52,9 @@ do
 	# Get expected result here
 	EXPECTED=$(grep 'set-info :status' $SMT_FILE | awk "{print substr(substr(\$3, 1, length(\$3)-1),1,length(\$0))}")
 	if ( [ $? -ne 0 ] || [ "$EXPECTED" == "" ] ) then
-		echo "error: can't get expected result for $SMT_FILE" 
+	#	echo "error: can't get expected result for $SMT_FILE" 
 		EXPECTED="N/A"
-		continue
+	#	continue
 	fi
 
 	# Echo
