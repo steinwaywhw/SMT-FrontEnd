@@ -18,7 +18,7 @@ TIMEFORMAT="User[%U] Sys[%S] Real[%E]"
 date
 echo ""
 
-for SMT_FILE in $(find ~/SMT/benchmarks/QF_BV -type f -iname *.smt2)
+for SMT_FILE in $(find ~/SMT/benchmarks -type f -iname *.smt2)
 do
 
 	# Randomly pick
@@ -39,12 +39,12 @@ do
 		LOGIC="N/A"
 
 		continue
-	#else
+	else
 
 		# Filter LOGIC here
-		#if ( [ "$LOGIC" != "QF_IDL" ] ) then
-		#	continue
-		#fi
+		if ( [ "$LOGIC" != "QF_UFNIA" ] && [ "$LOGIC" != "QF_UFBV" ] && [ "$LOGIC" != "QF_UFIDL" ] ) then
+			continue
+		fi
 	fi
 
 	
