@@ -83,6 +83,8 @@ function who_wins () {
 		return "alt-ergo"
 	if (ALTERGO_TIME > CVC_TIME)
 		return "cvc4"
+	if (ALTERGO_TIME == CVC_TIME)
+		return "both"
 
 	return "error"
 }
@@ -95,6 +97,9 @@ function output () {
 	printf "%s %s %s %s %s %s %s %s %s %s %s\n", LOGIC, EXPECTED, CORRECT, WIN, CVC_RESULT, CVC_TIME, ALTERGO_RESULT, ALTERGO_TIME, FILE, CVC_OUTPUT, ALTERGO_OUTPUT
 }
 
+function get_answer_file (file) {
+	return file + ".bz2.result.txt"
+}
 
 BEGIN {
 	STATE = 0
@@ -116,6 +121,12 @@ BEGIN {
 
 		CVC_RESULT = get_result ($0)
 		CVC_TIME = to_sec (get_time ($0, 3))
+		if (CVC_TIME > 30) {
+			STATE = 0
+			reset ()
+			COUNT = COUNT - 1
+			next
+		}
 	} else if (STATE == 3) {
 		STATE = 4
 		#CVC_OUTPUT = $2
@@ -128,6 +139,12 @@ BEGIN {
 
 		ALTERGO_RESULT = get_result ($0)
 		ALTERGO_TIME = to_sec (get_time ($0, 3))
+		if (ALTERGO_TIME > 30) {
+			STATE = 0
+			reset ()
+			COUNT = COUNT - 1
+			next
+		}
 	} else if (STATE == 4) {
 		STATE = 5
 		#ALTERGO_OUTPUT = $2
