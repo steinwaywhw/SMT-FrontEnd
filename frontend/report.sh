@@ -13,6 +13,7 @@ do
 	COUNT_CVC_CORRECT_UNSAT=$(grep -E "^$LOGIC unsat (cvc4|both)" benchmark.report | wc -l)
 	COUNT_ALT_CORRECT=$(grep -E "^$LOGIC (unsat|sat) (alt\-ergo|both)" benchmark.report | wc -l)
 
+	#grep -E "^QF_IDL unsat \w* \w* timeout" benchmark.report |
 
 
 	COUNT=0
@@ -29,7 +30,7 @@ do
 
 	COUNT=0
 	CVC_TIME_UNSAT=0
-	ALL_TIMES=$(awk "/^$LOGIC unsat (cvc4|both)/ {print \$6}" benchmark.report)
+	ALL_TIMES=$(awk "/^$LOGIC unsat \w+ \w+ unsat/ {print \$6}" benchmark.report)
 	for TIME in $ALL_TIMES
 	do
 		let COUNT+=1
@@ -41,7 +42,7 @@ do
 
 	COUNT=0
 	ALT_TIME_UNSAT=0
-	ALL_TIMES=$(awk "/^$LOGIC unsat (alt-ergo|both)/ {print \$6}" benchmark.report)
+	ALL_TIMES=$(awk "/^$LOGIC unsat \w+ \w+ \w+ .+ unsat/ {print \$8}" benchmark.report)
 	for TIME in $ALL_TIMES
 	do
 		let COUNT+=1

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  3 MAY 2013 00:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  3 MAY 2013 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ cientgreek, ibycus, arabic, pinyin, ukenglish, usenglishmax, farsi, monogreek,
 greek, latin, loaded.
 (c:/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(c:/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(c:/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -621,16 +621,40 @@ File: md-frame-0.mdf 2012/09/21\ 1.6d: md-frame-0
 Package zref Info: New property: mdf@pagevalue on input line 830.
 \mdf@horizontalspaceofbox=\skip131
 )
+(c:/texlive/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty
+Package: dblfloatfix 2003/11/18 v1.0 (MH)
+
+(c:/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+\@dblbotnum=\count153
+\c@dblbotnumber=\count154
+)
 (c:/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2009/11/18 1.3 (PWD)
 \affilsep=\skip132
 \@affilsep=\skip133
-\c@Maxaffil=\count153
-\c@authors=\count154
-\c@affil=\count155
+\c@Maxaffil=\count155
+\c@authors=\count156
+\c@affil=\count157
 )
-\c@problem=\count156
-\c@lem=\count157
+(c:/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(c:/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count158
+\rotFPtop=\skip134
+\rotFPbot=\skip135
+\rot@float@box=\box48
+\rot@mess@toks=\toks28
+)
+\c@problem=\count159
+\c@lem=\count160
 
 
 LaTeX Warning: Unused global option(s):
@@ -639,33 +663,33 @@ LaTeX Warning: Unused global option(s):
 (./smtlib.aux)
 \openout1 = `smtlib.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (c:/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
+\scratchcounter=\count161
 \scratchdimen=\dimen172
-\scratchbox=\box48
-\nofMPsegments=\count159
-\nofMParguments=\count160
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count161
+\scratchbox=\box49
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count164
 \MPscratchDim=\dimen173
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks30
 ) (c:/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -689,186 +713,256 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
-* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* h-part:(L,W,R)=(76.82234pt, 460.65031pt, 76.82234pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=430.00462pt
-* \textheight=556.47656pt
-* \oddsidemargin=19.8752pt
-* \evensidemargin=19.8752pt
-* \topmargin=-13.87262pt
+* \textwidth=460.65031pt
+* \textheight=624.25346pt
+* \oddsidemargin=4.55235pt
+* \evensidemargin=4.55235pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=4.0pt
 * \marginparsep=10.0pt
-* \columnsep=32.85008pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \columnsep=20.00003pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 40.
+\AtBeginShipoutBox=\box50
+Package hyperref Info: Link coloring OFF on input line 41.
 (c:/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (c:/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count164
+\c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (./smtlib.out) (./smtlib.out)
 \@outlinefile=\write3
 \openout3 = `smtlib.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
  (c:/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 (c:/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
-
-{c:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.52803pt too wide) in paragraph at lines 60--61
-[]\OT1/cmr/m/n/10.95 SMT-LIB 2.0 is ba-si-cally a ver-sion of many-sorted first
--order logic with equality[[]].
+)
+Underfull \hbox (badness 1596) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 com-par-ing the abil-i-ties of two dif-fer-ent SMT
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 (c:/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
- [2] [3] [4]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 159.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 174.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 174.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 174.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 185.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+ [1{c:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-Overfull \hbox (5.81073pt too wide) in paragraph at lines 186--206
- [] 
+
+]
+Underfull \hbox (badness 5490) in paragraph at lines 95--96
+[]$\OT1/cmr/m/n/10 ^^F[]$ to Sort($^^F[]$)$+$: a left to-tal map-
  []
 
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 206.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 206.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 206.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 218.
-
-Overfull \hbox (5.45834pt too wide) in paragraph at lines 219--243
- [] 
+Underfull \hbox (badness 4181) in paragraph at lines 95--96
+\OT1/cmr/m/n/10 con-tain-ing $= (\OML/cmm/m/it/10 ^^[; ^^[; []\OT1/cmr/m/n/10 )
+$, $\OMS/cmsy/m/n/10 :\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )
+$,
  []
 
+[2]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 161.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 243.
+ mdframed uses option nobreak mdframed on input line 176.
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 243.
+ mdframed uses option nobreak mdframed on input line 176.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 243.
+ mdframed uses option nobreak mdframed on input line 176.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 188.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 209.
+Package mdframed Info: mdframed inside minipage 
+ mdframed uses option nobreak mdframed on input line 209.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 209.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 222.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 247.
+Package mdframed Info: mdframed inside minipage 
+ mdframed uses option nobreak mdframed on input line 247.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 247.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 261.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 271.
+Package mdframed Info: mdframed inside minipage 
+ mdframed uses option nobreak mdframed on input line 271.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 271.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 282.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 297.
+Package mdframed Info: mdframed inside minipage 
+ mdframed uses option nobreak mdframed on input line 297.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 297.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+[]\OT1/cmr/m/n/10 For both sat-is-fi-able/unsatisfiable for-mu-las,
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 323--324
+\OT1/cmr/m/n/10 marks and hold-ing com-pe-ti-tions for sev-eral
+ []
 
 [6]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 257.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 267.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 267.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 267.
+Overfull \hbox (11.37357pt too wide) in paragraph at lines 352--365
+[][] 
+ []
+
+(./smtlib.bbl
+Underfull \hbox (badness 7415) in paragraph at lines 5--9
+[]\OT1/cmr/m/n/10 Fran^^Xcois Bobot, Syl-vain Con-chon,
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 1521) in paragraph at lines 11--19
+\OT1/cmr/m/n/10 Guil-laume Melquiond.  A Simplex-
+ []
 
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 278.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 293.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 293.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 293.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 1796) in paragraph at lines 11--19
+\OT1/cmr/m/n/10 Based Ex-ten-sion of Fourier-Motzkin
+ []
 
-[7] [8] (./smtlib.bbl
+
+Underfull \hbox (badness 1152) in paragraph at lines 11--19
+\OT1/cmr/m/n/10 In Bern-hard Gram-lich, Dale Miller,
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 11--19
+\OT1/cmr/m/it/10 Rea-son-ing\OT1/cmr/m/n/10 , vol-ume 7364 of \OT1/cmr/m/it/10 
+Lec-ture
+ []
+
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ‡ in font cmr10!
- [9])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+
+Underfull \hbox (badness 3271) in paragraph at lines 29--32
+[]\OT1/cmr/m/n/10 Clark Bar-rett, Aaron Stump, and
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 29--32
+\OT1/cmr/m/n/10 Ce-sare Tinelli.  The sat-is-fi-a-bil-ity
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 29--32
+\OT1/cmr/m/n/10 mod-ulo the-o-ries li-brary (SMT-LIB).
+ []
+
+[7])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./smtlib.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `smtlib.out' has not changed.
-(rerunfilecheck)             Checksum: 5441AF63F27A5D3F9CD087ED3E00FED8;1491.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+(rerunfilecheck)             Checksum: 6CDB7E3D640439DB90B4457CB53C4AFC;1829.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 13790 strings out of 494916
- 224854 string characters out of 3178864
- 322928 words of memory out of 3000000
- 16727 multiletter control sequences out of 15000+200000
- 19957 words of font info for 74 fonts, out of 3000000 for 9000
+ 13965 strings out of 494916
+ 227250 string characters out of 3178864
+ 334735 words of memory out of 3000000
+ 16880 multiletter control sequences out of 15000+200000
+ 20424 words of font info for 76 fonts, out of 3000000 for 9000
  81 hyphenation exceptions out of 8191
- 44i,14n,32p,945b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,13n,32p,949b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx9.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/texmf-dist/fonts/type1/p
+/amsfonts/cm/cmbx7.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/s
-ymbols/msbm10.pfb>
-Output written on smtlib.pdf (10 pages, 250845 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/
+texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on smtlib.pdf (8 pages, 274392 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
