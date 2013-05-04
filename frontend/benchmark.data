@@ -1,99 +1,18 @@
-QF_IDL
-all    270
-unsat  106
-sat    164
-cvc_s  52
-cvc_n  67
-alt    11
-cvc_ts 6.02
-cvc_tn 2.80
-alt_tn .34
-
-QF_NIA
-all    149
-unsat  58
-sat    91
-cvc_s  0
-cvc_n  35
-alt    0
-cvc_ts 0
-cvc_tn .10
-alt_tn 0
-
-QF_UFBV
-all    31
-unsat  31
-sat    0
-cvc_s  0
-cvc_n  6
-alt    0
-cvc_ts 0
-cvc_tn 4.02
-alt_tn 0
-
-QF_UFLIA
-all    564
-unsat  168
-sat    396
-cvc_s  396
-cvc_n  161
-alt    13
-cvc_ts 1.37
-cvc_tn 1.54
-alt_tn .29
-
-UFNIA
-all    1660
-unsat  1660
-sat    0
-cvc_s  0
-cvc_n  732
-alt    161
-cvc_ts 0
-cvc_tn 7.95
-alt_tn .65
-
-QF_BV
-all    184
-unsat  16
-sat    168
-cvc_s  104
-cvc_n  13
-alt    0
-cvc_ts 14.30
-cvc_tn 16.31
-alt_tn 0
-
-QF_LIA
-all    387
-unsat  143
-sat    244
-cvc_s  227
-cvc_n  137
-alt    0
-cvc_ts 9.11
-cvc_tn 4.05
-alt_tn 0
-
-QF_UF
-all    1061
-unsat  195
-sat    133
-cvc_s  133
-cvc_n  191
-alt    71
-cvc_ts .48
-cvc_tn 1.04
-alt_tn .08
-
-QF_UFIDL
-all    138
-unsat  91
-sat    47
-cvc_s  43
-cvc_n  52
-alt    0
-cvc_ts 1.34
-cvc_tn 3.43
-alt_tn 0
-
+QF_BV sat(168) cvc(104,64,0,0) cvc(14.30)
+QF_BV unsat(16) cvc(13,2,1,0) alt(0,0,16,0) cvc(16.31) alt(0.00)
+QF_IDL sat(164) cvc(52,112,0,0) cvc(6.02)
+QF_IDL unsat(106) cvc(67,39,0,0) alt(11,72,14,9) cvc(2.80) alt(2.56)
+QF_LIA sat(241) cvc(224,17,0,0) cvc(8.60)
+QF_LIA unsat(143) cvc(137,6,0,0) alt(0,143,0,0) cvc(4.05) alt(0.00)
+QF_NIA sat(91) cvc(0,3,14,74) cvc(0.00)
+QF_NIA unsat(58) cvc(35,0,17,6) alt(0,0,56,2) cvc(0.10) alt(0.00)
+QF_UFBV sat(0) cvc(0,0,0,0) cvc(0.00)
+QF_UFBV unsat(31) cvc(6,25,0,0) alt(0,0,31,0) cvc(4.02) alt(0.00)
+QF_UFIDL sat(47) cvc(43,4,0,0) cvc(1.34)
+QF_UFIDL unsat(91) cvc(52,39,0,0) alt(0,1,90,0) cvc(3.43) alt(0.00)
+QF_UFLIA sat(392) cvc(392,0,0,0) cvc(1.04)
+QF_UFLIA unsat(163) cvc(156,7,0,0) alt(11,11,141,0) cvc(0.70) alt(5.07)
+QF_UF sat(133) cvc(133,0,0,0) cvc(0.48)
+QF_UF unsat(195) cvc(191,4,0,0) alt(71,123,1,0) cvc(1.04) alt(9.51)
+UFNIA sat(0) cvc(0,0,0,0) cvc(0.00)
+UFNIA unsat(1562) cvc(634,497,431,0) alt(153,463,943,3) cvc(2.57) alt(3.08)
