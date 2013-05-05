@@ -94,8 +94,17 @@ function output () {
 	CORRECT = who_is_correct ()
 	WIN = who_wins()
 
-	printf "%s %s cvc %s %s %s\n", LOGIC, EXPECTED, CVC_RESULT, CVC_TIME, FILE
-	printf "%s %s alt-ergo %s %s %s\n", LOGIC, EXPECTED, ALTERGO_RESULT, ALTERGO_TIME, FILE
+	if (EXPECTED == CVC_RESULT && EXPECTED == ALTERGO_RESULT)
+		CORRECT = "both"
+	else if (EXPECTED == CVC_RESULT)
+		CORRECT = "cvc"
+	else if (EXPECTED == ALTERGO_RESULT)
+		CORRECT = "alt-ergo"
+	else
+		CORRECT = "none"
+
+	printf "%s %s cvc %s %s %s %s\n", LOGIC, EXPECTED, CORRECT, CVC_RESULT, CVC_TIME, FILE
+	printf "%s %s alt-ergo %s %s %s %s\n", LOGIC, EXPECTED, CORRECT, ALTERGO_RESULT, ALTERGO_TIME, FILE
 
 }
 
