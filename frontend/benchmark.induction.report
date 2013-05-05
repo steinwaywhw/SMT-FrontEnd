@@ -1,84 +1,94 @@
-QF_LIA  16 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/kundu.c.kratos.int.bmc_k100.smt2
-QF_LIA  9 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline.c.kratos.int.ind_k100.smt2
-QF_LIA  28 15.00 45 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-2.c.kratos.int.bmc_k100.smt2
-QF_LIA  4 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/token_ring.10.c.kratos.int.bmc_k100.smt2
-QF_LIA  13 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pc_sfifo_3.c.kratos.int.ind_k100.smt2
-QF_LIA  15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-2.c.kratos.int.ind_k100.smt2
-QF_LIA  13 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/bist_cell.c.kratos.int.ind_k100.smt2
-QF_LIA  9 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline-bug.c.kratos.int.ind_k100.smt2
-QF_LIA  15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-1.c.kratos.int.ind_k100.smt2
-QF_LIA  29 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pc_sfifo_3.c.kratos.int.bmc_k100.smt2
-QF_LIA  23 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline.c.kratos.int.bmc_k100.smt2
-QF_LIA  23 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline-bug.c.kratos.int.bmc_k100.smt2
-QF_LIA  13 15.00 13 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ILLINOIS_all.bmc_k100.smt2
-QF_LIA  20 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all.ind_k100.smt2
-QF_LIA  24 15.00 101 9.80 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_all.bmc_k100.smt2
-QF_LIA  138 15.00 33 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/traffic.ind_k100.smt2
-QF_LIA  53 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMMER_luke_1.ind_k100.smt2
-QF_LIA  22 15.00 1 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_i1.bmc_k100.smt2
-QF_LIA  107 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/car_all.ind_k100.smt2
-QF_LIA  202 8.89 34 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6counters.ind_k100.smt2
-QF_LIA  13 15.00 63 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_vt.bmc_k100.smt2
-QF_LIA  101 7.96 58 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/cd.bmc_k100.smt2
-QF_LIA  82 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/Gas.ind_k100.smt2
-QF_LIA  48 15.00 68 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_all.bmc_k100.smt2
-QF_LIA  101 0.60 100 0.30 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6countern.bmc_k100.smt2
-QF_LIA  32 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_all.ind_k100.smt2
-QF_LIA  32 15.00 101 5.35 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_2.bmc_k100.smt2
-QF_LIA  8 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/mem_slave_tlm.5.c.kratos.int.ind_k100.smt2
-QF_LIA  25 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/bist_cell.c.kratos.int.bmc_k100.smt2
-QF_LIA  27 15.00 44 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy.c.kratos.int.bmc_k100.smt2
-QF_LIA  25 15.00 45 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-1.c.kratos.int.bmc_k100.smt2
-QF_LIA  202 9.56 32 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/two_counters.ind_k100.smt2
-QF_LIA  19 15.00 6 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/readwrit.bmc_k100.smt2
-QF_LIA  115 15.00 15 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/twisted_counters.ind_k100.smt2
-QF_LIA  137 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_1.ind_k100.smt2
-QF_LIA  24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_all.ind_k100.smt2
-QF_LIA  40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_all.ind_k100.smt2
-QF_LIA  18 15.00 9 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_all.bmc_k100.smt2
-QF_LIA  9 15.00 15 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_vt.bmc_k100.smt2
-QF_LIA  20 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_vt.ind_k100.smt2
-QF_LIA  15 15.00 5 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_all.bmc_k100.smt2
-QF_LIA  28 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_luke_rt.ind_k100.smt2
-QF_LIA  114 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex3.ind_k100.smt2
-QF_LIA  15 15.00 14 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_all.bmc_k100.smt2
-QF_LIA  101 0.73 39 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/two_counters.bmc_k100.smt2
-QF_LIA  12 15.00 17 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_u1.bmc_k100.smt2
-QF_LIA  36 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MESI_all.ind_k100.smt2
-QF_LIA  24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/readwrit.ind_k100.smt2
-QF_LIA  22 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_u1.ind_k100.smt2
-QF_LIA  114 15.00 4 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/speed2.ind_k100.smt2
-QF_LIA  19 15.00 98 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MESI_all.bmc_k100.smt2
-QF_LIA  85 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/metros_1.ind_k100.smt2
-QF_LIA  24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_vt.ind_k100.smt2
-QF_LIA  202 4.72 17 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6countern.ind_k100.smt2
-QF_LIA  13 15.00 87 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_rt.bmc_k100.smt2
-QF_LIA  40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_3.ind_k100.smt2
-QF_LIA  14 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all2.ind_k100.smt2
-QF_LIA  61 15.00 101 9.14 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/Gas.bmc_k100.smt2
-QF_LIA  89 15.00 74 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/car_all.bmc_k100.smt2
-QF_LIA  18 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_vt.ind_k100.smt2
-QF_LIA  101 1.66 41 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_2.bmc_k100.smt2
-QF_LIA  119 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_2.ind_k100.smt2
-QF_LIA  22 15.00 101 6.50 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_1.bmc_k100.smt2
-QF_LIA  11 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/kundu.c.kratos.int.ind_k100.smt2
-QF_LIA  0 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/token_ring.10.c.kratos.int.ind_k100.smt2
-QF_LIA  0 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/transmitter.10.c.kratos.int.ind_k100.smt2
-QF_LIA  101 4.06 100 11.56 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex8.bmc_k100.smt2
-QF_LIA  24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_all.ind_k100.smt2
-QF_LIA  61 15.00 101 12.19 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/hysteresis_all.bmc_k100.smt2
-QF_LIA  68 15.00 77 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex3.bmc_k100.smt2
-QF_LIA  38 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_i1.ind_k100.smt2
-QF_LIA  7 15.00 35 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all2.bmc_k100.smt2
-QF_LIA  40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_1.ind_k100.smt2
-QF_LIA  19 15.00 101 7.97 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_3.bmc_k100.smt2
-QF_LIA  9 15.00 3 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_vt.bmc_k100.smt2
-QF_LIA  64 15.00 80 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/speed2.bmc_k100.smt2
-QF_LIA  10 15.00 7 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all.bmc_k100.smt2
-QF_LIA  12 15.00 18 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_luke_rt.bmc_k100.smt2
-QF_LIA  100 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/cd.ind_k100.smt2
-QF_LIA  101 1.14 70 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_1.bmc_k100.smt2
-QF_LIA  70 15.00 101 3.64 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/twisted_counters.bmc_k100.smt2
-QF_LIA  101 0.80 100 2.08 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6counters.bmc_k100.smt2
-QF_LIA  49 15.00 3 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMMER_luke_1.bmc_k100.smt2
-QF_LIA  18 15.00 13 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ticket3i_all.bmc_k100.smt2
+QF_LIA sat 100 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/cd.ind_k100.smt2
+QF_LIA sat 101 0.60 100 0.30 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6countern.bmc_k100.smt2
+QF_LIA sat 101 0.80 100 2.08 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6counters.bmc_k100.smt2
+QF_LIA sat 101 4.06 100 11.56 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex8.bmc_k100.smt2
+QF_LIA sat 105 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/hysteresis_all.ind_k100.smt2
+QF_LIA sat 107 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/car_all.ind_k100.smt2
+QF_LIA sat 11 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/kundu.c.kratos.int.ind_k100.smt2
+QF_LIA sat 114 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex3.ind_k100.smt2
+QF_LIA sat 114 15.00 4 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/speed2.ind_k100.smt2
+QF_LIA sat 115 15.00 15 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/twisted_counters.ind_k100.smt2
+QF_LIA sat 119 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_2.ind_k100.smt2
+QF_LIA sat 13 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/bist_cell.c.kratos.int.ind_k100.smt2
+QF_LIA sat 13 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pc_sfifo_3.c.kratos.int.ind_k100.smt2
+QF_LIA sat 137 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_1.ind_k100.smt2
+QF_LIA sat 138 15.00 33 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/traffic.ind_k100.smt2
+QF_LIA sat 14 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all2.ind_k100.smt2
+QF_LIA sat 151 15.00 10 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex8.ind_k100.smt2
+QF_LIA sat 15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-1.c.kratos.int.ind_k100.smt2
+QF_LIA sat 15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-2.c.kratos.int.ind_k100.smt2
+QF_LIA sat 15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy.c.kratos.int.ind_k100.smt2
+QF_LIA sat 18 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_vt.ind_k100.smt2
+QF_LIA sat 18 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/swimmingpool_1.ind_k100.smt2
+QF_LIA sat 20 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all.ind_k100.smt2
+QF_LIA sat 20 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_vt.ind_k100.smt2
+QF_LIA sat 202 4.72 17 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6countern.ind_k100.smt2
+QF_LIA sat 202 8.89 34 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/_6counters.ind_k100.smt2
+QF_LIA sat 202 9.56 32 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/two_counters.ind_k100.smt2
+QF_LIA sat 22 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_rt.ind_k100.smt2
+QF_LIA sat 22 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_u1.ind_k100.smt2
+QF_LIA sat 22 15.00 1 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_i1.bmc_k100.smt2
+QF_LIA sat 23 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline-bug.c.kratos.int.bmc_k100.smt2
+QF_LIA sat 24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_all.ind_k100.smt2
+QF_LIA sat 24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_all.ind_k100.smt2
+QF_LIA sat 24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/readwrit.ind_k100.smt2
+QF_LIA sat 24 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_vt.ind_k100.smt2
+QF_LIA sat 25 15.00 45 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-1.c.kratos.int.bmc_k100.smt2
+QF_LIA sat 26 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ILLINOIS_all.ind_k100.smt2
+QF_LIA sat 28 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_luke_rt.ind_k100.smt2
+QF_LIA sat 28 15.00 45 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy-bug-2.c.kratos.int.bmc_k100.smt2
+QF_LIA sat 30 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MOESI_all.ind_k100.smt2
+QF_LIA sat 32 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_all.ind_k100.smt2
+QF_LIA sat 36 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MESI_all.ind_k100.smt2
+QF_LIA sat 38 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_i1.ind_k100.smt2
+QF_LIA sat 40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_1.ind_k100.smt2
+QF_LIA sat 40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_3.ind_k100.smt2
+QF_LIA sat 40 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_all.ind_k100.smt2
+QF_LIA sat 49 15.00 3 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMMER_luke_1.bmc_k100.smt2
+QF_LIA sat 53 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMMER_luke_1.ind_k100.smt2
+QF_LIA sat 8 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/mem_slave_tlm.5.c.kratos.int.ind_k100.smt2
+QF_LIA sat 82 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/Gas.ind_k100.smt2
+QF_LIA sat 85 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/metros_1.ind_k100.smt2
+QF_LIA sat 9 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline-bug.c.kratos.int.ind_k100.smt2
+QF_LIA sat 9 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline.c.kratos.int.ind_k100.smt2
+QF_LIA sat 9 15.00 3 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_vt.bmc_k100.smt2
+QF_LIA unsat 0 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/token_ring.10.c.kratos.int.ind_k100.smt2
+QF_LIA unsat 0 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/transmitter.10.c.kratos.int.ind_k100.smt2
+QF_LIA unsat 101 0.73 39 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/two_counters.bmc_k100.smt2
+QF_LIA unsat 101 1.14 70 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_1.bmc_k100.smt2
+QF_LIA unsat 101 1.66 41 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/fast_2.bmc_k100.smt2
+QF_LIA unsat 10 15.00 7 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all.bmc_k100.smt2
+QF_LIA unsat 101 7.96 58 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/cd.bmc_k100.smt2
+QF_LIA unsat 12 15.00 17 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_u1.bmc_k100.smt2
+QF_LIA unsat 12 15.00 18 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_luke_rt.bmc_k100.smt2
+QF_LIA unsat 13 15.00 13 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ILLINOIS_all.bmc_k100.smt2
+QF_LIA unsat 13 15.00 63 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_vt.bmc_k100.smt2
+QF_LIA unsat 13 15.00 87 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_rt.bmc_k100.smt2
+QF_LIA unsat 15 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/mem_slave_tlm.5.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 15 15.00 14 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_all.bmc_k100.smt2
+QF_LIA unsat 15 15.00 5 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/peterson_all.bmc_k100.smt2
+QF_LIA unsat 16 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/kundu.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 16 15.00 17 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MOESI_all.bmc_k100.smt2
+QF_LIA unsat 18 15.00 13 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ticket3i_all.bmc_k100.smt2
+QF_LIA unsat 18 15.00 9 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/rtp_all.bmc_k100.smt2
+QF_LIA unsat 19 15.00 101 7.97 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_3.bmc_k100.smt2
+QF_LIA unsat 19 15.00 6 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/readwrit.bmc_k100.smt2
+QF_LIA unsat 19 15.00 98 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MESI_all.bmc_k100.smt2
+QF_LIA unsat 22 15.00 101 6.50 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_1.bmc_k100.smt2
+QF_LIA unsat 23 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pipeline.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 24 15.00 101 9.80 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/SYNAPSE_all.bmc_k100.smt2
+QF_LIA unsat 25 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/bist_cell.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 27 15.00 44 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 29 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/pc_sfifo_3.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 32 15.00 101 5.35 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/durationThm_2.bmc_k100.smt2
+QF_LIA unsat 4 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/token_ring.10.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 4 15.00 0 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/system_c/transmitter.10.c.kratos.int.bmc_k100.smt2
+QF_LIA unsat 48 15.00 68 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_all.bmc_k100.smt2
+QF_LIA unsat 61 15.00 101 12.19 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/hysteresis_all.bmc_k100.smt2
+QF_LIA unsat 61 15.00 101 9.14 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/Gas.bmc_k100.smt2
+QF_LIA unsat 64 15.00 80 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/speed2.bmc_k100.smt2
+QF_LIA unsat 68 15.00 77 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex3.bmc_k100.smt2
+QF_LIA unsat 70 15.00 101 3.64 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/twisted_counters.bmc_k100.smt2
+QF_LIA unsat 7 15.00 35 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/DRAGON_all2.bmc_k100.smt2
+QF_LIA unsat 89 15.00 74 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/car_all.bmc_k100.smt2
+QF_LIA unsat 9 15.00 15 15.00 /home/hwwu/SMT/benchmarks/INDUCTION/lustre/PRODUCER_CONSUMER_vt.bmc_k100.smt2

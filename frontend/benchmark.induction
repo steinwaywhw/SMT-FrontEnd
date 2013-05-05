@@ -344,3 +344,51 @@ Sat May  4 15:11:31 EDT 2013
 
 
 Sat May  4 15:21:49 EDT 2013
+Sat May  4 20:08:00 EDT 2013
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/system_c/transmitter.10.c.kratos.int.bmc_k100.smt2
+[cvc] [TIMEOUT] unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/system_c/mem_slave_tlm.5.c.kratos.int.bmc_k100.smt2
+[cvc] [TIMEOUT] unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/hysteresis_all.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat sat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MOESI_all.bmc_k100.smt2
+[cvc] [TIMEOUT] unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT] unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/swimmingpool_1.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat sat unsat sat unsat sat unsat sat sat sat sat sat sat sat sat sat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/MOESI_all.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat sat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ILLINOIS_all.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT]
+
+
+Sat May  4 20:11:44 EDT 2013
+Sat May  4 20:15:40 EDT 2013
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/system_c/toy.c.kratos.int.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat
+[alt-ergo] [TIMEOUT]
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/ex8.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat sat sat unsat sat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+[alt-ergo] [TIMEOUT] unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat unsat
+
+[QF_LIA] /home/hwwu/SMT/benchmarks/INDUCTION/lustre/FIREFLY_rt.ind_k100.smt2
+[cvc] [TIMEOUT] unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat unsat sat
+[alt-ergo] [TIMEOUT]
+
+
+Sat May  4 20:17:15 EDT 2013

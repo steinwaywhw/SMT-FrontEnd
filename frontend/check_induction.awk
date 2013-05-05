@@ -38,10 +38,16 @@ function reset () {
 	ALTERGO_TIME = ""
 
 	ANSWER = ""
+	SAT = 0
 }
 
 function output () {
-	printf "QF_LIA %s %d %.2f %d %.2f %s\n", LOGIC, CVC_RESULT, CVC_TIME, ALTERGO_RESULT, ALTERGO_TIME, FILE
+	if (SAT == 1)
+		p = "sat"
+	else
+		p = "unsat"
+
+	printf "QF_LIA %s %d %.2f %d %.2f %s\n", p, CVC_RESULT, CVC_TIME, ALTERGO_RESULT, ALTERGO_TIME, FILE
 }
 
 function get_answer_file (file) {
@@ -89,6 +95,8 @@ function load_file (file) {
 	while ((getline expected < file) > 0) {
 		count++
 		result[count] = expected
+		if (expected == "sat")
+			SAT = 1
 	}
 
 	string = ""
