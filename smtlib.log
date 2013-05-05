@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  3 MAY 2013 22:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  5 MAY 2013 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,6 +293,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
+(c:/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen128
+)
 (c:/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 
@@ -300,8 +303,8 @@ Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count113
 \calc@Bcount=\count114
-\calc@Adimen=\dimen128
-\calc@Bdimen=\dimen129
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 76.
@@ -313,27 +316,27 @@ LaTeX Info: Redefining \addtolength on input line 77.
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 \g_MT_multlinerow_int=\count116
-\l_MT_multwidth_dim=\dimen130
+\l_MT_multwidth_dim=\dimen131
 \origjot=\skip55
-\l_MT_shortvdotswithinadjustabove_dim=\dimen131
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen132
-\l_MT_above_intertext_dim=\dimen133
-\l_MT_below_intertext_dim=\dimen134
-\l_MT_above_shortintertext_dim=\dimen135
-\l_MT_below_shortintertext_dim=\dimen136
+\l_MT_shortvdotswithinadjustabove_dim=\dimen132
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen133
+\l_MT_above_intertext_dim=\dimen134
+\l_MT_below_intertext_dim=\dimen135
+\l_MT_above_shortintertext_dim=\dimen136
+\l_MT_below_shortintertext_dim=\dimen137
 )
 (c:/texlive/texmf-dist/tex/latex/mdwtools/syntax.sty
 Package: syntax 1996/05/17 1.07 Syntax typesetting (MDW)
 \grammarparsep=\skip56
-\grammarindent=\dimen137
+\grammarindent=\dimen138
 \sdstartspace=\skip57
 \sdendspace=\skip58
 \sdmidskip=\skip59
 \sdtokskip=\skip60
 \sdfinalskip=\skip61
-\sdrulewidth=\dimen138
-\sdcirclediam=\dimen139
-\sdindent=\dimen140
+\sdrulewidth=\dimen139
+\sdcirclediam=\dimen140
+\sdindent=\dimen141
 )
 (c:/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2012/09/21\ 1.6d: mdframed
@@ -403,12 +406,12 @@ Package: l3file 2012/12/20 v4377 L3 File and I/O operations
 )
 (c:/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2012/11/04 v4260 L3 Dimensions and skips
-\c_zero_dim=\dimen141
-\c_max_dim=\dimen142
-\l_tmpa_dim=\dimen143
-\l_tmpb_dim=\dimen144
-\g_tmpa_dim=\dimen145
-\g_tmpb_dim=\dimen146
+\c_zero_dim=\dimen142
+\c_max_dim=\dimen143
+\l_tmpa_dim=\dimen144
+\l_tmpb_dim=\dimen145
+\g_tmpa_dim=\dimen146
+\g_tmpb_dim=\dimen147
 \c_zero_skip=\skip62
 \c_max_skip=\skip63
 \l_tmpa_skip=\skip64
@@ -450,13 +453,13 @@ Package: l3box 2012/12/08 v4347 L3 Experimental boxes
 (c:/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_internal_box=\box33
-\l__coffin_internal_dim=\dimen147
-\l__coffin_offset_x_dim=\dimen148
-\l__coffin_offset_y_dim=\dimen149
-\l__coffin_x_dim=\dimen150
-\l__coffin_y_dim=\dimen151
-\l__coffin_x_prime_dim=\dimen152
-\l__coffin_y_prime_dim=\dimen153
+\l__coffin_internal_dim=\dimen148
+\l__coffin_offset_x_dim=\dimen149
+\l__coffin_offset_y_dim=\dimen150
+\l__coffin_x_dim=\dimen151
+\l__coffin_y_dim=\dimen152
+\l__coffin_x_prime_dim=\dimen153
+\l__coffin_y_prime_dim=\dimen154
 \c_empty_coffin=\box34
 \l__coffin_aligned_coffin=\box35
 \l__coffin_aligned_internal_coffin=\box36
@@ -465,9 +468,9 @@ Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
 \l__coffin_display_coffin=\box39
 \l__coffin_display_coord_coffin=\box40
 \l__coffin_display_pole_coffin=\box41
-\l__coffin_display_offset_dim=\dimen154
-\l__coffin_display_x_dim=\dimen155
-\l__coffin_display_y_dim=\dimen156
+\l__coffin_display_offset_dim=\dimen155
+\l__coffin_display_x_dim=\dimen156
+\l__coffin_display_y_dim=\dimen157
 )
 (c:/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2012/08/29 v4156 L3 Experimental color support
@@ -479,22 +482,22 @@ Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
 )
 (c:/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
 Package: l3candidates 2012/12/20 v4383 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen157
-\l__box_bottom_dim=\dimen158
-\l__box_left_dim=\dimen159
-\l__box_right_dim=\dimen160
-\l__box_top_new_dim=\dimen161
-\l__box_bottom_new_dim=\dimen162
-\l__box_left_new_dim=\dimen163
-\l__box_right_new_dim=\dimen164
+\l__box_top_dim=\dimen158
+\l__box_bottom_dim=\dimen159
+\l__box_left_dim=\dimen160
+\l__box_right_dim=\dimen161
+\l__box_top_new_dim=\dimen162
+\l__box_bottom_new_dim=\dimen163
+\l__box_left_new_dim=\dimen164
+\l__box_right_new_dim=\dimen165
 \l__box_internal_box=\box42
-\l__coffin_bounding_shift_dim=\dimen165
-\l__coffin_left_corner_dim=\dimen166
-\l__coffin_right_corner_dim=\dimen167
-\l__coffin_bottom_corner_dim=\dimen168
-\l__coffin_top_corner_dim=\dimen169
-\l__coffin_scaled_total_height_dim=\dimen170
-\l__coffin_scaled_width_dim=\dimen171
+\l__coffin_bounding_shift_dim=\dimen166
+\l__coffin_left_corner_dim=\dimen167
+\l__coffin_right_corner_dim=\dimen168
+\l__coffin_bottom_corner_dim=\dimen169
+\l__coffin_top_corner_dim=\dimen170
+\l__coffin_scaled_total_height_dim=\dimen171
+\l__coffin_scaled_width_dim=\dimen172
 ))
 Package: xparse 2012/12/21 v4390 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count144
@@ -663,30 +666,30 @@ LaTeX Warning: Unused global option(s):
 (./smtlib.aux)
 \openout1 = `smtlib.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (c:/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count161
-\scratchdimen=\dimen172
+\scratchdimen=\dimen173
 \scratchbox=\box49
 \nofMPsegments=\count162
 \nofMParguments=\count163
 \everyMPshowfont=\toks29
 \MPscratchCnt=\count164
-\MPscratchDim=\dimen173
+\MPscratchDim=\dimen174
 \MPnumerator=\count165
 \makeMPintoPDFobject=\count166
 \everyMPtoPDFconversion=\toks30
@@ -740,7 +743,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 44.
 (c:/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -749,42 +752,46 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
  (./smtlib.out) (./smtlib.out)
 \@outlinefile=\write3
 \openout3 = `smtlib.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
  (c:/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (c:/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 1596) in paragraph at lines 49--50
+Underfull \hbox (badness 1596) in paragraph at lines 55--56
 \OT1/cmr/m/n/10 com-par-ing the abil-i-ties of two dif-fer-ent SMT
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
+
 (c:/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
  [1{c:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 5490) in paragraph at lines 95--96
+Underfull \hbox (badness 5490) in paragraph at lines 101--102
 []$\OT1/cmr/m/n/10 ^^F[]$ to Sort($^^F[]$)$+$: a left to-tal map-
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 95--96
+Underfull \hbox (badness 4181) in paragraph at lines 101--102
 \OT1/cmr/m/n/10 con-tain-ing $= (\OML/cmm/m/it/10 ^^[; ^^[; []\OT1/cmr/m/n/10 )
 $, $\OMS/cmsy/m/n/10 :\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )
 $,
@@ -793,69 +800,73 @@ $,
 [2]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theoerem header of amsthm
-(mdframed)              on input line 161.
+(mdframed)              on input line 167.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 176.
+ mdframed uses option nobreak mdframed on input line 182.
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 176.
+ mdframed uses option nobreak mdframed on input line 182.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 176.
+ mdframed uses option nobreak mdframed on input line 182.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theoerem header of amsthm
-(mdframed)              on input line 188.
+(mdframed)              on input line 194.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 209.
+ mdframed uses option nobreak mdframed on input line 215.
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 209.
+ mdframed uses option nobreak mdframed on input line 215.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 209.
+ mdframed uses option nobreak mdframed on input line 215.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theoerem header of amsthm
-(mdframed)              on input line 222.
+(mdframed)              on input line 228.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 247.
+ mdframed uses option nobreak mdframed on input line 253.
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 247.
+ mdframed uses option nobreak mdframed on input line 253.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 247.
+ mdframed uses option nobreak mdframed on input line 253.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theoerem header of amsthm
-(mdframed)              on input line 261.
+(mdframed)              on input line 267.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 271.
+ mdframed uses option nobreak mdframed on input line 277.
 Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 271.
+ mdframed uses option nobreak mdframed on input line 277.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 271.
+ mdframed uses option nobreak mdframed on input line 277.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package mdframed Info: mdframed detected package amsthm 
- changed the theoerem header of amsthm
-(mdframed)              on input line 282.
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 297.
-Package mdframed Info: mdframed inside minipage 
- mdframed uses option nobreak mdframed on input line 297.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 297.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theoerem header of amsthm
+(mdframed)              on input line 288.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 303.
+Package mdframed Info: mdframed inside minipage 
+ mdframed uses option nobreak mdframed on input line 303.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 303.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 6559) has occurred while \output is active []
 
  [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -864,19 +875,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 6559) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 []\OT1/cmr/m/n/10 For both sat-is-fi-able/unsatisfiable for-mu-las,
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 323--324
+Underfull \hbox (badness 5374) in paragraph at lines 329--330
 \OT1/cmr/m/n/10 marks and hold-ing com-pe-ti-tions for sev-eral
  []
 
-[6]
-Overfull \hbox (11.37357pt too wide) in paragraph at lines 352--365
-[][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[][][][]$\OT1/cmtt/m/n/8 http : / / smtcomp . sourceforge . net / 2012 / applic
+ation .
  []
+
+
+Underfull \vbox (badness 2512) has occurred while \output is active []
+
+ [6]
+<./testanalysis/unsatcap.pdf, id=199, 1317.95009pt x 374.49168pt>
+File: ./testanalysis/unsatcap.pdf Graphic file (type pdf)
+
+<use ./testanalysis/unsatcap.pdf>
+Package pdftex.def Info: ./testanalysis/unsatcap.pdf used on input line 384.
+(pdftex.def)             Requested size: 593.07207pt x 168.5197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./testanalysis/satcap.pdf, id=200, 923.67754pt x 369.68916pt>
+File: ./testanalysis/satcap.pdf Graphic file (type pdf)
+
+<use ./testanalysis/satcap.pdf>
+Package pdftex.def Info: ./testanalysis/satcap.pdf used on input line 392.
+(pdftex.def)             Requested size: 415.65106pt x 166.35858pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2529) has occurred while \output is active []
+
 
 (./smtlib.bbl
 Underfull \hbox (badness 7415) in paragraph at lines 5--9
@@ -904,6 +944,7 @@ Underfull \hbox (badness 2376) in paragraph at lines 11--19
 Lec-ture
  []
 
+[7]
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ‡ in font cmr10!
 
@@ -921,22 +962,25 @@ Underfull \hbox (badness 1642) in paragraph at lines 29--32
 \OT1/cmr/m/n/10 mod-ulo the-o-ries li-brary (SMT-LIB).
  []
 
-[7])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
- (./smtlib.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
+ [8
+
+] [9 <./testanalysis/unsatcap.pdf> <./testanalysis/satcap.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+
+(./smtlib.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
 Package rerunfilecheck Info: File `smtlib.out' has not changed.
 (rerunfilecheck)             Checksum: 6CDB7E3D640439DB90B4457CB53C4AFC;1829.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
  ) 
 Here is how much of TeX's memory you used:
- 13965 strings out of 494916
- 227250 string characters out of 3178864
- 334735 words of memory out of 3000000
- 16880 multiletter control sequences out of 15000+200000
+ 13998 strings out of 494916
+ 227883 string characters out of 3178864
+ 336208 words of memory out of 3000000
+ 16901 multiletter control sequences out of 15000+200000
  20424 words of font info for 76 fonts, out of 3000000 for 9000
  81 hyphenation exceptions out of 8191
  44i,13n,32p,949b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -959,10 +1003,10 @@ ype1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on smtlib.pdf (8 pages, 274392 bytes).
+Output written on smtlib.pdf (9 pages, 349576 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,6 +9,7 @@
 \usepackage{centernot}
 %%\usepackage{stmaryrd}
 \usepackage{hyperref}
+\usepackage{multirow}
 \usepackage{mathtools}
 \usepackage{syntax}
 \usepackage{mdframed}
@@ -33,20 +34,25 @@
 \setlength{\grammarindent}{9em} % increase separation between LHS/RHS
 \setlength{\columnsep}{2em}
 
-\title{\bf Comparing CVC4 and Alt-Ergo}
+\title{\bf Comparing and Integrating CVC4 and Alt-Ergo}
 \author{Hanwen Wu}
-\affil{ Department of Computer Science\\Boston University\\ \small\texttt{hwwu@bu.edu}}
+\author{Wenxin Feng}
+\affil{Department of Computer Science\\Boston University\\
+\small\texttt{hwwu,wenxinf@bu.edu}}
 
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-This technical report summarizes the abilities of CVC4 and Alt-Ergo by testing them using SMT-LIB 2.0 benchmarks within the theories of boolean, free functions, integers, bit-vectors, and quantifiers. The results show that CVC4 is both more powerful and more efficient than Alt-Ergo. They both can support quantifiers and non-linear integer arithmetic in a limited way.
+This technical report summarizes the abilities of CVC4 and Alt-Ergo by testing them using SMT-LIB 2.0 benchmarks within the theories of boolean, free functions, integers, bit-vectors, and quantifiers. An extra $k$-induction benchmarks are also tested. The results show that CVC4 is both more powerful and more efficient than Alt-Ergo. They both can support quantifiers and non-linear integer arithmetic in a limited way. For induction over integers, they both can handle, and Alt-Ergo even outperform CVC4 for some inputs. We also implement a lightweight frontend calling both solvers to get the first valid response as the result.
 \end{abstract}
 \section{Overview}
 
-Our main goal is thoroughly characterizing and comparing the abilities of two different SMT solvers, CVC4\cite{barrett:cvc4:2011} and Alt-Ergo\cite{alt-ergo}. Since they both can take SMT-LIB 2.0\cite{bs2010} as their input language, we will also summarize it.
+
+
+
+Our main goal is thoroughly characterizing and comparing the abilities of two different SMT solvers, CVC4\cite{barrett:cvc4:2011} and Alt-Ergo\cite{alt-ergo} version 0.95.1. Since they both can take SMT-LIB 2.0\cite{bs2010} as their input language, we will also summarize it.
 
 In this report, we will first of all, give a short introduction on SMT-LIB logic. Second, formally classifying input formulas using SMT-LIB logic. Third, introducing and summarizing the two solvers. Forth, carefully characterizing and comparing the abilities of the two solvers by testing them within different classes of formulas. And finally integrating them using a lightweight frontend written in C programming language.
 
@@ -300,7 +306,7 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 
 \section{Comparing CVC4 and Alt-Ergo}
 
-In this section, we will give a short summary of both solvers first. Their overall architectures, built-in theories, combination methods, and unique features will be briefly discussed. Then we will summarize our test methods and results to show their abilities within different sub logics using SMT-LIB 2.0 benchmarks.
+In this section, we will give a short summary of both solvers first. Their overall architectures, built-in theories, combination methods, and unique features will be briefly discussed. Then we will summarize our test methods and results to show their capabilities within different sub logics using SMT-LIB 2.0 benchmarks.
 
 \subsection{CVC4}
 
@@ -312,7 +318,7 @@ For both satisfiable/unsatisfiable formulas, CVC4 will come up with the correct 
 
 Alt-Ergo is dedicated to program verification. It works in first-order logic. It uses a CC(X)\footnote{CC(X): Congruence closure modulo X}, a variant of Shostak algorithm, to combine free theory with equality and an arbitrary solvable built-in theory X\cite{conchonHDR2012}. Alt-Ergo has implemented decision procedures for the theory of uninterpreted/free functions, arithmetic(integer, real, linear, non-linear), arrays, bit-vectors, datatypes, etc. It also has direct support for polymorphism in its native input language. Associative and commutative symbols are being handled specially using its AC(X) theory to boost the performance. It has some support for universal and existential quantifiers through instantiation. It has the ability to generate proof. Also, by our test of $k$-induction, it can prove them quickly.
 
-For unsatisfiable formulas, Alt-Ergo will eventually answer {\tt unsat} correctly. But for satisfiable formulas, it never answers {\tt sat}, but {\tt unknown}.
+Alt-Ergo can handle {\tt unsat} formulas correctly, but only returns {\tt unknown} for {\tt sat} formulas.
 
 Since integer theory are intensively used in program verification, Alt-Ergo actually put its efforts in the combination of empty/free theory with integer arithmetic theory. Alt-Ergo uses a Simplex-based extension of Fourier-Motzkin for solving linear integer arithmetic\cite{bobot:hal-00687640}.
 
@@ -322,19 +328,71 @@ Since integer theory are intensively used in program verification, Alt-Ergo actu
 
 SMT-LIB community has been contributing benchmarks and holding competitions for several years\cite{bs2010}. It can be considered as a good standard benchmark for SMT solvers. We have select integers, bit-vectors, and quantifiers related benchmarks for our test. They are QF-IDL, QF-NIA, QF-UFBV, QF-UFLIA, UFNIA, QF-BV, QF-LIA, QF-UF, QF-UFIDL.
 
-All of the benchmarks are in the SMT-LIB 2.0 format, most of which should be handled by both solvers. But actually Alt-Ergo reports typing error and parsing error on some test inputs. And also, some of the benchmarks don't indicate expected results. They are either {\tt unknown} or not available at all. Therefore, we will only consider those can be handled by both solvers, and have an expected answer of {\tt sat/unsat} as {\bf valid benchmarks}.
+We also select the Bounded Model Checking and $k$-induction problems within QF-LIA benchmarks from 2012 SMT Competition\footnote{\url{http://smtcomp.sourceforge.net/2012/application.shtml}}\cite{cok20122012} 
+to test their abilities of proving inductive facts.
+
+All of the benchmarks are in the SMT-LIB 2.0 format, most of which should be handled by both solvers. But in practice, Alt-Ergo reports typing error and parsing error on some test inputs because its currect version 0.95.1 doesn't fully support it yet. And also, some of the benchmarks don't indicate expected results. They are either {\tt unknown} or not available at all. Therefore, we will only consider those can be handled by both solvers, and have an expected answer of {\tt sat/unsat} as valid benchmarks when we analysis the result.
 
 \subsubsection{Testing Methods}
 
-We have wrote a testing script to run the test. Basicly, it will first randomly select test inputs from all the benchmarks. Second, both solvers will be invoked for each input, individually, not simultaneously. Third, their execution time will be captured by Unix {\tt time} utility, and the real wall time will be considered as their execution time. Forth, there is a timeout of 30 seconds. If any of them reach 30 seconds, it will be killed. Fifth, since Alt-Ergo can't handle inputs with an expected answer of {\tt sat}, we will just skip that for Alt-Ergo, and only use that input as a measure of efficiency for CVC4 only.
+We have wrote a testing script to run the test. Basicly, it will first randomly select test inputs from all the benchmarks. Second, both solvers will be invoked for each input, individually, not simultaneously. Third, their execution time will be captured by Unix {\tt time} utility, and the real wall time will be considered as their execution time. Forth, there is a timeout of 30 seconds. If any of them reach 30 seconds, it will be killed. Fifth, since Alt-Ergo can't handle inputs with an expected answer of {\tt sat}, we will just skip that for Alt-Ergo, and only use that input as a measure of efficiency/capability for CVC4 only.
 
-We run the test on a Core i5-3320M 2.6GHz dual core CPU with 8GB memory, on Ubuntu 13.04 32bit operating system. During testing, no other job is allowed.
+For BMC and $k$-induction problems, we have a different strategy. Each of those tests consists of multiple checking points, which require the solver to solve them incrementally. Therefore we setup a timeout of 15 seconds, to compare how much problems they can solve in a limited time.
+
+We run the tests on a Core i5-3320M 2.6GHz dual core CPU with 8GB memory, on Ubuntu 13.04 32bit operating system. During testing, no other job is allowed.
+
+
 
 \subsubsection{Testing Results}
 
-The test results are shown in Table \ref{t:result}. The timeout rate is relatively high in some division, due to the small 30 second timeout. And this is partly because we don't have enough time and computation resources to perform long enough tests. The error rate is also relatively high. For Alt-Ergo, this is mainly because it doesn't fully support SMT-LIB 2.0 standard, and particularly, its bit-vector and typing part. Alt-Ergo supports its native input language very well, but there seems not to be a good translation from SMT-LIB format into its native format. For CVC4, the error mostly comes from big input formulas, which cause CVC4 to throw some unexpected exceptions.
+The general test results are shown in Table \ref{t:result} and Figure \ref{f:unsatcap} for {\tt unsat} tests for both solvers, and Figure \ref{f:satcap} for {\tt sat} tests for CVC4 only. The timeout rate is relatively high in some division, due to the small 30 second timeout. And this is partly because we don't have enough time and computation resources to perform long enough tests. The error rate is also relatively high. For Alt-Ergo, this is mainly because it doesn't fully support SMT-LIB 2.0 standard, and particularly, its bit-vector and typing part. Alt-Ergo supports its native input language very well, but there seems not to be a good translation from SMT-LIB format into its native format. For CVC4, the error mostly comes from big input formulas, which cause CVC4 to throw some unexpected exceptions.
 
 For those parts which they both can handle, namely QF-IDL, QF-UFLIA, QF-UF and UFNIA, they will generally respond quickly. For solver ability, CVC4 always wins with very high solved percentage. For solver efficiency, CVC4 also beats Alt-Ergo.
+
+\begin{table*}[!ht]
+\small
+\centering
+\begin{tabular}{|cc|c|cccc|}
+\hline
+  Logic & Total & Solver & Correct & Timeout & Exception & Unknown\\\hline
+  \multirow{2}{*}{QF-BV} & \multirow{2}{*}{16} & Alt-Ergo & 0 & 0 & 100\% & 0\\
+  & & CVC4 & 81.25\% & 12.50\% & 6.25\% & 0\\\hline
+  \multirow{2}{*}{QF-IDL} & \multirow{2}{*}{106} & Alt-Ergo & 10.38\% & 67.92\% & 13.21\% & 8.49\%\\
+  &  & CVC4 & 63.21\% & 36.79\% & 0 & 0\\\hline
+  \multirow{2}{*}{QF-LIA} & \multirow{2}{*}{143} & Alt-Ergo & 0 & 100\% & 0 & 0\\
+  &  & CVC4 & 95.80\% & 4.20\% & 0 & 0\\\hline
+  \multirow{2}{*}{QF-NIA} & \multirow{2}{*}{58} & Alt-Ergo & 0 & 0 & 96.55\% & 3.45\%\\
+  &  & CVC4 & 60.34\% & 0 & 29.31\% & 10.34\%\\\hline
+  \multirow{2}{*}{QF-UF} & \multirow{2}{*}{195} & Alt-Ergo & 36.41\% & 63.08\% & 0.51\% & 0\\
+  &  & CVC4 & 97.95\% & 2.05\% & 0 & 0\\\hline
+  \multirow{2}{*}{QF-UFBV} & \multirow{2}{*}{31} & Alt-Ergo & 0 & 0 & 100\% & 0\\
+  &  & CVC4 & 19.35\% & 80.65\% & 0 & 0\\\hline
+  \multirow{2}{*}{QF-UFIDL} & \multirow{2}{*}{91} & Alt-Ergo & 0 & 1.10\% & 98.90\% & 0\\
+  &  & CVC4 & 57.14\% & 42.86\% & 0 & 0\\\hline
+  \multirow{2}{*}{QF-UFLIA} & \multirow{2}{*}{163} & Alt-Ergo & 6.75\% & 6.75\% & 86.50\% & 0\\
+  &  & CVC4 & 95.71\% & 4.29\% & 0 & 0\\\hline
+  \multirow{2}{*}{UFNIA} & \multirow{2}{*}{1562} & Alt-Ergo & 9.80\% & 29.64\% & 60.37\% & 0.19\%\\
+  &  & CVC4 & 40.59\% & 31.82\% & 27.59\% & 0\\\hline
+\end{tabular}
+\caption{Capabilities of CVC4 and Alt-Ergo for {\tt unsat} Tests}
+\label{t:result}
+\end{table*}
+
+
+\begin{sidewaysfigure}[!h]
+\centering
+\includegraphics[scale=0.45]{./testanalysis/unsatcap.pdf}
+\caption{Capabilities of CVC4 and Alt-Ergo on {\tt unsat} Tests}
+\label{f:unsatcap}
+\end{sidewaysfigure}
+
+
+\begin{sidewaysfigure}[!h]
+\centering
+\includegraphics[scale=0.45]{./testanalysis/satcap.pdf}
+\caption{Capabilities of CVC4 on {\tt sat} Tests}
+\label{f:satcap}
+\end{sidewaysfigure}
 
 \section{Conclusion}
 
@@ -347,24 +405,13 @@ In the next step, we will further examine the error rate problem, and try to min
 I would like to thank Wenxin Feng, who helped collecting benchmarks, formalizing some of the theories and logics, helping analyzing the test results, and inputting good ideas to this technical report. Without her help this report would not have been possible.
 
 
-\begin{sidewaystable}[!b]
-\small
-\begin{tabular}{rccccccccc}
 
-& QF-IDL & QF-NIA & QF-UFBV & QF-UFLIA & QF-BV & QF-LIA & QF-UF & QF-UFIDL & UFNIA\\
-total unsat & 106 & 58 & 31 & 168 & 16 & 143 & 195 & 91 & 1660\\
-CVC4 correct & 67 (63.2\%) & 35 (60.3\%) & 6 (19.4\%) & 161 (95.8\%) & 3 (19\%) & 137 (95.8\%) & 191 (97.9\%) & 52 (57.1\%) & 732 (44.1\%)\\
-Alt-Ergo correct & 11 (10.4\%) & 0 (0\%) & 0 (0\%) & 13 (7.7\%) & 0 (0\%) & 0 (0\%) & 71 (36.4\%) & 0 (0\%) & 161 (9.7\%)\\
-CVC4 avg. time (second) & 2.88 & 0.11 & 4.02 & 1.58 & 16.31 & 4.05 & 1.04 & 3.43 & 9.23\\
-Alt-Ergo avg. time (second) & 3.13 & N/A & N/A & 17.93 & N/A & N/A & 9.51 & N/A & 15.22\\
-CVC4 timeout & 39 (36.8\%) & 0 (0\%) & 25 (80.6\%) & 7 (4\%) & 2 (13\%) & 6 (4.2\%) & 4 (2.1\%) & 39 (42.9\%) & 494 (29.8\%)\\
-Alt-Ergo timeout & 72 (67.9\%) & 0 (0\%) & 0 (0\%) & 14 (8\%) & 0 (0\%) & 143 (100\%) & 123 (63.1\%) & 1 (1.1\%) & 501 (30.2\%)\\
-CVC4 error & 0 & 23 & 0 & 0 & 11 & 0 & 0 & 0 & 434\\
-Alt-Ergo error & 23 & 58 & 31 & 141 & 16 & 0 & 1 & 90 & 998
-\end{tabular}
-\caption{Test Result for {\tt unsat} Inputs}
-\label{t:result}
-\end{sidewaystable}
+
+
+
+
+
+
 
 \bibliographystyle{alpha}
 \bibliography{smtlib}

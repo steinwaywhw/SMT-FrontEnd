@@ -36,6 +36,11 @@ Clark Barrett, Aaron Stump, and Cesare Tinelli.
 \newblock In {\em Proceedings of the 8th International Workshop on
   Satisfiability Modulo Theories (Edinburgh, England)}, volume~13, 2010.
 
+\bibitem[CGB12]{cok20122012}
+David~R Cok, Alberto Griggio, and Roberto Bruttomesso.
+\newblock The 2012 smt competition.
+\newblock 2012.
+
 \bibitem[Con]{conchonHDR2012}
 Sylvain Conchon.
 \newblock {\em {SMT} Techniques and their Applications: from Alt-Ergo to
