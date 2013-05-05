@@ -10,17 +10,21 @@ function to_sec (field) {
 	gsub (/[:\.]/, " ", time)
 	split (time, array, " ")
 
-	return array[1] * 60 + array[2] * 1 + array[3] / 100
+	sec = array[1] * 60 + array[2] * 1
+	return  sec "." array[3]
 }
 
 function get_time (row, type) {
+	if (match (row, /TIMEOUT/) > 0)
+		return "0:15.00"
+
 	if (match (row, /User\[.+\] Sys\[.+\] Real\[.+\]/) > 0) {
 		ret = row
 		gsub (/(^.*User\[|Sys\[|Real\[|\])/, " ", ret)
 		split (ret, array, " ")
 		return array[type]
 	} else {
-		return "0:30.00"
+		return "0:15.00"
 	}
 }
 
@@ -37,7 +41,7 @@ function reset () {
 }
 
 function output () {
-	printf "QF_LIA %s %d %d %d %d %s\n", LOGIC, CVC_RESULT, CVC_TIME, ALTERGO_RESULT, ALTERGO_TIME, FILE
+	printf "QF_LIA %s %d %.2f %d %.2f %s\n", LOGIC, CVC_RESULT, CVC_TIME, ALTERGO_RESULT, ALTERGO_TIME, FILE
 }
 
 function get_answer_file (file) {
@@ -49,7 +53,8 @@ function get_answer_file (file) {
 
 function extract_answer (row) {
 	ans = row
-	gsub (/\(sat\)|\[.+\]|User|Sys|Real/, "", ans)
+	gsub (/\(sat\)|\[(alt\-ergo|OK|cvc|TIMEOUT|ERROR)\]|User\[.+\]/, "", ans)
+
 	return ans
 }
 
@@ -102,8 +107,8 @@ function check_answer (ans, file) {
 		if (arr[i] == arr_2[i])
 			count++
 
+#		print arr[i] " " arr_2[i]
 		i++
-		#print arr[i] " " arr_2[i]
 	}
 
 	return count
@@ -137,6 +142,7 @@ BEGIN {
 /\[alt\-ergo\]/ {
 	if (STATE == 2) {
 		STATE = 3
+
 		ALTERGO_RESULT = check_answer (remove_extra (extract_answer ($0)), ANSWER)
 		ALTERGO_TIME = to_sec (get_time ($0, 3))
 	} 
