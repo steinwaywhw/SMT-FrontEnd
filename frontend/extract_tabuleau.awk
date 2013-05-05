@@ -94,14 +94,10 @@ function output () {
 	CORRECT = who_is_correct ()
 	WIN = who_wins()
 
-	if (EXPECTED == CVC_RESULT && EXPECTED == ALTERGO_RESULT)
+	if (CVC_RESULT == ALTERGO_RESULT)
 		CORRECT = "both"
-	else if (EXPECTED == CVC_RESULT)
-		CORRECT = "cvc"
-	else if (EXPECTED == ALTERGO_RESULT)
-		CORRECT = "alt-ergo"
-	else
-		CORRECT = "none"
+	else 
+		CORRECT = "only"
 
 	printf "%s %s cvc %s %s %s %s\n", LOGIC, EXPECTED, CORRECT, CVC_RESULT, CVC_TIME, FILE
 	printf "%s %s alt-ergo %s %s %s %s\n", LOGIC, EXPECTED, CORRECT, ALTERGO_RESULT, ALTERGO_TIME, FILE
