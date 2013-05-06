@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  5 MAY 2013 19:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  5 MAY 2013 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,29 +894,25 @@ ation .
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
  [6]
-<./testanalysis/unsatcap.pdf, id=199, 1317.95009pt x 374.49168pt>
+<./testanalysis/unsatcap.pdf, id=207, 1317.95009pt x 374.49168pt>
 File: ./testanalysis/unsatcap.pdf Graphic file (type pdf)
 
 <use ./testanalysis/unsatcap.pdf>
-Package pdftex.def Info: ./testanalysis/unsatcap.pdf used on input line 384.
+Package pdftex.def Info: ./testanalysis/unsatcap.pdf used on input line 422.
 (pdftex.def)             Requested size: 593.07207pt x 168.5197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./testanalysis/satcap.pdf, id=200, 923.67754pt x 369.68916pt>
+<./testanalysis/satcap.pdf, id=208, 923.67754pt x 369.68916pt>
 File: ./testanalysis/satcap.pdf Graphic file (type pdf)
 
 <use ./testanalysis/satcap.pdf>
-Package pdftex.def Info: ./testanalysis/satcap.pdf used on input line 392.
+Package pdftex.def Info: ./testanalysis/satcap.pdf used on input line 430.
 (pdftex.def)             Requested size: 415.65106pt x 166.35858pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 2529) has occurred while \output is active []
-
 
 (./smtlib.bbl
 Underfull \hbox (badness 7415) in paragraph at lines 5--9
@@ -945,9 +941,14 @@ Lec-ture
  []
 
 [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ‡ in font cmr10!
 
+Underfull \vbox (badness 2478) has occurred while \output is active []
+
+ [8]
 Underfull \hbox (badness 3271) in paragraph at lines 29--32
 []\OT1/cmr/m/n/10 Clark Bar-rett, Aaron Stump, and
  []
@@ -963,27 +964,27 @@ Underfull \hbox (badness 1642) in paragraph at lines 29--32
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
- [8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+ [9 <./testanalysis/unsatcap.pdf>] [10
 
-] [9 <./testanalysis/unsatcap.pdf> <./testanalysis/satcap.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+ <./testanalysis/satcap.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
 
 (./smtlib.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `smtlib.out' has not changed.
-(rerunfilecheck)             Checksum: 6CDB7E3D640439DB90B4457CB53C4AFC;1829.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
+(rerunfilecheck)             Checksum: B74994A5159956745C8ABF04B0ABDDD4;1960.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 13998 strings out of 494916
- 227883 string characters out of 3178864
- 336208 words of memory out of 3000000
- 16901 multiletter control sequences out of 15000+200000
+ 14005 strings out of 494916
+ 227974 string characters out of 3178864
+ 336283 words of memory out of 3000000
+ 16904 multiletter control sequences out of 15000+200000
  20424 words of font info for 76 fonts, out of 3000000 for 9000
  81 hyphenation exceptions out of 8191
- 44i,13n,32p,949b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,13n,32p,949b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/texmf-dist/fonts/type1/public
@@ -1003,10 +1004,10 @@ ype1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt8.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on smtlib.pdf (9 pages, 349576 bytes).
+Output written on smtlib.pdf (10 pages, 352231 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
