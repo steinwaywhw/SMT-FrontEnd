@@ -38,7 +38,7 @@
 \author{Hanwen Wu}
 \author{Wenxin Feng}
 \affil{Department of Computer Science\\Boston University\\
-\small\texttt{\{hwwu,wenxinf\}@bu.edu}}
+\small\texttt{hwwu,wenxinf@bu.edu}}
 
 
 \begin{document}
@@ -375,93 +375,6 @@ term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
 \caption{QF-NIA Logic}
 \end{table*}
 
-\subsubsection{Quantifier-Free Uninterpreted Functions over Fixed-size Bit-Vectors}
-...
-
-\begin{table*}[!h]
-\begin{mdframed}
-\centering
-\begin{tabular}{r c l}
-sort\qquad $\alpha$ & $\Coloneqq$ & $\ldots$ $\mid$ $\alpha'$ ($\alpha^*$)\rm\qquad(user defined, abstract)\\
-\\
-function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm ($f'$ $\alpha^*$) : $\alpha$\qquad(user defined, abstract)\\
-\\
-term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
-& $\mid$ & ($f$ $t^*$)\\
-& $\mid$ & $\ldots$ \qquad(\rm the same as QF-BV)\\
-\end{tabular}
-\end{mdframed}
-\caption{QF-UFBV Logic}
-\end{table*}
-
-\subsubsection{Quantifier-Free Uninterpreted Functions over Integer Differential Logic}
-...
-
-\begin{table*}[!h]
-\begin{mdframed}
-\centering
-\begin{tabular}{r c l}
-sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool $\mid$ int $\mid$ $\alpha'$ \rm($\alpha^*$)\qquad(user defined, abstract)\\
-\\
-function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm ($f'$ $\alpha^*$) : $\alpha$\qquad(user defined, abstract)\\
-& $\mid$ & $\mathbb{Z}$ \rm : \tt int\\
-& $\mid$ & ($-$ \tt\ int int\rm) : \tt int $\mid$ \rm($+$ \tt\ int int\rm) : \tt int\\
-& $\mid$ & ($\leqslant$ \tt\ int int\rm) : \tt bool $\mid$ \rm($<$ \tt\ int int\rm) : \tt bool\\
-& $\mid$ & ($\geqslant$ \tt\ int int\rm) : \tt bool $\mid$ \rm($>$ \tt\ int int\rm) : \tt bool\\
-\\
-term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
-& $\mid$ & ($f$ $t^*$)\\
-& $\mid$ & $\ldots\quad-1,0,1\quad\ldots$\\
-& $\mid$ & ($-$ $t$ $c$) $\mid$ ($-$ $c$ $t$) $\mid$ ($+$ $t$ $c$) $\mid$ ($+$ $c$ $t$) \qquad($c$ is a numeral)\\
-& $\mid$ & ($\leqslant$ $t$ $t$) $\mid$ ($<$ $t$ $t$)\\
-& $\mid$ & ($\geqslant$ $t$ $t$) $\mid$ ($>$ $t$ $t$)\\
-\end{tabular}
-\end{mdframed}
-\caption{QF-UFIDL Logic}
-\end{table*}
-
-\subsubsection{Quantifier-Free Uninterpreted Functions over Linear Integer Arithmetic}
-...
-
-\begin{table*}[!h]
-\begin{mdframed}
-\centering
-\begin{tabular}{r c l}
-sort\qquad $\alpha$ & $\Coloneqq$ & $\ldots$ $\mid$ $\alpha'$ ($\alpha^*$)\rm\qquad(user defined, abstract)\\
-\\
-function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm ($f'$ $\alpha^*$) : $\alpha$\qquad(user defined, abstract)\\
-\\
-term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
-& $\mid$ & ($f$ $t^*$)\\
-& $\mid$ & $\ldots$ \qquad(\rm the same as QF-LIA)\\
-\end{tabular}
-\end{mdframed}
-\caption{QF-UFLIA Logic}
-\end{table*}
-
-\subsubsection{Uninterpreted Functions over Non-linear Integer Arithmetic}
-...
-
-\begin{table*}[!h]
-\begin{mdframed}
-\centering
-\begin{tabular}{r c l}
-sort\qquad $\alpha$ & $\Coloneqq$ & \tt bool $\mid$ int $\mid$ $\alpha'$ \rm ($\alpha^*$)\qquad(user defined, abstract)\\
-\\
-function\qquad $f$ & $\Coloneqq$ & $\ldots$ $\mid$ \rm $b$ : \tt bool $\mid$ \rm $c$ : \tt int \qquad(\rm user defined constant)\\
-& $\mid$ & ($f'$ $\alpha^*$) : $\alpha$\qquad(user defined, abstract)\\
-\\
-term\qquad $t$ & $\Coloneqq$ & $\ldots$ \\
-& $\mid$ & $b$ $\mid$ $c$\\
-& $\mid$ & (\bf\ let \rm ( bindings$^+$ ) $t$\ )\\
-& $\mid$ & (\bf\ forall \rm ( bindings$^+$ ) $t$\ )\\
-& $\mid$ & (\bf\ exists \rm ( bindings$^+$ ) $t$\ )\\
-& $\mid$ & ($f$ $t^*$)\\
-& $\mid$ & $\ldots$\\
-\end{tabular}
-\end{mdframed}
-\caption{UFNIA Logic}
-\end{table*}
 
 \section{Comparing CVC4 and Alt-Ergo}
 
@@ -522,7 +435,7 @@ In this division,
 \centering
 \begin{tabular}{|cc|c|cccc|}
 \hline
- \bf Logic & \bf Total &\bf Solver &\bf Correct &\bf Timeout &\bf Exception & \bf Unknown\\\hline
+  Logic & Total & Solver & Correct & Timeout & Exception & Unknown\\\hline
   \multirow{2}{*}{QF-BV} & \multirow{2}{*}{16} & Alt-Ergo & 0 & 0 & 100\% & 0\\
   & & CVC4 & 81.25\% & 12.50\% & 6.25\% & 0\\\hline
   \multirow{2}{*}{QF-IDL} & \multirow{2}{*}{106} & Alt-Ergo & 10.38\% & 67.92\% & 13.21\% & 8.49\%\\
@@ -551,7 +464,7 @@ In this division,
 \centering
 \begin{tabular}{|cc|c|cc|}
 \hline
-\bf  Logic & \bf Total &\bf Solver & \bf Correct & \bf Avg.Time \tiny{(sec)}\\\hline
+  Logic &  Total &Solver & Correct & Avg. Time (seconds) \\\hline
   \multirow{2}{*}{QF-BV} &\multirow{2}{*}{16} & Alt-Ergo & 0 &  \\
   && CVC4 & 13 & 16.31 \\\hline
   \multirow{2}{*}{QF-IDL} &\multirow{2}{*}{106} & Alt-Ergo & 11 & 2.56\\
@@ -571,7 +484,7 @@ In this division,
   \multirow{2}{*}{UFNIA} & \multirow{2}{*}{1562} &Alt-Ergo & 153 & 3.08\\
   &  & CVC4 & 634 & 2.57\\\hline
 \end{tabular}
-\caption{Efficiencies of CVC4 and Alt-Ergo for {\tt unsat} Tests}
+\caption{Capabilities of CVC4 and Alt-Ergo for {\tt unsat} Tests}
 \label{t:eff}
 \end{table*}
 
@@ -591,65 +504,11 @@ In this division,
 \label{f:satcap}
 \end{sidewaysfigure}
 
-\subsubsection{QF-BV Division}
-
-In this division, there is only 16 test inputs which expect an {\tt unsat} answers. CVC4 solved 13 of them in an average of 16.31 seconds. CVC4 also has 2 timeout, and 1 exception. The only exception is for input file {\tt src_wget_vc18197.smt2}\footnote{\url{http://smtexec.org/exec/smtlib-portal-benchmarks.php?download&inline&b=QF_BV\%2Fspear\%2Fwget_v1.10.2\%2Fsrc_wget_vc18197.smt2}}, which expects an {\tt unsat} answer but CVC4 answers {\tt sat}. This is the only wrong answer among all the tests. We double checked the answer using Z3\cite{de2008z3}, it returns {\tt unsat}. We assume that this is a bug of CVC4, and has already reported to the CVC4 team, but haven't got an answer yet.
-
-Alt-Ergo doesn't fully support the SMT-LIB 2.0 language for bit-vectors, and reports {\tt Smtlib2_to_why.Not_Implemented} for all the inputs in this devision, which means it cannot translate SMT-LIB 2.0 input language into its native Why3 language\cite{bobot:why3:2011} for now. 
-
-Because of the situation, we cannot compare their abilities in this division. But for CVC4, it can solve most of the problems, but in a very long time compared to other divisions, most of which takes less than five seconds.
-
-\subsubsection{QF-IDL Division}
-
-In this division, there are 106 valid benchmarks in total. CVC4 shows very strong ability over Alt-Ergo, with 52.83\% more correctly solved tests, and all those 10.38\% tests solved by Alt-Ergo are also correctly solved by CVC4. They both have relatively high timeout rate compared to other divisions, and Alt-Ergo has more timeout than CVC4. 
-
-Alt-Ergo has 13.21\% exceptions, five of them reports syntax error during parsing, others are out of memory exceptions. The syntax errors are caused also by the limited support for SMT-LIB 2.0 format, the out of memory exceptions are probably caused by both the size of input formulas and the limitation of testing environment. 
-
-The timeout rate and out of memory exceptions show that some QF-IDL problems in the benchmark are more difficult for solvers. But for those they solved, they are quick. CVC4 solves 67 problems with an average of 2.80s, and Alt-Ergo solves 11 using 2.56s in average. Although Alt-Ergo is more quickly, but its ability is very limited.
-
-\subsubsection{QF-LIA Division}
-
-Linear integer arithmatic is a well developed area. Decision procedures for it have long been investigated, and is decidable (at least for quantifier free fragments). CVC4 is an absolute win. With its DPLL({\it T}) plus Simplex based decision procedure\cite{barrett:cvc4:2011}, it not only solves 95.80\% problems, but also using only 4.05s per problem on average.
-
-But unfortunately, Alt-Ergo timeouts all the tests here. The result is out of our expectation. We have inspected the reason, and it turns out that the input size is generally speaking very big. Most of them contain more than 500 user defined constants, and the formula is very big, too. We plan to add some more tests for Alt-Ergo in QF-LIA in the near future. But for now, CVC4's newly designed expression subsystem\cite{barrett:cvc4:2011} plays an important role on dealing with large input formulas.
-
-\subsubsection{QF-NIA Division}
-
-Non-linear interger arithmatic problems are much harder than linear problems. But CVC4 can still handle 60.34\% of our tests, which is good enough. CVC4 reports errors on some inputs, which is an assertion error in the {\tt DioSolver} component under {\tt theory/arith} directory of CVC4 source code. But we don't have an explanation for the error yet. CVC4 also reports 6 {\tt unknown}, but neither of them takes more than 1 second.
-
-Alt-Ergo throws exceptions on all tests. It reports typing errors for the condition part of normal {\tt ite} expressions which superises us. We don't have an explanation, but it might be the limited support of SMT-LIB.
-
-For those 35 solved problems by CVC4, it is extramely fast. This is partly due to the small input size. But the overall capability and efficiency is quite good.
-
-\subsubsection{QF-UF Division}
-
-Quantifier free empty theory with equality is also decidable. Both solvers perform very good in this division. Alt-Ergo solves 36.41\% using 9.51s on average, and CVC4 solves 97.95\% using 1.04s on average. CVC4's solved problems are a superset of Alt-Ergo's, and CVC's timeout problems are a subset of Alt-Ergo's timeout problems. 
-
-Unfortunately, Alt-Ergo timeouts a lot, but compared to its capability in other divisions, Alt-Ergo actually performs much better here. Alt-Ergo has one out of memory exception. That's the reason of input size. On the same problem, CVC4 also takes 20.92 seconds to return the answer.
-
-\subsubsection{QF-UFBV Division}
-
-Compared to QF-BV and QF-UF divisions, CVC4 donwgrades a lot. It only solves 19.35\% of the problems, and takes 4.02s on average. All other problems are timeout, and the timeout rate is the second highest among all divisions for CVC4. That reflects the fact that theory combination is more chanlenging for solvers.
-
-As the same with QF-BV, Alt-Ergo reports parsing errors which is due to the limited support of SMT-LIB standard.
-
-\subsubsection{QF-UFIDL Division}
-
-CVC4 again performs very well in this division, with 57.14\% sovled problems in an average of 3.43s. It's 42.86\% timeout ratio is a little bit high. But overall, it's very good.
-
-Alt-Ergo faces out of memory exceptions after about an average of around 20 seconds of computation for all of the problems, except for one that is reported as timeout by both of the solvers. Although these test input are quite big with more than 500 variable bindings, this is still not a good result for Alt-Ergo, since CVC4 can handle them very quickly. We don't know the internal problem with Alt-Ergo, but it might be the reason that it is implmented using functional programming language OCaml, which might be problametic in memory management. CCCCCCCCCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIITTTTTTTTTTTTTTEEEEEEEEEEEE
-
-\subsubsection{QF-UFLIA Division}
-
-In this division, CVC4 performs very good. UF
-
 \section{Conclusion}
 
 CVC4 as a DPLL({\it T}) solver, implemented in C++, is very powerful and effective, especially in free theory and linear integer arithmetic. It can handle non-linear and quantifiers also, but is not as effective. Alt-Ergo on the other hand, doesn't support SMT-LIB 2.0 very well. This is partly because it is designed to cooperate with its Why3 platform, which uses a Why3 input language. Also, it is still under developing, with a version number only 0.95.1. But as a prover written in OCaml, its performance in free theory is considerably very good compared to a C++ solver. But its ability is not outstanding. For quantifiers, both solvers provide some limited support.
 
 In the next step, we will further examine the error rate problem, and try to minimize its influence to the result. And will conduct more tests for free theory, linear integer arithmetic, to further investigate the ability of Alt-Ergo. Also, the ability of solving induction over integers will be tested.
-
-
 
 \section{Acknowledgements}
 
