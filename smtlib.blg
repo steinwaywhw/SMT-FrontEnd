@@ -1,7 +1,51 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: smtlib.aux
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: smtlib.aux
 The style file: alpha.bst
 Database file #1: smtlib.bib
+Warning--empty journal in alt-ergo
 Warning--empty journal in cok20122012
 Warning--empty school in conchonHDR2012
 Warning--empty year in conchonHDR2012
-(There were 3 warnings)
+You've used 9 entries,
+            2543 wiz_defined-function locations,
+            607 strings with 6224 characters,
+and the built_in function-call counts, 4303 in all, are:
+= -- 405
+> -- 279
+< -- 6
++ -- 107
+- -- 101
+* -- 327
+:= -- 736
+add.period$ -- 31
+call.type$ -- 9
+change.case$ -- 71
+chr.to.int$ -- 8
+cite$ -- 13
+duplicate$ -- 162
+empty$ -- 261
+format.name$ -- 108
+if$ -- 864
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 50
+num.names$ -- 29
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 128
+stack$ -- 0
+substring$ -- 148
+swap$ -- 36
+text.length$ -- 6
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 68
+warning$ -- 4
+while$ -- 34
+width$ -- 13
+write$ -- 121
+(There were 4 warnings)

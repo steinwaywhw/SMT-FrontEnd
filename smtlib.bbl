@@ -2,9 +2,10 @@
 \begin{thebibliography}{BCD{\etalchar{+}}11}
 
 \bibitem[BCC{\etalchar{+}}08]{alt-ergo}
-Fran\c{c}ois Bobot, Sylvain Conchon, \'Evelyne Contejean, Mohamed Iguernelala,
+Fran{\c c}ois Bobot, Sylvain Conchon, \'Evelyne Contejean, Mohamed Iguernelala,
   St\'ephane Lescuyer, and Alain Mebsout.
-\newblock The {Alt-Ergo} automated theorem prover, 2008.
+\newblock The {Alt-Ergo} automated theorem prover.
+\newblock 2008.
 \newblock \url{http://alt-ergo.lri.fr/}.
 
 \bibitem[BCC{\etalchar{+}}12]{bobot:hal-00687640}
@@ -26,8 +27,8 @@ Clark Barrett, Christopher~L. Conway, Morgan Deters, Liana Hadarean, Dejan
   Springer-Verlag.
 
 \bibitem[BFMP11]{bobot:why3:2011}
-Fran{\textbackslash}ccois Bobot, Jean-Christophe Filliâtre, Claude Marché,
-  and Andrei Paskevich.
+Fran{\c c}ois Bobot, Jean-Christophe Filliâtre, Claude Marché, and Andrei
+  Paskevich.
 \newblock {\em The Why3 platform}.
 \newblock {LRI}, {CNRS} \& Univ. Paris-Sud \& {INRIA} Saclay, version 0.64
   edition, 2011.

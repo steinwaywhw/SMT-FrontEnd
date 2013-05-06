@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook version='8.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8000.13.0319.1225                -->
+  <preferences>
+  </preferences>
+  <datasources>
+    <datasource caption='DataSheet' inline='true' name='excel.41400.566950856482' version='8.1'>
+      <connection auto-extract='yes' class='excel' driver='Ace12' filename='C:\Users\Steinway Wu\Documents\GitHub\SMTFrontEnd\testanalysis\Data.xlsx' header='yes' imex='1'>
+        <relation name='Sheet1$' table='[Sheet1$]' type='table' />
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;美国&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='工作表 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DataSheet' name='excel.41400.566950856482' />
+          </datasources>
+          <datasource-dependencies datasource='excel.41400.566950856482'>
+            <column datatype='real' name='[Alt-Ergo]' role='measure' type='quantitative'>
+            </column>
+            <column datatype='real' name='[CVC4]' role='measure' type='quantitative'>
+            </column>
+            <column datatype='string' name='[Logic]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[Alt-Ergo]' derivation='None' name='[none:Alt-Ergo:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CVC4]' derivation='None' name='[none:CVC4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Logic]' derivation='None' name='[none:Logic:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='subtitle' class='0' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[excel.41400.566950856482].[none:CVC4:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel.41400.566950856482].[none:CVC4:qk]' scope='cols' value='true' />
+            <encoding attr='space' class='0' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' field-type='quantitative' major-origin='1.0000000000000000' major-spacing='10.000000000000000' max='200.00000000000000' min='0.01' range-type='fixed' scale='log' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[excel.41400.566950856482].[none:CVC4:qk]' field-type='quantitative' major-origin='1.0000000000000000' major-spacing='10.000000000000000' max='200.00000000000000' min='0.01' range-type='fixed' scale='log' scope='cols' type='space' />
+            <format attr='line-pattern' value='none' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#735c3a' />
+            <format attr='border-width' value='1' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#000000' />
+            <format attr='border-width' value='1' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' value='false' />
+            <format attr='break-on-special' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[excel.41400.566950856482].[none:Alt-Ergo:qk]' value='false' />
+            <format attr='omit-on-special' field='[excel.41400.566950856482].[none:CVC4:qk]' value='false' />
+            <format attr='break-on-special' field='[excel.41400.566950856482].[none:CVC4:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[excel.41400.566950856482].[none:CVC4:qk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='line-pattern' value='none' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='line-pattern' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='1' />
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-pattern' value='solid' />
+            <format attr='stroke-color' value='#acacac' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern' value='none' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-pattern' scope='cols' value='none' />
+            <format attr='line-pattern' scope='rows' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='674' />
+                <format attr='maxwidth' value='674' />
+                <format attr='minheight' value='656' />
+                <format attr='maxheight' value='656' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='line-pattern' value='none' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel.41400.566950856482].[none:Alt-Ergo:qk]</rows>
+        <cols>[excel.41400.566950856482].[none:CVC4:qk]</cols>
+        <pages>
+          <column>[excel.41400.566950856482].[none:Logic:nk]</column>
+        </pages>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='仪表板 1'>
+      <style>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='7' param='horz' type='layout-flow' w='100000' x='0' y='0'>
+            <zone h='100000' id='5' param='horz' type='layout-flow' w='77400' x='0' y='0'>
+              <zone h='100000' id='3' type='layout-basic' w='77400' x='0' y='0'>
+                <zone h='100000' id='1' name='工作表 2' w='77400' x='0' y='0'>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='226' h='100000' id='6' is-fixed='true' param='vert' type='layout-flow' w='22600' x='77400' y='0'>
+              <zone h='13875' id='8' name='工作表 2' type='currpage' w='22600' x='77400' y='0'>
+              </zone>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='0' name='工作表 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='currpage' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[excel.41400.566950856482].[none:Logic:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='dashboard' maximized='1' name='仪表板 1'>
+      <active id='8' />
+      <zones>
+        <zone name='工作表 2'>
+          <viewpoint>
+            <current-page>
+              <multibucket>
+                <bucket>&quot;UFNIA&quot;</bucket>
+              </multibucket>
+            </current-page>
+          </viewpoint>
+        </zone>
+      </zones>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='工作表 2' width='192'>
+      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
+      lqS/T532/wPMvGRhkPfLcAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='仪表板 1' width='192'>
+      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
+      KI+iALKrBwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
