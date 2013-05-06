@@ -343,11 +343,20 @@ We run the tests on a Core i5-3320M 2.6GHz dual core CPU with 8GB memory, on Ubu
 
 
 
-\subsubsection{Testing Results}
+\subsection{Testing Results}
 
-The general test results are shown in Table \ref{t:result} and Figure \ref{f:unsatcap} for {\tt unsat} tests for both solvers, and Figure \ref{f:satcap} for {\tt sat} tests for CVC4 only. The timeout rate is relatively high in some division, due to the small 30 second timeout. And this is partly because we don't have enough time and computation resources to perform long enough tests. The error rate is also relatively high. For Alt-Ergo, this is mainly because it doesn't fully support SMT-LIB 2.0 standard, and particularly, its bit-vector and typing part. Alt-Ergo supports its native input language very well, but there seems not to be a good translation from SMT-LIB format into its native format. For CVC4, the error mostly comes from big input formulas, which cause CVC4 to throw some unexpected exceptions.
+\subsubsection{General}
+
+The general test results are shown in Table \ref{t:result} and Figure \ref{f:unsatcap} for {\tt unsat} tests for both solvers, and Figure \ref{f:satcap} for {\tt sat} tests for CVC4 only. The timeout rate is relatively high in some divisions, due to the small 30 seconds timeout. And this is partly because we don't have enough time and computation resources to perform long enough tests. The error rate is also relatively high. For Alt-Ergo, this is mainly because it doesn't fully support SMT-LIB 2.0 standard, and particularly, its bit-vectors and typing parts. Alt-Ergo supports its native input language very well, but there seems not to be a good translation from SMT-LIB format into its native format. For CVC4, the error mostly comes from big input formulas, which cause CVC4 to throw some unexpected exceptions.
 
 For those parts which they both can handle, namely QF-IDL, QF-UFLIA, QF-UF and UFNIA, they will generally respond quickly. For solver ability, CVC4 always wins with very high solved percentage. For solver efficiency, CVC4 also beats Alt-Ergo.
+
+For the following sections, we will first compare them for those {\tt unsat} inputs. And at the last, we will talk about {\tt unsat} formulas for CVC4 only, and then BMC and $k$-induction problems.
+
+\subsubsection{QF-BV Division}
+
+In this division, 
+
 
 \begin{table*}[!ht]
 \small
@@ -376,6 +385,35 @@ For those parts which they both can handle, namely QF-IDL, QF-UFLIA, QF-UF and U
 \end{tabular}
 \caption{Capabilities of CVC4 and Alt-Ergo for {\tt unsat} Tests}
 \label{t:result}
+\end{table*}
+
+\begin{table*}[!ht]
+\small
+\centering
+\begin{tabular}{|cc|c|cc|}
+\hline
+  Logic &  Total &Solver & Correct & Avg. Time (seconds) \\\hline
+  \multirow{2}{*}{QF-BV} &\multirow{2}{*}{16} & Alt-Ergo & 0 &  \\
+  && CVC4 & 13 & 16.31 \\\hline
+  \multirow{2}{*}{QF-IDL} &\multirow{2}{*}{106} & Alt-Ergo & 11 & 2.56\\
+  &&  CVC4 & 67 & 2.80 \\\hline
+  \multirow{2}{*}{QF-LIA} &\multirow{2}{*}{143} & Alt-Ergo & 0 & \\
+  && CVC4 & 137 & 4.05\\\hline
+  \multirow{2}{*}{QF-NIA} &\multirow{2}{*}{58} &  Alt-Ergo & 0 & \\
+  & &  CVC4 & 35 & 0.10\\\hline
+  \multirow{2}{*}{QF-UF} & \multirow{2}{*}{195} & Alt-Ergo & 71 & 9.51\\
+  &  & CVC4 &191 & 1.04\\\hline
+  \multirow{2}{*}{QF-UFBV} &  \multirow{2}{*}{31} &  Alt-Ergo & 0 & \\
+  &  & CVC4 & 6 & 4.02\\\hline
+  \multirow{2}{*}{QF-UFIDL} & \multirow{2}{*}{91} & Alt-Ergo & 0 & \\
+  &  & CVC4 & 52 & 3.43\\\hline
+  \multirow{2}{*}{QF-UFLIA} & \multirow{2}{*}{163} & Alt-Ergo & 11 & 5.07\\
+  &  & CVC4 & 156 & 0.70\\\hline
+  \multirow{2}{*}{UFNIA} & \multirow{2}{*}{1562} &Alt-Ergo & 153 & 3.08\\
+  &  & CVC4 & 634 & 2.57\\\hline
+\end{tabular}
+\caption{Capabilities of CVC4 and Alt-Ergo for {\tt unsat} Tests}
+\label{t:eff}
 \end{table*}
 
 
