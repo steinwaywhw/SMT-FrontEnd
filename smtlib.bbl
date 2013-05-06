@@ -25,6 +25,13 @@ Clark Barrett, Christopher~L. Conway, Morgan Deters, Liana Hadarean, Dejan
   aided verification}, {CAV'11}, pages 171--177, Berlin, Heidelberg, 2011.
   Springer-Verlag.
 
+\bibitem[BFMP11]{bobot:why3:2011}
+Fran{\textbackslash}ccois Bobot, Jean-Christophe Filliâtre, Claude Marché,
+  and Andrei Paskevich.
+\newblock {\em The Why3 platform}.
+\newblock {LRI}, {CNRS} \& Univ. Paris-Sud \& {INRIA} Saclay, version 0.64
+  edition, 2011.
+
 \bibitem[BST10a]{bs2010}
 Clark Barrett, Aaron Stump, and Cesare Tinelli.
 \newblock The satisfiability modulo theories library ({SMT-LIB)}.
@@ -46,5 +53,11 @@ Sylvain Conchon.
 \newblock {\em {SMT} Techniques and their Applications: from Alt-Ergo to
   Cubicle}.
 \newblock PhD thesis.
+
+\bibitem[DMB08]{de2008z3}
+Leonardo De~Moura and Nikolaj Bj{\o}rner.
+\newblock Z3: An efficient smt solver.
+\newblock In {\em Tools and Algorithms for the Construction and Analysis of
+  Systems}, pages 337--340. Springer, 2008.
 
 \end{thebibliography}
