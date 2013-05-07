@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  6 MAY 2013 19:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.1.20)  6 MAY 2013 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,14 +943,14 @@ Overfull \hbox (6.29398pt too wide) in paragraph at lines 499--500
 d-ing com-pe-ti-tions for sev-eral years[[]].
  []
 
-[10] [11]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 590--590
 [][][][]$\OT1/cmtt/m/n/8 http : / / smtexec . org / exec / smtlib-[]portal-[]be
 nchmarks . php ? download&inline&b = QF _ BV % 2Fspear % 2Fwget _ v1 . 10 . 2 %
 
  []
 
-[12] [13]
+[11] [12] [13]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 662.
@@ -959,7 +959,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 662.
 
-<./testanalysis/ScatterInduction.pdf, id=363, 588.35477pt x 551.80011pt>
+<./testanalysis/ScatterInduction.pdf, id=359, 588.35477pt x 551.80011pt>
 File: ./testanalysis/ScatterInduction.pdf Graphic file (type pdf)
 
 <use ./testanalysis/ScatterInduction.pdf>
@@ -967,19 +967,19 @@ Package pdftex.def Info: ./testanalysis/ScatterInduction.pdf used on input line
  675.
 (pdftex.def)             Requested size: 294.17667pt x 275.89937pt.
  [14] [15 <./testanalysis/ScatterInduction.pdf>] [16]
-<./testanalysis/ScatterQFIDL.pdf, id=386, 583.13335pt x 555.28241pt>
+<./testanalysis/ScatterQFIDL.pdf, id=382, 583.13335pt x 555.28241pt>
 File: ./testanalysis/ScatterQFIDL.pdf Graphic file (type pdf)
 
 <use ./testanalysis/ScatterQFIDL.pdf>
 Package pdftex.def Info: ./testanalysis/ScatterQFIDL.pdf used on input line 719
 .
-(pdftex.def)             Requested size: 237.74423pt x 233.21701pt.
+(pdftex.def)             Requested size: 237.74423pt x 228.43707pt.
 
 Overfull \hbox (17.4191pt too wide) in paragraph at lines 719--720
  [][] 
  []
 
-<./testanalysis/ScatterQFUF.pdf, id=388, 579.65147pt x 548.31902pt>
+<./testanalysis/ScatterQFUF.pdf, id=384, 579.65147pt x 548.31902pt>
 File: ./testanalysis/ScatterQFUF.pdf Graphic file (type pdf)
 
 <use ./testanalysis/ScatterQFUF.pdf>
@@ -991,7 +991,7 @@ Overfull \hbox (15.95671pt too wide) in paragraph at lines 726--727
  [][] 
  []
 
-<./testanalysis/ScatterQFUFLIA.pdf, id=390, 584.87418pt x 554.41154pt>
+<./testanalysis/ScatterQFUFLIA.pdf, id=386, 584.87418pt x 554.41154pt>
 File: ./testanalysis/ScatterQFUFLIA.pdf Graphic file (type pdf)
 
 <use ./testanalysis/ScatterQFUFLIA.pdf>
@@ -1003,7 +1003,7 @@ Overfull \hbox (19.3453pt too wide) in paragraph at lines 733--734
  [][] 
  []
 
-<./testanalysis/ScatterUFNIA.pdf, id=392, 573.56606pt x 550.90007pt>
+<./testanalysis/ScatterUFNIA.pdf, id=388, 573.56606pt x 550.90007pt>
 File: ./testanalysis/ScatterUFNIA.pdf Graphic file (type pdf)
 
 <use ./testanalysis/ScatterUFNIA.pdf>
@@ -1017,14 +1017,14 @@ Overfull \hbox (14.59593pt too wide) in paragraph at lines 740--741
 
 [17 <./testanalysis/ScatterQFIDL.pdf> <./testanalysis/ScatterQFUF.pdf> <./testa
 nalysis/ScatterQFUFLIA.pdf> <./testanalysis/ScatterUFNIA.pdf>]
-<./testanalysis/unsatcap.pdf, id=439, 1317.95009pt x 374.49168pt>
+<./testanalysis/unsatcap.pdf, id=435, 1317.95009pt x 374.49168pt>
 File: ./testanalysis/unsatcap.pdf Graphic file (type pdf)
 
 <use ./testanalysis/unsatcap.pdf>
 Package pdftex.def Info: ./testanalysis/unsatcap.pdf used on input line 751.
 (pdftex.def)             Requested size: 593.07207pt x 168.5197pt.
 
-<./testanalysis/satcap.pdf, id=440, 923.67754pt x 369.68916pt>
+<./testanalysis/satcap.pdf, id=436, 923.67754pt x 369.68916pt>
 File: ./testanalysis/satcap.pdf Graphic file (type pdf)
 
 <use ./testanalysis/satcap.pdf>
@@ -1091,10 +1091,10 @@ nts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt9.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb><c:/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb>
-Output written on smtlib.pdf (19 pages, 446298 bytes).
+Output written on smtlib.pdf (19 pages, 446273 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 518 compressed objects within 6 object streams
  104 named destinations out of 1000 (max. 500000)
  444 words of extra memory for PDF output out of 10000 (max. 10000000)
 

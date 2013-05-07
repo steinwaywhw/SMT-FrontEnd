@@ -1,0 +1,8 @@
+README
+
+
+Different parts of the project are contained in different folders as indicated by the folder names.
+
+The frontend should be invoked with one filename that is the script being tested for both solvers. The frontend depends on the PATH environment variable to execute Alt-Ergo and CVC4
+
+Our web documentation is built using Sphinx technology, which needs some configuration works. We use a service called ReadTheDocs.com to automatically build docs for us. The source code is available in the folder, but the build output is only availabe on ReadTheDocs server for now. You can access https://smt-front-end.readthedocs.org/en/latest/ at any time.
