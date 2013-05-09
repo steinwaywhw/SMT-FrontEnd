@@ -14,7 +14,8 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   builduse
+   cvc4
+   altergo
    smtv2
    ref
 
