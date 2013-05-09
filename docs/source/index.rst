@@ -15,7 +15,6 @@ Contents
    :maxdepth: 2
 
    builduse
-   cvc4_inside
    smtv2
    ref
 
