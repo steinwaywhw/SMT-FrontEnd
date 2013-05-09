@@ -49,19 +49,19 @@ This is a tracking table for the whole lifecycle. It is subject to change accord
     +--------+---------------------------------------------------------------+--------------+--------------+
     | Ticket | Task                                                          | Status       | Assign       |
     +========+===============================================================+==============+==============+
-    |1       |  Collecting papers/reports/documentations for these projects  |  In Progress | Hanwen/Wenxin|
+    |1       |  Collecting papers/reports/documentations for these projects  | Finished     | Hanwen/Wenxin|
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |2       |  Investigating SMTLIB v2.0, CVC4, Alt-Ergo input languages    | In Progress  | Hanwen/Wenxin|
+    |2       |  Investigating SMTLIB v2.0, CVC4, Alt-Ergo input languages    | Finished     | Wenxin/Hanwen|
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |3       |  Investigating abstruct syntax for those input language       | Open         | Hanwen/Wenxin|
+    |3       |  Investigating abstruct syntax for those input language       | Finished     | Hanwen/Wenxin|
     |        |  within the bit-vectore and integer theories                  |              |              |  
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |4       |  Testing Alt-Ergo using Alt-Ergo native language              | Open         | Hanwen       |  
-    |        |  and SMTLIB v2.0                                              |              |              |
+    |4       |  Testing Alt-Ergo using SMTLIB v2.0                           | Finished     | Hanwen       |  
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |5       |  Testing CVC4 using CVC4 native language                      | Open         | Wenxin       |
-    |        |  and SMTLIB v2.0                                              |              |              |
+    |5       |  Testing CVC4 using SMTLIB v2.0                               | Finished     | Wenxin       |
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |6       |  Implementing lightweight front end                           | Open         | Hanwen/Wenxin|
+    |6       |  Testing Data Analysis                                        | Finished     | Wenxin/Hanwen|
+    +--------+---------------------------------------------------------------+--------------+--------------+
+    |7       |  Implementing CVC4 & Alt-Ergo front end                       | Finished     | Hanwen/Wenxin|
     +--------+---------------------------------------------------------------+--------------+--------------+
 
