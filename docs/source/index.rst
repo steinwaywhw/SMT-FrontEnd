@@ -17,6 +17,8 @@ Contents
    cvc4
    altergo
    smtv2
+   test
+   result
    ref
 
 Members
@@ -53,8 +55,8 @@ This is a tracking table for the whole lifecycle. It is subject to change accord
     +--------+---------------------------------------------------------------+--------------+--------------+
     |2       |  Investigating SMTLIB v2.0, CVC4, Alt-Ergo input languages    | Finished     | Wenxin/Hanwen|
     +--------+---------------------------------------------------------------+--------------+--------------+
-    |3       |  Investigating abstruct syntax for those input language       | Finished     | Hanwen/Wenxin|
-    |        |  within the bit-vectore and integer theories                  |              |              |  
+    |3       |  Investigating abstract syntax for those input language       | Finished     | Hanwen/Wenxin|
+    |        |  within the bit-vectors and integer theories                  |              |              |  
     +--------+---------------------------------------------------------------+--------------+--------------+
     |4       |  Testing Alt-Ergo using SMTLIB v2.0                           | Finished     | Hanwen       |  
     +--------+---------------------------------------------------------------+--------------+--------------+

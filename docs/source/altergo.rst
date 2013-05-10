@@ -1,6 +1,14 @@
 AltErgo
 ==========================
 
+Introduction
+--------------
+Alt-Ergo is dedicated to program verification. It works in first-order logic. It uses a CC(X), a variant of Shostak algorithm, to combine free theory with equality and an arbitrary solvable built-in theory X. Alt-Ergo has implemented decision procedures for the theory of uninterpreted/free functions, arithmetic(integer, real, linear, non-linear), arrays, bit-vectors, datatypes, etc. It also has direct support for polymorphism in its native input language. Associative and commutative symbols are being handled specially using its AC(X) theory to boost the performance. It has limited support for universal and existential quantifiers through instantiation. It has the ability to generate proof. Alt-Ergo can handle unsat formulas correctly, but only returns unknown for sat formulas.
+
+Since integer theory is intensively used in program verification, Alt-Ergo puts its efforts in the combination of empty/free theory with integer arithmetic theory. Alt-Ergo uses a Simplex-based extension of Fourier-Motzkin for solving linear integer arithmetic.
+
+
+
 Building
 ----------
 

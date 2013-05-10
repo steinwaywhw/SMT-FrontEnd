@@ -1,6 +1,11 @@
 CVC4
 =========================
 
+Introduction
+-------------
+CVC4, the fifth generation of Cooperating Validity Checker from NYU and U Iowa, is a DPLL solver with a SAT solver core and a delegation path to different decision procedure implementations, each in charge of solving formulas in some background theory. It works for first-order logics. It has implemented decision procedures for the theory of uninterpreted/free functions, arithmetic(integer, real, linear, non-linear), arrays, bit-vectors and datatypes. It uses a combination method based on Nelson-Oppen to cooperate different theories. Also, CVC4 supports quantifiers through heuristic instantiaion\footnote and has the ability to generate model. For both satisfiable(sat)/unsatisfiable(unsat) formulas, CVC4 can come up with the correct answer.
+
+
 Building
 -----------
 
